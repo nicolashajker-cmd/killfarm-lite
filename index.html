@@ -158,6 +158,26 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:8px 20px;justify-content:space-betw
 .case .then{color:var(--dim);font-size:.9rem;margin-top:10px}
 .case .then b{color:var(--fg)}
 @media (max-width:860px){.cases{grid-template-columns:1fr}}
+
+/* touches et menus */
+.keys{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:28px}
+.key{display:flex;gap:14px;align-items:center;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px}
+kbd{display:inline-grid;place-items:center;min-width:54px;height:54px;padding:0 10px;border-radius:10px;background:linear-gradient(#3a2818,#24180f);border:1px solid #5a3d29;border-bottom-width:4px;font:800 1.5rem var(--disp);color:var(--fg);box-shadow:0 6px 14px #0007}
+.key b{display:block;font:600 1.15rem var(--disp);letter-spacing:.02em}
+.key span{color:var(--dim);font-size:.92rem}
+.menus{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:22px;align-items:start}
+.menucard{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:18px;display:grid;gap:10px}
+.menucard .where{font:700 .8rem var(--body);letter-spacing:.08em;text-transform:uppercase;color:var(--gold)}
+.menucard p{color:var(--dim);font-size:.93rem}
+.menucard p b{color:var(--fg)}
+.fakemenu{list-style:none;margin:4px 0 0;padding:6px 0;background:#2b1d14;border:1px solid #5a3d29;border-radius:6px;font:400 .88rem var(--body);color:var(--fg);box-shadow:0 10px 24px #0008}
+.fakemenu li{padding:5px 14px}
+.fakemenu li.sep{height:1px;padding:0;margin:5px 0;background:#5a3d29}
+.fakemenu li.on{background:var(--acc);color:#1c0f05}
+.fakemenu li small{color:var(--dim)}
+.fakemenu li.on small{color:#3a1d08}
+.menucap{font-size:.8rem;color:var(--dim);margin-top:2px}
+@media (max-width:860px){.keys,.menus{grid-template-columns:1fr}}
 @media (max-width:860px){
   .hero-grid,.split,.two{grid-template-columns:1fr}
   .shots{min-height:0;margin-top:10px;padding-bottom:30px}
@@ -234,6 +254,74 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:8px 20px;justify-content:space-betw
       <article class="mode">
         <figure class="wide"><img src="img/barre_detail.jpg" alt="Affichage barre Stream : bulle de la bête, compteurs et grades"></figure>
         <div class="txt"><span class="key">BARRE STREAM</span><h3>Le long de l'écran</h3><p>En bas, en haut ou sous la barre du jeu, avec la transparence que tu veux. La souris passe à travers : tu joues sans cliquer dessus.</p></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="touches">
+  <div class="wrap">
+    <p class="eyebrow">Touches et menus</p>
+    <h2>Tout se règle sans quitter la partie</h2>
+    <p class="lead" style="margin-top:12px">Les 3 touches marchent même quand tu es dans le jeu. Le reste se fait avec 2 menus et un clic droit.</p>
+    <div class="keys">
+      <div class="key"><kbd>F7</kbd><div><b>Changer d'affichage</b><span>Fenêtre → carte TikTok → barre Stream.</span></div></div>
+      <div class="key"><kbd>F8</kbd><div><b>Cacher / montrer</b><span>Pour un écran propre le temps d'une capture.</span></div></div>
+      <div class="key"><kbd style="font-size:2.2rem;line-height:1">²</kbd><div><b>Bloquer la barre Stream</b><span>Bloquée : la souris passe à travers. Débloquée : clic droit = menu. (La touche sous Échap.)</span></div></div>
+    </div>
+    <div class="menus">
+      <article class="menucard">
+        <span class="where">Fenêtre</span>
+        <p><b>☰ Mes farms</b> : passer d'un farm à l'autre et le modifier. <b>⚙</b> : tous les réglages (couleur, taille de la carte, position et transparence de la barre, tutoriel, aide, Discord).</p>
+        <ul class="fakemenu" aria-label="Menu Mes farms">
+          <li class="on">Élan · Taïga-Medved <small>(1 154 kills)</small></li>
+          <li>Chevreuil · Cuatro Colinas <small>(486 kills)</small></li>
+          <li class="sep"></li>
+          <li>▶ Lancer un nouveau farm…</li>
+          <li>🏆 Mon dernier kill était un Great One…</li>
+          <li>✎ Modifier les chiffres du farm…</li>
+          <li>✕ Supprimer ce farm…</li>
+        </ul>
+        <span class="menucap">Le menu ☰ Mes farms</span>
+        <p><b>Clic droit sur un badge de grade</b> : +1 / −1 dans ce grade, pour corriger.</p>
+      </article>
+      <article class="menucard">
+        <span class="where">Carte TikTok</span>
+        <p><b>Glisse-la</b> à la souris où tu veux sur l'écran : elle reste à sa place la fois suivante. <b>Clic droit</b> dessus pour tout le reste.</p>
+        <ul class="fakemenu" aria-label="Menu clic droit de la carte TikTok">
+          <li>Affichage Fenêtre</li>
+          <li class="on">● Affichage TikTok</li>
+          <li>Affichage Stream</li>
+          <li class="sep"></li>
+          <li>● Élan · Taïga-Medved</li>
+          <li class="sep"></li>
+          <li>+1 kill</li>
+          <li>↶ Annuler le dernier kill</li>
+          <li>🎨 Couleur</li>
+          <li class="sep"></li>
+          <li>Cacher (F8)</li>
+        </ul>
+        <span class="menucap">Le clic droit sur la carte</span>
+        <p>Taille Petite, Moyenne ou Grande : <b>⚙ › Taille de la carte TikTok</b>.</p>
+      </article>
+      <article class="menucard">
+        <span class="where">Barre Stream</span>
+        <p>Appuie sur <b>²</b> pour la débloquer, puis <b>clic droit</b> dessus. Appuie de nouveau sur <b>²</b> pour la rebloquer et jouer sans cliquer dessus.</p>
+        <ul class="fakemenu" aria-label="Menu clic droit de la barre Stream">
+          <li>Affichage Fenêtre</li>
+          <li>Affichage TikTok</li>
+          <li class="on">● Affichage Stream</li>
+          <li class="sep"></li>
+          <li>+1 kill</li>
+          <li>↶ Annuler le dernier kill</li>
+          <li>Position de la barre ›</li>
+          <li>Transparence de la barre ›</li>
+          <li>🎨 Couleur</li>
+          <li class="sep"></li>
+          <li>Bloquer la barre (²)</li>
+        </ul>
+        <span class="menucap">Le clic droit sur la barre débloquée</span>
+        <p>Position : en bas, en haut, ou sous la barre du jeu. Transparence : de pleine à 25 %.</p>
       </article>
     </div>
   </div>
