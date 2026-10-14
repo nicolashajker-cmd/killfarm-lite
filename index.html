@@ -144,6 +144,20 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:8px 20px;justify-content:space-betw
 .mob-list li::before{content:"";position:absolute;left:4px;top:.62em;width:8px;height:8px;border-radius:2px;background:var(--acc);transform:rotate(45deg)}
 .note{color:var(--dim);font-size:.88rem;margin-top:12px}
 @media (max-width:860px){.mob-grid{grid-template-columns:1fr}.phone.mid{transform:none}}
+
+/* aide « Windows bloque l'appli » */
+.blocked{margin-top:28px;background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--gold);border-radius:12px;padding:22px}
+.blocked h3{display:flex;align-items:center;gap:10px}
+.blocked .intro{color:var(--dim);margin-top:8px;max-width:70ch}
+.cases{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:18px}
+.case{background:#1a110a;border:1px solid var(--line);border-radius:10px;padding:16px}
+.case .msg{display:block;font:600 .95rem var(--body);color:var(--fg);background:#2f2116;border-radius:6px;padding:8px 10px;margin:8px 0 10px}
+.case .tag{font:700 .78rem var(--body);letter-spacing:.1em;text-transform:uppercase;color:var(--gold)}
+.case ol{margin:0;padding-left:1.25em;display:grid;gap:8px;color:var(--dim);font-size:.95rem}
+.case ol b{color:var(--fg)}
+.case .then{color:var(--dim);font-size:.9rem;margin-top:10px}
+.case .then b{color:var(--fg)}
+@media (max-width:860px){.cases{grid-template-columns:1fr}}
 @media (max-width:860px){
   .hero-grid,.split,.two{grid-template-columns:1fr}
   .shots{min-height:0;margin-top:10px;padding-bottom:30px}
@@ -293,7 +307,7 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:8px 20px;justify-content:space-betw
         <ol>
           <li>Télécharge <b><a href="https://github.com/nicolashajker-cmd/killfarm-lite/releases/latest/download/KillFarm_Lite_v1.5.zip">KillFarm_Lite_v1.5.zip</a></b> (21 Mo).</li>
           <li>Dézippe le dossier « KillFarm Lite » où tu veux.</li>
-          <li>Double-clic sur <b>KillFarm Lite.exe</b>. Un petit tutoriel te montre tout.</li>
+          <li>Double-clic sur <b>KillFarm Lite.exe</b>. Un petit tutoriel te montre tout. Windows bloque ? <a href="#windows-bloque">Voir juste en dessous</a>.</li>
           <li>Dans le jeu : Options &gt; Affichage &gt; <b>Fenêtré sans bordure</b>, pour voir la carte et la barre par-dessus.</li>
         </ol>
       </div>
@@ -301,8 +315,34 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:8px 20px;justify-content:space-betw
         <h3>Questions</h3>
         <details open><summary>Ça touche à ma partie ?</summary><p>Non. L'appli lit seulement ta sauvegarde pour voir les bêtes ramassées. Elle n'écrit jamais rien dans le jeu.</p></details>
         <details><summary>Il faut Python ou autre chose ?</summary><p>Non, juste le fichier KillFarm Lite.exe. Tes farms sont gardés dans Documents\KillFarm_Lite, même quand tu mets l'appli à jour.</p></details>
-        <details><summary>Windows affiche « Windows a protégé votre ordinateur »</summary><p>Clique sur « Informations complémentaires » puis « Exécuter quand même ». L'appli n'est pas signée, c'est normal pour une petite appli gratuite.</p></details>
+        <details><summary>Windows bloque l'appli</summary><p>C'est normal pour une petite appli gratuite non signée. Regarde l'encadré <a href="#windows-bloque">« Windows bloque l'appli ? »</a> juste en dessous : 2 cas, 2 solutions.</p></details>
         <details><summary>Une bête n'est pas reconnue ?</summary><p>L'appli te demande laquelle c'était, la compte et s'en souvient pour les suivantes.</p></details>
+      </div>
+    </div>
+    <div class="blocked" id="windows-bloque">
+      <h3>⚠ Windows bloque l'appli ? C'est normal, voici quoi faire</h3>
+      <p class="intro">KillFarm Lite est une petite appli gratuite, pas signée par une grosse société : Windows se méfie par défaut. Regarde quel message tu as :</p>
+      <div class="cases">
+        <div class="case">
+          <span class="tag">Écran bleu</span>
+          <span class="msg">« Windows a protégé votre ordinateur »</span>
+          <ol>
+            <li>Clique sur <b>Informations complémentaires</b> (le petit texte).</li>
+            <li>Clique sur <b>Exécuter quand même</b>.</li>
+          </ol>
+          <p class="then">C'est tout : Windows ne le redemandera plus.</p>
+        </div>
+        <div class="case">
+          <span class="tag">Fenêtre « Contrôle intelligent »</span>
+          <span class="msg">« Contrôle intelligent des applications a bloqué un fichier potentiellement dangereux »</span>
+          <ol>
+            <li>Supprime le dossier « KillFarm Lite » déjà dézippé.</li>
+            <li>Clic droit sur <b>KillFarm_Lite_v1.5.zip</b> &gt; <b>Propriétés</b>.</li>
+            <li>En bas, coche <b>Débloquer</b>, puis <b>OK</b>.</li>
+            <li>Dézippe à nouveau et lance <b>KillFarm Lite.exe</b>.</li>
+          </ol>
+          <p class="then">Toujours bloqué ? Ton Windows refuse toutes les applis non signées. Tu peux utiliser <b><a href="#mobile">l'appli Android</a></b>. Besoin d'aide : <b><a href="https://discord.gg/vmB7kEreuW" target="_blank" rel="noopener">le Discord</a></b>.</p>
+        </div>
       </div>
     </div>
   </div>
