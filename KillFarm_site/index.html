@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="KillFarm Lite : le compteur de farm de Great One pour theHunter: Call of the Wild. Gratuit, sur PC et Android.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="KillFarm Lite · compteur de farm pour theHunter: Call of the Wild">
+<meta property="og:description" content="Ton farm de Great One compté tout seul : kills depuis le dernier GO, grades, carte TikTok et barre Stream. Gratuit, PC + Android.">
+<meta property="og:image" content="https://nicolashajker-cmd.github.io/killfarm-lite/img/apercu.jpg">
+<meta property="og:url" content="https://nicolashajker-cmd.github.io/killfarm-lite/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#140d08">
+<link rel="icon" type="image/png" href="img/favicon.png">
+<title>KillFarm Lite</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Barlow:wght@400;500;600&display=swap">
+<style>
+/* Page de chasseur, sombre comme l'appli : bandeau d'accroche, puis une section par usage, captures réelles */
+:root{
+  --bg:#140d08; --bg2:#1c130d; --panel:#24180f; --line:#3d2a1b;
+  --fg:#f7ecd9; --dim:#bda78d; --acc:#e8791d; --gold:#f2b84b; --leaf:#a9c35a;
+  --disp:"Barlow Condensed","Bahnschrift","Arial Narrow",sans-serif;
+  --body:"Barlow","Segoe UI",system-ui,sans-serif;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font:16px/1.55 var(--body);-webkit-font-smoothing:antialiased}
+a{color:inherit}
+img{display:block;max-width:100%;height:auto}
+.wrap{max-width:1080px;margin:0 auto;padding-inline:20px}
+section{padding-block:64px}
+h1,h2,h3{font-family:var(--disp);margin:0;text-wrap:balance;letter-spacing:.01em}
+h2{font-size:clamp(2rem,4.4vw,2.9rem);line-height:1;font-weight:700}
+h3{font-size:1.45rem;font-weight:600;line-height:1.1}
+p{margin:0}
+.eyebrow{font:600 .8rem var(--body);letter-spacing:.16em;text-transform:uppercase;color:var(--acc)}
+.lead{color:var(--dim);max-width:60ch;font-size:1.06rem}
+
+/* bandeau */
+.hero{position:relative;overflow:hidden;padding-block:40px 56px;
+  background:radial-gradient(1200px 520px at 78% 18%,#4a2410 0%,transparent 60%),radial-gradient(700px 400px at 8% 0%,#2b1a0e 0%,transparent 70%),var(--bg)}
+.top{display:flex;align-items:center;gap:12px;justify-content:space-between;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:12px;font:700 1.35rem var(--disp);letter-spacing:.02em}
+.brand img{width:44px;height:44px;border-radius:10px}
+.brand small{display:block;font:500 .78rem var(--body);color:var(--dim);letter-spacing:.04em}
+.hero-grid{display:grid;grid-template-columns:1.05fr 1fr;gap:40px;align-items:center;margin-top:44px}
+.hero h1{font-size:clamp(2.7rem,7vw,4.9rem);line-height:.92;font-weight:800;text-transform:uppercase}
+.hero h1 em{font-style:normal;color:var(--acc)}
+.hero .lead{margin-top:18px}
+.ctas{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:13px 20px;border-radius:10px;font:700 1.1rem var(--disp);letter-spacing:.03em;text-decoration:none;border:2px solid transparent;transition:transform .15s,background .15s}
+.btn:hover{transform:translateY(-1px)}
+.btn:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.btn.main{background:var(--acc);color:#1c0f05}
+.btn.main:hover{background:#ff8a2a}
+.btn.ghost{border-color:var(--line);color:var(--fg);background:#1f150d}
+.btn.ghost:hover{border-color:var(--acc)}
+.facts{display:flex;flex-wrap:wrap;gap:8px 18px;margin-top:18px;color:var(--dim);font-size:.92rem}
+.facts span::before{content:"✓ ";color:var(--leaf);font-weight:700}
+.shots{position:relative;min-height:440px}
+.shots .win{width:min(330px,72%);border-radius:10px;box-shadow:0 30px 60px #000a,0 0 0 1px #ffffff14;transform:rotate(-2deg)}
+.shots .card{position:absolute;right:0;top:24px;width:min(250px,52%);border-radius:14px;box-shadow:0 30px 70px #000c,0 0 0 1px #e8791d55;transform:rotate(2.5deg)}
+.stamp{position:absolute;left:30%;bottom:-6px;background:var(--gold);color:#241405;font:800 1rem var(--disp);letter-spacing:.06em;text-transform:uppercase;padding:6px 12px;border-radius:6px;transform:rotate(-4deg);box-shadow:0 8px 20px #0008}
+
+/* barre stream en bandeau */
+.band{background:var(--bg2);border-block:1px solid var(--line);padding-block:26px}
+.band .tw{overflow-x:auto;border-radius:8px}
+.band img{min-width:880px;width:100%}
+.band p{color:var(--dim);font-size:.9rem;margin-top:10px}
+
+/* chiffres */
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:32px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:20px}
+.stat b{display:block;font:800 3rem/1 var(--disp);color:var(--acc);font-variant-numeric:tabular-nums}
+.stat b.g{color:var(--gold)}
+.stat b.f{color:var(--fg)}
+.stat span{display:block;font:600 .78rem var(--body);letter-spacing:.12em;text-transform:uppercase;color:var(--dim);margin-top:6px}
+.stat p{color:var(--dim);font-size:.95rem;margin-top:10px}
+
+/* trois affichages */
+.modes{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:32px;align-items:start}
+.mode{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden;display:flex;flex-direction:column}
+.mode figure{margin:0;background:#0d0805;display:grid;place-items:center;padding:18px;min-height:300px}
+.mode figure img{max-height:360px;width:auto;border-radius:8px;box-shadow:0 14px 30px #0009}
+.mode figure.wide img{width:100%;max-height:none;border-radius:6px}
+.mode .txt{padding:18px 18px 22px;display:grid;gap:8px}
+.mode .key{font:700 .8rem var(--body);color:var(--gold);letter-spacing:.06em}
+.mode p{color:var(--dim);font-size:.95rem}
+
+/* lancer un farm */
+.split{display:grid;grid-template-columns:1fr 1.05fr;gap:44px;align-items:center}
+.split img{border-radius:10px;box-shadow:0 24px 50px #000a,0 0 0 1px #ffffff12}
+.steps{list-style:none;padding:0;margin:26px 0 0;display:grid;gap:14px;counter-reset:s}
+.steps li{display:grid;grid-template-columns:40px 1fr;gap:12px;align-items:start;counter-increment:s}
+.steps li::before{content:counter(s);display:grid;place-items:center;width:40px;height:40px;border-radius:50%;background:var(--acc);color:#1c0f05;font:800 1.3rem var(--disp)}
+.steps b{display:block;font:600 1.15rem var(--disp);letter-spacing:.02em}
+.steps span{color:var(--dim);font-size:.95rem}
+
+/* couleurs */
+.themes{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:30px}
+.themes figure{margin:0}
+.themes img{border-radius:8px;box-shadow:0 12px 26px #0009}
+.themes figcaption{font:600 1rem var(--disp);margin-top:8px;letter-spacing:.03em}
+.themes figcaption i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px;vertical-align:1px}
+
+/* installer + questions */
+.two{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:30px;align-items:start}
+.box{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:22px}
+.box ol{margin:12px 0 0;padding-left:1.2em;display:grid;gap:10px;color:var(--dim)}
+.box ol b{color:var(--fg)}
+details{border-top:1px solid var(--line);padding-block:12px}
+details:first-of-type{border-top:0;padding-top:4px}
+summary{cursor:pointer;font:600 1.1rem var(--disp);letter-spacing:.02em;list-style:none}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";float:right;color:var(--acc);font-weight:800}
+details[open] summary::after{content:"–"}
+details p{color:var(--dim);font-size:.95rem;margin-top:8px}
+
+/* fin */
+.final{text-align:center;background:radial-gradient(700px 300px at 50% 0%,#4a2410 0%,transparent 70%),var(--bg2);border-top:1px solid var(--line)}
+.final h2{font-size:clamp(2.2rem,5vw,3.4rem);text-transform:uppercase}
+.final .ctas{justify-content:center}
+.final .lead{margin:14px auto 0}
+footer{padding-block:28px;color:var(--dim);font-size:.85rem;border-top:1px solid var(--line)}
+footer .wrap{display:flex;flex-wrap:wrap;gap:8px 20px;justify-content:space-between}
+.copy{font:inherit;background:none;border:0;color:var(--gold);cursor:pointer;padding:0;text-decoration:underline dotted}
+
+
+/* appli téléphone */
+.mobile{background:radial-gradient(900px 420px at 85% 10%,#3a1c0b 0%,transparent 65%),var(--bg);border-top:1px solid var(--line)}
+.mob-grid{display:grid;grid-template-columns:1fr 1.25fr;gap:44px;align-items:center}
+.phones{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;align-items:end}
+.phone{margin:0}
+.phone img{border-radius:22px;border:6px solid #2a1b10;box-shadow:0 24px 50px #000b,0 0 0 1px #ffffff12}
+.phone.mid{transform:translateY(-22px)}
+.phone figcaption{font:600 .95rem var(--disp);color:var(--dim);text-align:center;margin-top:10px;letter-spacing:.03em}
+.rares{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+.rare{display:flex;align-items:center;gap:8px;background:var(--panel);border:1px solid var(--line);border-radius:999px;padding:7px 14px 7px 10px;font:600 1rem var(--disp);letter-spacing:.02em}
+.rare i{font-style:normal;font-size:1.15rem;line-height:1}
+.mob-list{list-style:none;padding:0;margin:22px 0 0;display:grid;gap:10px;color:var(--dim)}
+.mob-list b{color:var(--fg)}
+.mob-list li{padding-left:22px;position:relative}
+.mob-list li::before{content:"";position:absolute;left:4px;top:.62em;width:8px;height:8px;border-radius:2px;background:var(--acc);transform:rotate(45deg)}
+.note{color:var(--dim);font-size:.88rem;margin-top:12px}
+@media (max-width:860px){.mob-grid{grid-template-columns:1fr}.phone.mid{transform:none}}
+
+/* aide « Windows bloque l'appli » */
+.blocked{margin-top:28px;background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--gold);border-radius:12px;padding:22px}
+.blocked h3{display:flex;align-items:center;gap:10px}
+.blocked .intro{color:var(--dim);margin-top:8px;max-width:70ch}
+.cases{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:18px}
+.case{background:#1a110a;border:1px solid var(--line);border-radius:10px;padding:16px}
+.case .msg{display:block;font:600 .95rem var(--body);color:var(--fg);background:#2f2116;border-radius:6px;padding:8px 10px;margin:8px 0 10px}
+.case .tag{font:700 .78rem var(--body);letter-spacing:.1em;text-transform:uppercase;color:var(--gold)}
+.case ol{margin:0;padding-left:1.25em;display:grid;gap:8px;color:var(--dim);font-size:.95rem}
+.case ol b{color:var(--fg)}
+.case .then{color:var(--dim);font-size:.9rem;margin-top:10px}
+.case .then b{color:var(--fg)}
+@media (max-width:860px){.cases{grid-template-columns:1fr}}
+@media (max-width:860px){
+  .hero-grid,.split,.two{grid-template-columns:1fr}
+  .shots{min-height:0;margin-top:10px;padding-bottom:30px}
+  .shots .card{top:auto;bottom:0}
+  .modes{grid-template-columns:1fr}
+  .stats{grid-template-columns:1fr}
+  .themes{grid-template-columns:repeat(2,1fr)}
+}
+@media (prefers-reduced-motion:reduce){.btn{transition:none}.btn:hover{transform:none}}
+</style>
+<style>body{margin:0}</style>
+</head>
+<body>
+
+
+<header class="hero">
+  <div class="wrap">
+    <div class="top">
+      <div class="brand"><img src="img/logo.png" alt="Logo KillFarm"><div>KillFarm Lite<small>by MrØza. · version 1.5</small></div></div>
+      <a class="btn ghost" href="https://www.tiktok.com/@mr.ozattv" target="_blank" rel="noopener">TikTok @mr.ozattv</a>
+    </div>
+    <div class="hero-grid">
+      <div>
+        <p class="eyebrow">theHunter: Call of the Wild · PC</p>
+        <h1>Ton farm de <em>Great One</em>, compté tout seul.</h1>
+        <p class="lead">KillFarm Lite suit chaque bête que tu ramasses, range ses grades et te dit combien de kills t'a coûté ton dernier Great One. Par-dessus le jeu, sur tes vidéos TikTok et en live.</p>
+        <div class="ctas">
+          <a class="btn main" href="https://github.com/nicolashajker-cmd/killfarm-lite/releases/latest/download/KillFarm_Lite_v1.5.zip">Télécharger pour PC</a>
+          <a class="btn ghost" href="#mobile">Aussi sur Android</a>
+        </div>
+        <div class="facts"><span>Gratuit · 21 Mo</span><span>Windows 10 et 11</span><span>Rien à installer</span><span>Ne modifie jamais le jeu</span></div>
+      </div>
+      <div class="shots" aria-label="Captures de KillFarm Lite">
+        <img class="win" src="img/fenetre.jpg" alt="Fenêtre de KillFarm Lite : farm d'Élan à Taïga-Medved, 342 kills depuis le dernier Great One">
+        <img class="card" src="img/carte.jpg" alt="Carte TikTok : Élan, 342 kills depuis le dernier Great One, grades">
+        <span class="stamp">Captures réelles</span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="band">
+  <div class="wrap">
+    <div class="tw"><img src="img/barre.jpg" alt="Barre Stream en haut de l'écran : Élan, 342 kills du farm, 812 kills pour le dernier GO, 1 154 au total, grades et heure"></div>
+    <p>La barre Stream, transparente : on voit le jeu à travers, les chiffres restent nets.</p>
+  </div>
+</div>
+
+<section>
+  <div class="wrap">
+    <p class="eyebrow">Ce que tu vois d'un coup d'œil</p>
+    <h2>Les 3 chiffres qui comptent pendant un farm</h2>
+    <div class="stats">
+      <div class="stat"><b>342</b><span>Depuis le dernier GO</span><p>Le compteur qui monte à chaque bête ramassée et repart de 0 quand le Great One tombe.</p></div>
+      <div class="stat"><b class="g">812</b><span>Kills pour le dernier GO</span><p>Combien il t'a fallu pour ton dernier Great One. Le chiffre à montrer.</p></div>
+      <div class="stat"><b class="f">1 154</b><span>Total du farm</span><p>Tous tes kills depuis le lancement du farm, avec les 6 grades : sans médaille, bronze, argent, or, diamant, Great One.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="affichages" style="background:var(--bg2);border-block:1px solid var(--line)">
+  <div class="wrap">
+    <p class="eyebrow">3 affichages · touche F7 pour passer de l'un à l'autre</p>
+    <h2>Un affichage pour jouer, filmer ou streamer</h2>
+    <div class="modes">
+      <article class="mode">
+        <figure><img src="img/fenetre.jpg" alt="Affichage Fenêtre"></figure>
+        <div class="txt"><span class="key">FENÊTRE</span><h3>Le compteur complet</h3><p>Tous les chiffres, les grades et les boutons pour corriger : −1, +1, annuler le dernier kill.</p></div>
+      </article>
+      <article class="mode">
+        <figure><img src="img/carte.jpg" alt="Affichage carte TikTok"></figure>
+        <div class="txt"><span class="key">CARTE TIKTOK</span><h3>Prête pour tes vidéos</h3><p>Une carte verticale à glisser où tu veux sur l'écran, en 3 tailles. À capturer dans OBS ou à filmer avec ta partie.</p></div>
+      </article>
+      <article class="mode">
+        <figure class="wide"><img src="img/barre_detail.jpg" alt="Affichage barre Stream : bulle de la bête, compteurs et grades"></figure>
+        <div class="txt"><span class="key">BARRE STREAM</span><h3>Le long de l'écran</h3><p>En bas, en haut ou sous la barre du jeu, avec la transparence que tu veux. La souris passe à travers : tu joues sans cliquer dessus.</p></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap split">
+    <img src="img/lancer.jpg" alt="Fenêtre Lancer un farm : 19 réserves avec leur logo et les bêtes de Te Awaroa">
+    <div>
+      <p class="eyebrow">19 réserves · 127 bêtes en français</p>
+      <h2>Lancer un farm en 2 clics</h2>
+      <ol class="steps">
+        <li><div><b>Choisis la réserve</b><span>Celle où tu joues est déjà sélectionnée.</span></div></li>
+        <li><div><b>Choisis la bête</b><span>Avec son image, ou tape son nom dans « Chercher ».</span></div></li>
+        <li><div><b>Joue</b><span>Chaque bête de ton farm ramassée est comptée toute seule, avec son grade. Ton dernier kill était un Great One pas reconnu ? Un clic et c'est réglé.</span></div></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<section style="background:var(--bg2);border-block:1px solid var(--line)">
+  <div class="wrap">
+    <p class="eyebrow">4 couleurs</p>
+    <h2>Accordée à ton stream</h2>
+    <p class="lead" style="margin-top:12px">La couleur change la fenêtre, la carte TikTok et la barre Stream en même temps.</p>
+    <div class="themes">
+      <figure><img src="img/theme_automne.jpg" alt="Couleur Automne"><figcaption><i style="background:#e8791d"></i>Automne</figcaption></figure>
+      <figure><img src="img/theme_foret.jpg" alt="Couleur Forêt"><figcaption><i style="background:#6cc04a"></i>Forêt</figcaption></figure>
+      <figure><img src="img/theme_glace.jpg" alt="Couleur Glace"><figcaption><i style="background:#4fb3e8"></i>Glace</figcaption></figure>
+      <figure><img src="img/theme_sang.jpg" alt="Couleur Sang"><figcaption><i style="background:#e0392b"></i>Sang</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="mobile" id="mobile">
+  <div class="wrap mob-grid">
+    <div>
+      <p class="eyebrow">KillFarm Mobile · aussi sur Android</p>
+      <h2>Ton farm dans la poche</h2>
+      <p class="lead" style="margin-top:14px">Un gros bouton « +1 KILL », tes Great One, et en quelques secondes une photo ou un clip TikTok avec ta carte de farm posée sur ta capture du jeu.</p>
+      <div class="rares" aria-label="Compteurs de raretés">
+        <span class="rare"><i style="color:#ff3b3b">★</i>Super rares</span>
+        <span class="rare"><i style="color:#a970ff">★</i>Couleurs</span>
+        <span class="rare"><i>💎</i>Diamants</span>
+      </div>
+      <ul class="mob-list">
+        <li><b>Éditeur photo et vidéo</b> : choisis ta capture, l'appli place tes chiffres, tes étoiles et tes diamants, prêts pour TikTok.</li>
+        <li><b>Infos de la bête gardées</b> : les panneaux du jeu (poids, fourrure, diamant…) sont repérés et remis en place.</li>
+        <li><b>Code de sauvegarde</b> : tous tes farms dans un code, à restaurer sur un autre téléphone.</li>
+      </ul>
+      <div class="ctas">
+        <a class="btn main" href="https://github.com/nicolashajker-cmd/killfarm-mobile/releases/latest/download/KillFarm.apk" target="_blank" rel="noopener">Télécharger l'appli Android</a>
+      </div>
+      <p class="note">Gratuit. Ouvre le lien depuis ton téléphone, de préférence dans Chrome. Android te demandera d'autoriser l'installation « source inconnue » : c'est normal hors Play Store.</p>
+    </div>
+    <div class="phones">
+      <figure class="phone"><img src="img/mob_compteur.jpg" alt="KillFarm Mobile, écran Compteur : Chevreuil à Cuatro Colinas, 214 kills depuis le dernier Great One, 3 super rares, 5 couleurs, 4 diamants"><figcaption>Le compteur</figcaption></figure>
+      <figure class="phone mid"><img src="img/mob_editeur.jpg" alt="KillFarm Mobile, éditeur photo avec une capture du jeu"><figcaption>L'éditeur</figcaption></figure>
+      <figure class="phone"><img src="img/mob_photo.jpg" alt="Photo TikTok créée par KillFarm Mobile : chevreuil diamant avec la carte de farm"><figcaption>Le résultat</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <p class="eyebrow">Installation</p>
+    <h2>KillFarm Lite prêt en 1 minute</h2>
+    <div class="two">
+      <div class="box">
+        <h3>Installer</h3>
+        <ol>
+          <li>Télécharge <b><a href="https://github.com/nicolashajker-cmd/killfarm-lite/releases/latest/download/KillFarm_Lite_v1.5.zip">KillFarm_Lite_v1.5.zip</a></b> (21 Mo).</li>
+          <li>Dézippe le dossier « KillFarm Lite » où tu veux.</li>
+          <li>Double-clic sur <b>KillFarm Lite.exe</b>. Un petit tutoriel te montre tout. Windows bloque ? <a href="#windows-bloque">Voir juste en dessous</a>.</li>
+          <li>Dans le jeu : Options &gt; Affichage &gt; <b>Fenêtré sans bordure</b>, pour voir la carte et la barre par-dessus.</li>
+        </ol>
+      </div>
+      <div class="box">
+        <h3>Questions</h3>
+        <details open><summary>Ça touche à ma partie ?</summary><p>Non. L'appli lit seulement ta sauvegarde pour voir les bêtes ramassées. Elle n'écrit jamais rien dans le jeu.</p></details>
+        <details><summary>Il faut Python ou autre chose ?</summary><p>Non, juste le fichier KillFarm Lite.exe. Tes farms sont gardés dans Documents\KillFarm_Lite, même quand tu mets l'appli à jour.</p></details>
+        <details><summary>Windows bloque l'appli</summary><p>C'est normal pour une petite appli gratuite non signée. Regarde l'encadré <a href="#windows-bloque">« Windows bloque l'appli ? »</a> juste en dessous : 2 cas, 2 solutions.</p></details>
+        <details><summary>Une bête n'est pas reconnue ?</summary><p>L'appli te demande laquelle c'était, la compte et s'en souvient pour les suivantes.</p></details>
+      </div>
+    </div>
+    <div class="blocked" id="windows-bloque">
+      <h3>⚠ Windows bloque l'appli ? C'est normal, voici quoi faire</h3>
+      <p class="intro">KillFarm Lite est une petite appli gratuite, pas signée par une grosse société : Windows se méfie par défaut. Regarde quel message tu as :</p>
+      <div class="cases">
+        <div class="case">
+          <span class="tag">Écran bleu</span>
+          <span class="msg">« Windows a protégé votre ordinateur »</span>
+          <ol>
+            <li>Clique sur <b>Informations complémentaires</b> (le petit texte).</li>
+            <li>Clique sur <b>Exécuter quand même</b>.</li>
+          </ol>
+          <p class="then">C'est tout : Windows ne le redemandera plus.</p>
+        </div>
+        <div class="case">
+          <span class="tag">Fenêtre « Contrôle intelligent »</span>
+          <span class="msg">« Contrôle intelligent des applications a bloqué un fichier potentiellement dangereux »</span>
+          <ol>
+            <li>Supprime le dossier « KillFarm Lite » déjà dézippé.</li>
+            <li>Clic droit sur <b>KillFarm_Lite_v1.5.zip</b> &gt; <b>Propriétés</b>.</li>
+            <li>En bas, coche <b>Débloquer</b>, puis <b>OK</b>.</li>
+            <li>Dézippe à nouveau et lance <b>KillFarm Lite.exe</b>.</li>
+          </ol>
+          <p class="then">Toujours bloqué ? Ton Windows refuse toutes les applis non signées. Tu peux utiliser <b><a href="#mobile">l'appli Android</a></b>. Besoin d'aide : <b><a href="https://discord.gg/vmB7kEreuW" target="_blank" rel="noopener">le Discord</a></b>.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="final">
+  <div class="wrap">
+    <h2>Le prochain Great One, tu sauras exactement ce qu'il t'a coûté.</h2>
+    <p class="lead">Mises à jour, aide et idées : tout se passe sur le Discord.</p>
+    <div class="ctas">
+      <a class="btn main" href="https://github.com/nicolashajker-cmd/killfarm-lite/releases/latest/download/KillFarm_Lite_v1.5.zip">Télécharger pour PC</a>
+      <a class="btn ghost" href="https://github.com/nicolashajker-cmd/killfarm-mobile/releases/latest/download/KillFarm.apk" target="_blank" rel="noopener">Appli Android</a>
+      <a class="btn ghost" href="https://discord.gg/vmB7kEreuW" target="_blank" rel="noopener">Rejoindre le Discord</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span>KillFarm Lite 1.5 · KillFarm Mobile 1.2 · by MrØza. · Discord : <button class="copy" id="cp" type="button">discord.gg/vmB7kEreuW</button></span>
+    <span>Projet de fan gratuit, sans lien avec Expansive Worlds.</span>
+  </div>
+</footer>
+<script>
+document.getElementById('cp').addEventListener('click',function(){
+  var b=this,t='https://discord.gg/vmB7kEreuW';
+  try{navigator.clipboard.writeText(t).then(function(){b.textContent='Lien copié ✓';setTimeout(function(){b.textContent='discord.gg/vmB7kEreuW'},1600)},function(){})}catch(e){}
+});
+</script>
+
+</body>
+</html>
