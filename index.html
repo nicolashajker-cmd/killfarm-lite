@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="description" content="KillFarm Lite : le compteur de farm de Great One pour theHunter: Call of the Wild. Gratuit, sur PC et Android.">
+<meta name="description" content="KillFarm Lite : le compteur de farm de Great One pour theHunter: Call of the Wild. Sauvegarde trouvée toute seule. Français et anglais. Gratuit, sur PC et Android.">
 <meta property="og:type" content="website">
 <meta property="og:title" content="KillFarm Lite · compteur de farm pour theHunter: Call of the Wild">
-<meta property="og:description" content="Ton farm de Great One compté tout seul : kills depuis le dernier GO, grades, carte TikTok et barre Stream. Gratuit, PC + Android.">
+<meta property="og:description" content="Ton farm de Great One compté tout seul : kills depuis le dernier GO, grades, carte TikTok et barre Stream. Sauvegarde trouvée toute seule, français + English. Gratuit, PC + Android.">
 <meta property="og:image" content="https://nicolashajker-cmd.github.io/killfarm-lite/img/apercu.jpg">
 <meta property="og:url" content="https://nicolashajker-cmd.github.io/killfarm-lite/">
 <meta name="twitter:card" content="summary_large_image">
@@ -58,6 +58,16 @@ p{margin:0}
 .btn.ghost:hover{border-color:var(--acc)}
 .facts{display:flex;flex-wrap:wrap;gap:8px 18px;margin-top:18px;color:var(--dim);font-size:.92rem}
 .facts span::before{content:"✓ ";color:var(--leaf);font-weight:700}
+.hl{display:grid;gap:10px;margin-top:24px;max-width:560px}
+.hl div{display:flex;align-items:center;gap:14px;background:#24180fdd;border:2px solid var(--acc);border-radius:12px;padding:12px 16px}
+.hl .ic{font-size:1.9rem;line-height:1;flex:none}
+.hl b{display:block;font:800 1.3rem/1.15 var(--disp);text-transform:uppercase;letter-spacing:.02em;color:var(--fg)}
+.hl small{display:block;color:var(--dim);font-size:.92rem;margin-top:2px}
+.hl div.en{border-color:var(--gold)}
+.en-box{margin-top:28px;border:2px solid var(--gold);border-radius:14px;padding:22px 24px;background:#1f150d}
+.en-box h3{font:800 1.5rem var(--disp);text-transform:uppercase;color:var(--gold)}
+.en-box p{color:var(--fg);margin-top:8px;max-width:70ch}
+.en-box .btn{margin-top:14px}
 .shots{position:relative;min-height:440px}
 .shots .win{width:min(330px,72%);border-radius:10px;box-shadow:0 30px 60px #000a,0 0 0 1px #ffffff14;transform:rotate(-2deg)}
 .shots .card{position:absolute;right:0;top:24px;width:min(250px,52%);border-radius:14px;box-shadow:0 30px 70px #000c,0 0 0 1px #e8791d55;transform:rotate(2.5deg)}
@@ -196,7 +206,7 @@ kbd{display:inline-grid;place-items:center;min-width:54px;height:54px;padding:0 
 <header class="hero">
   <div class="wrap">
     <div class="top">
-      <div class="brand"><img src="img/logo.png" alt="Logo KillFarm"><div>KillFarm Lite<small>by MrØza. · version 1.5</small></div></div>
+      <div class="brand"><img src="img/logo.png" alt="Logo KillFarm"><div>KillFarm Lite<small>by MrØza. · version 1.6</small></div></div>
       <a class="btn ghost" href="https://www.tiktok.com/@mr.ozattv" target="_blank" rel="noopener">TikTok @mr.ozattv</a>
     </div>
     <div class="hero-grid">
@@ -204,11 +214,15 @@ kbd{display:inline-grid;place-items:center;min-width:54px;height:54px;padding:0 
         <p class="eyebrow">theHunter: Call of the Wild · PC</p>
         <h1>Ton farm de <em>Great One</em>, compté tout seul.</h1>
         <p class="lead">KillFarm Lite suit chaque bête que tu ramasses, range ses grades et te dit combien de kills t'a coûté ton dernier Great One. Par-dessus le jeu, sur tes vidéos TikTok et en live.</p>
+        <div class="hl">
+          <div><span class="ic">💾</span><span><b>Ta sauvegarde est trouvée toute seule</b><small>Rien à chercher, rien à régler : tu lances l'appli, elle suit tes bêtes.</small></span></div>
+          <div class="en"><span class="ic">🇬🇧</span><span><b>Now in English · Aussi en anglais</b><small>L'appli se met dans la langue de ton Windows. ⚙ › Language pour changer.</small></span></div>
+        </div>
         <div class="ctas">
-          <a class="btn main" href="https://github.com/nicolashajker-cmd/killfarm-lite/releases/latest/download/KillFarm_Lite_v1.5.zip">Télécharger pour PC</a>
+          <a class="btn main" href="https://github.com/nicolashajker-cmd/killfarm-lite/releases/latest/download/KillFarm_Lite_v1.6.zip">Télécharger pour PC</a>
           <a class="btn ghost" href="#mobile">Aussi sur Android</a>
         </div>
-        <div class="facts"><span>Gratuit · 21 Mo</span><span>Windows 10 et 11</span><span>Rien à installer</span><span>Ne modifie jamais le jeu</span></div>
+        <div class="facts"><span>Gratuit · 22 Mo</span><span>Windows 10 et 11</span><span>Rien à installer</span><span>Ne modifie jamais le jeu</span></div>
       </div>
       <div class="shots" aria-label="Captures de KillFarm Lite">
         <img class="win" src="img/fenetre.jpg" alt="Fenêtre de KillFarm Lite : farm d'Élan à Taïga-Medved, 342 kills depuis le dernier Great One">
@@ -267,7 +281,7 @@ kbd{display:inline-grid;place-items:center;min-width:54px;height:54px;padding:0 
     <div class="keys">
       <div class="key"><kbd>F7</kbd><div><b>Changer d'affichage</b><span>Fenêtre → carte TikTok → barre Stream.</span></div></div>
       <div class="key"><kbd>F8</kbd><div><b>Cacher / montrer</b><span>Pour un écran propre le temps d'une capture.</span></div></div>
-      <div class="key"><kbd style="font-size:2.2rem;line-height:1">²</kbd><div><b>Bloquer la barre Stream</b><span>Bloquée : la souris passe à travers. Débloquée : clic droit = menu. (La touche sous Échap.)</span></div></div>
+      <div class="key"><kbd style="font-size:2.2rem;line-height:1">²</kbd><div><b>Bloquer la barre Stream</b><span>Bloquée : la souris passe à travers. Débloquée : clic droit = menu. (La touche sous Échap : ` sur un clavier anglais.)</span></div></div>
     </div>
     <div class="menus">
       <article class="menucard">
@@ -331,7 +345,7 @@ kbd{display:inline-grid;place-items:center;min-width:54px;height:54px;padding:0 
   <div class="wrap split">
     <img src="img/lancer.jpg" alt="Fenêtre Lancer un farm : 19 réserves avec leur logo et les bêtes de Te Awaroa">
     <div>
-      <p class="eyebrow">19 réserves · 127 bêtes en français</p>
+      <p class="eyebrow">19 réserves · 127 bêtes · français et anglais</p>
       <h2>Lancer un farm en 2 clics</h2>
       <ol class="steps">
         <li><div><b>Choisis la réserve</b><span>Celle où tu joues est déjà sélectionnée.</span></div></li>
@@ -393,19 +407,27 @@ kbd{display:inline-grid;place-items:center;min-width:54px;height:54px;padding:0 
       <div class="box">
         <h3>Installer</h3>
         <ol>
-          <li>Télécharge <b><a href="https://github.com/nicolashajker-cmd/killfarm-lite/releases/latest/download/KillFarm_Lite_v1.5.zip">KillFarm_Lite_v1.5.zip</a></b> (21 Mo).</li>
+          <li>Télécharge <b><a href="https://github.com/nicolashajker-cmd/killfarm-lite/releases/latest/download/KillFarm_Lite_v1.6.zip">KillFarm_Lite_v1.6.zip</a></b> (22 Mo).</li>
           <li>Dézippe le dossier « KillFarm Lite » où tu veux.</li>
-          <li>Double-clic sur <b>KillFarm Lite.exe</b>. Un petit tutoriel te montre tout. Windows bloque ? <a href="#windows-bloque">Voir juste en dessous</a>.</li>
+          <li>Double-clic sur <b>KillFarm Lite.exe</b>. <b>Ta sauvegarde du jeu est trouvée toute seule</b>, et un petit tutoriel te montre tout. Windows bloque ? <a href="#windows-bloque">Voir juste en dessous</a>.</li>
           <li>Dans le jeu : Options &gt; Affichage &gt; <b>Fenêtré sans bordure</b>, pour voir la carte et la barre par-dessus.</li>
         </ol>
       </div>
       <div class="box">
         <h3>Questions</h3>
         <details open><summary>Ça touche à ma partie ?</summary><p>Non. L'appli lit seulement ta sauvegarde pour voir les bêtes ramassées. Elle n'écrit jamais rien dans le jeu.</p></details>
+        <details open><summary>Je dois trouver ma sauvegarde ?</summary><p><b>Non, l'appli la trouve toute seule</b> (Documents › Avalanche Studios › COTW › Saves). Seulement si tu l'as déplacée : ⚙ › Dossier de sauvegarde du jeu.</p></details>
+        <details><summary>L'appli est en anglais ?</summary><p><b>Oui, français et anglais.</b> Elle prend la langue de ton Windows. Pour changer : ⚙ › Language / Langue.</p></details>
         <details><summary>Il faut Python ou autre chose ?</summary><p>Non, juste le fichier KillFarm Lite.exe. Tes farms sont gardés dans Documents\KillFarm_Lite, même quand tu mets l'appli à jour.</p></details>
         <details><summary>Windows bloque l'appli</summary><p>C'est normal pour une petite appli gratuite non signée. Regarde l'encadré <a href="#windows-bloque">« Windows bloque l'appli ? »</a> juste en dessous : 2 cas, 2 solutions.</p></details>
         <details><summary>Une bête n'est pas reconnue ?</summary><p>L'appli te demande laquelle c'était, la compte et s'en souvient pour les suivantes.</p></details>
       </div>
+    </div>
+    <div class="en-box" id="english" lang="en">
+      <h3>🇬🇧 English speakers</h3>
+      <p><b>KillFarm Lite is fully in English.</b> It counts every animal you harvest on your Great One farm, with its grade, and shows it in a window, a TikTok card or a see-through Stream bar.</p>
+      <p><b>Your game save is found automatically</b>: unzip, double-click <b>KillFarm Lite.exe</b>, play. The app only reads your save and never changes the game. English instructions in <b>README.txt</b>.</p>
+      <a class="btn main" href="https://github.com/nicolashajker-cmd/killfarm-lite/releases/latest/download/KillFarm_Lite_v1.6.zip">Download for PC (free)</a>
     </div>
     <div class="blocked" id="windows-bloque">
       <h3>⚠ Windows bloque l'appli ? C'est normal, voici quoi faire</h3>
@@ -425,7 +447,7 @@ kbd{display:inline-grid;place-items:center;min-width:54px;height:54px;padding:0 
           <span class="msg">« Contrôle intelligent des applications a bloqué un fichier potentiellement dangereux »</span>
           <ol>
             <li>Supprime le dossier « KillFarm Lite » déjà dézippé.</li>
-            <li>Clic droit sur <b>KillFarm_Lite_v1.5.zip</b> &gt; <b>Propriétés</b>.</li>
+            <li>Clic droit sur <b>KillFarm_Lite_v1.6.zip</b> &gt; <b>Propriétés</b>.</li>
             <li>En bas, coche <b>Débloquer</b>, puis <b>OK</b>.</li>
             <li>Dézippe à nouveau et lance <b>KillFarm Lite.exe</b>.</li>
           </ol>
@@ -441,7 +463,7 @@ kbd{display:inline-grid;place-items:center;min-width:54px;height:54px;padding:0 
     <h2>Le prochain Great One, tu sauras exactement ce qu'il t'a coûté.</h2>
     <p class="lead">Mises à jour, aide et idées : tout se passe sur le Discord.</p>
     <div class="ctas">
-      <a class="btn main" href="https://github.com/nicolashajker-cmd/killfarm-lite/releases/latest/download/KillFarm_Lite_v1.5.zip">Télécharger pour PC</a>
+      <a class="btn main" href="https://github.com/nicolashajker-cmd/killfarm-lite/releases/latest/download/KillFarm_Lite_v1.6.zip">Télécharger pour PC</a>
       <a class="btn ghost" href="https://github.com/nicolashajker-cmd/killfarm-mobile/releases/latest/download/KillFarm.apk" target="_blank" rel="noopener">Appli Android</a>
       <a class="btn ghost" href="https://discord.gg/vmB7kEreuW" target="_blank" rel="noopener">Rejoindre le Discord</a>
     </div>
@@ -450,7 +472,7 @@ kbd{display:inline-grid;place-items:center;min-width:54px;height:54px;padding:0 
 
 <footer>
   <div class="wrap">
-    <span>KillFarm Lite 1.5 · KillFarm Mobile 1.2 · by MrØza. · Discord : <button class="copy" id="cp" type="button">discord.gg/vmB7kEreuW</button></span>
+    <span>KillFarm Lite 1.6 · KillFarm Mobile 1.2 · by MrØza. · Discord : <button class="copy" id="cp" type="button">discord.gg/vmB7kEreuW</button></span>
     <span>Projet de fan gratuit, sans lien avec Expansive Worlds.</span>
   </div>
 </footer>
