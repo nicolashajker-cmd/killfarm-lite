@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="description" content="KillFarm Lite : le compteur de farm de Great One pour theHunter: Call of the Wild. Sauvegarde trouvée toute seule. Français et anglais. Gratuit, sur PC et Android.">
+<meta name="description" content="KillFarm Lite 2.1 : le compteur de farm de Great One pour theHunter: Call of the Wild. Great One reconnu tout seul, mini menu au bord de l'écran, barre pour ton live TikTok et OBS, 7 couleurs. Gratuit, PC et Android.">
 <meta property="og:type" content="website">
-<meta property="og:title" content="KillFarm Lite · compteur de farm pour theHunter: Call of the Wild">
-<meta property="og:description" content="Ton farm de Great One compté tout seul : kills depuis le dernier GO, grades, carte TikTok et barre Stream. Sauvegarde trouvée toute seule, français + English. Gratuit, PC + Android.">
+<meta property="og:title" content="KillFarm Lite 2.1 · compteur de farm pour theHunter: Call of the Wild">
+<meta property="og:description" content="Ton farm de Great One compté tout seul, sur ton écran et sur ton live. Great One reconnu, mini menu, barre TikTok LIVE Studio et OBS, couleurs TikTok, Twitch, YouTube. Gratuit, PC + Android.">
 <meta property="og:image" content="https://nicolashajker-cmd.github.io/killfarm-lite/img/apercu.jpg">
 <meta property="og:url" content="https://nicolashajker-cmd.github.io/killfarm-lite/">
 <meta name="twitter:card" content="summary_large_image">
@@ -197,35 +197,81 @@ kbd{display:inline-grid;place-items:center;min-width:54px;height:54px;padding:0 
   .themes{grid-template-columns:repeat(2,1fr)}
 }
 @media (prefers-reduced-motion:reduce){.btn{transition:none}.btn:hover{transform:none}}
+
+/* 2.1 : nouveautés, live, mini menu */
+.news{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:32px}
+.nw{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:20px;display:grid;gap:8px;align-content:start}
+.nw .ic{font-size:1.8rem;line-height:1}
+.nw h3{font-size:1.35rem}
+.nw p{color:var(--dim);font-size:.95rem}
+.nw.big{grid-column:span 3;grid-template-columns:auto 1fr;align-items:center;gap:22px;border-color:var(--gold);background:linear-gradient(90deg,#2b1c0f,#24180f)}
+.nw.big .ic{font-size:3rem}
+.nw.big h3{font-size:1.7rem;color:var(--gold)}
+.band img.card{min-width:760px;width:100%;filter:drop-shadow(0 18px 30px #000a)}
+.live{display:grid;grid-template-columns:1fr 1.05fr;gap:40px;align-items:center}
+.live img{border-radius:14px;box-shadow:0 26px 50px #000b,0 0 0 1px #ffffff12}
+.url{display:inline-flex;align-items:center;gap:10px;margin-top:6px;background:#0f0a07;border:1px solid var(--line);border-radius:10px;padding:8px 8px 8px 14px;font:700 1rem ui-monospace,Consolas,monospace;color:var(--gold)}
+.url button{font:700 .9rem var(--body);background:var(--acc);color:#1c0f05;border:0;border-radius:8px;padding:7px 12px;cursor:pointer}
+.mini-demo{display:flex;gap:26px;align-items:flex-start;justify-content:center;flex-wrap:wrap}
+.tab{width:64px;height:64px;border-radius:14px;box-shadow:0 14px 26px #000a}
+.mini{width:280px;border:2px solid var(--acc);border-radius:20px;background:var(--panel);overflow:hidden;box-shadow:0 26px 50px #000b}
+.mini .hd{display:flex;align-items:center;gap:8px;background:var(--bg);padding:10px 12px;border-bottom:2px solid var(--acc);font:800 1rem var(--disp);letter-spacing:.06em}
+.mini .hd img{width:24px;height:24px;border-radius:5px}
+.mini .hd span{margin-left:auto;color:var(--dim);font-weight:600}
+.mini .who{display:flex;gap:12px;align-items:center;padding:14px 14px 6px}
+.mini .who i{width:52px;height:52px;border-radius:50%;border:3px solid var(--acc);background:#1c130d url(img/logo.png) center/70% no-repeat;flex:none}
+.mini .who b{display:block;font:700 1.15rem var(--disp)}
+.mini .who small{color:var(--dim)}
+.mini .nums{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;padding:8px 12px}
+.mini .nums div{background:var(--bg);border:1px solid var(--line);border-radius:8px;text-align:center;padding:6px 2px}
+.mini .nums div:first-child{border-color:var(--acc)}
+.mini .nums small{display:block;font:700 .62rem var(--body);letter-spacing:.08em;color:var(--dim)}
+.mini .nums b{font:800 1.35rem var(--disp)}
+.mini .btns{display:grid;gap:7px;padding:8px 12px 12px}
+.mini .btns span{display:block;text-align:center;border-radius:10px;padding:8px;font:700 .92rem var(--body);background:linear-gradient(#5a3d29,#4a3222);box-shadow:inset 0 1px #ffffff22,0 3px #00000088}
+.mini .btns span.p{background:linear-gradient(#ff8a2a,#e8791d);color:#fff;font-size:1.1rem}
+.mini .btns .row{display:grid;grid-template-columns:1fr 1fr;gap:7px}
+.mini .ft{display:flex;justify-content:space-around;background:var(--bg);padding:9px;color:var(--dim);font-size:.82rem}
+.demo-cap{font-size:.82rem;color:var(--dim);text-align:center;margin-top:8px}
+.themes2{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:30px}
+.themes2 figure{margin:0;background:#0d0805;border:1px solid var(--line);border-radius:12px;padding:12px}
+.themes2 img{width:100%}
+.themes2 figcaption{font:600 1.05rem var(--disp);margin-top:8px;letter-spacing:.03em}
+.themes2 figcaption i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px;vertical-align:1px}
+.themes2 figcaption em{font-style:normal;font:700 .7rem var(--body);letter-spacing:.1em;color:#1c0f05;background:var(--gold);border-radius:4px;padding:2px 6px;margin-left:8px;vertical-align:2px}
+
+.steps span b{display:inline;font:inherit;font-weight:700;color:var(--fg);letter-spacing:0}
+.url{max-width:100%;flex-wrap:wrap;word-break:break-all}
+@media (max-width:860px){.news{grid-template-columns:1fr}.nw.big{grid-column:auto;grid-template-columns:1fr}.live{grid-template-columns:1fr}.themes2{grid-template-columns:1fr}}
 </style>
 <style>body{margin:0}</style>
 </head>
 <body>
 
-
 <header class="hero">
   <div class="wrap">
     <div class="top">
-      <div class="brand"><img src="img/logo.png" alt="Logo KillFarm"><div>KillFarm Lite<small>by MrØza. · version 1.6</small></div></div>
+      <div class="brand"><img src="img/logo.png" alt="Logo KillFarm"><div>KillFarm Lite<small>by MrØza. · version 2.1</small></div></div>
       <a class="btn ghost" href="https://www.tiktok.com/@mr.ozattv" target="_blank" rel="noopener">TikTok @mr.ozattv</a>
     </div>
     <div class="hero-grid">
       <div>
-        <p class="eyebrow">theHunter: Call of the Wild · PC</p>
+        <p class="eyebrow">theHunter: Call of the Wild · PC · nouvelle version 2.1</p>
         <h1>Ton farm de <em>Great One</em>, compté tout seul.</h1>
-        <p class="lead">KillFarm Lite suit chaque bête que tu ramasses, range ses grades et te dit combien de kills t'a coûté ton dernier Great One. Par-dessus le jeu, sur tes vidéos TikTok et en live.</p>
+        <p class="lead">KillFarm Lite suit chaque bête que tu ramasses, range ses grades et te dit combien de kills t'a coûté ton dernier Great One. Sur ton écran pendant que tu joues, et sur ton live.</p>
         <div class="hl">
-          <div><span class="ic">💾</span><span><b>Ta sauvegarde est trouvée toute seule</b><small>Rien à chercher, rien à régler : tu lances l'appli, elle suit tes bêtes.</small></span></div>
-          <div class="en"><span class="ic">🇬🇧</span><span><b>Now in English · Aussi en anglais</b><small>L'appli se met dans la langue de ton Windows. ⚙ › Language pour changer.</small></span></div>
+          <div><span class="ic">🏆</span><span><b>Great One reconnu tout seul</b><small>Il tombe : le compteur repart de 0 et « GREAT ONE ! » s'affiche.</small></span></div>
+          <div><span class="ic">🔴</span><span><b>Ta barre en direct sur ton live</b><small>TikTok LIVE Studio et OBS : un lien à coller, fond transparent.</small></span></div>
+          <div class="en"><span class="ic">🇬🇧</span><span><b>Français · English</b><small>L'appli se met dans la langue de ton Windows. ⚙ › Affichage › Language pour changer.</small></span></div>
         </div>
         <div class="ctas">
-          <a class="btn main" href="https://github.com/nicolashajker-cmd/killfarm-lite/releases/latest/download/KillFarm_Lite_v1.6.zip">Télécharger pour PC</a>
-          <a class="btn ghost" href="#mobile">Aussi sur Android</a>
+          <a class="btn main" href="https://github.com/nicolashajker-cmd/killfarm-lite/releases/latest/download/KillFarm_Lite_v2.1.zip">Télécharger pour PC</a>
+          <a class="btn ghost" href="#nouveautes">Quoi de neuf ?</a>
         </div>
         <div class="facts"><span>Gratuit · 22 Mo</span><span>Windows 10 et 11</span><span>Rien à installer</span><span>Ne modifie jamais le jeu</span></div>
       </div>
       <div class="shots" aria-label="Captures de KillFarm Lite">
-        <img class="win" src="img/fenetre.jpg" alt="Fenêtre de KillFarm Lite : farm d'Élan à Taïga-Medved, 342 kills depuis le dernier Great One">
+        <img class="win" src="img/fenetre.jpg" alt="Fenêtre de KillFarm Lite : farm de Daim à Te Awaroa, 16 kills depuis le dernier Great One, dernier GO tombé en 1 325 kills">
         <img class="card" src="img/carte.jpg" alt="Carte TikTok : Élan, 342 kills depuis le dernier Great One, grades">
         <span class="stamp">Captures réelles</span>
       </div>
@@ -235,113 +281,133 @@ kbd{display:inline-grid;place-items:center;min-width:54px;height:54px;padding:0 
 
 <div class="band">
   <div class="wrap">
-    <div class="tw"><img src="img/barre.jpg" alt="Barre Stream en haut de l'écran : Élan, 342 kills du farm, 812 kills pour le dernier GO, 1 154 au total, grades et heure"></div>
-    <p>La barre Stream, transparente : on voit le jeu à travers, les chiffres restent nets.</p>
+    <div class="tw"><img class="card" src="img/barre.png" alt="Tableau Stream : Daim à Te Awaroa, 2 Great Ones, 16 kills du farm, dernier GO en 1 325 kills, 2 934 au total, et les 6 grades"></div>
+    <p>Le tableau Stream : en bas de ton écran pendant que tu joues, et le même sur ton live.</p>
   </div>
 </div>
 
-<section>
+<section id="nouveautes">
   <div class="wrap">
-    <p class="eyebrow">Ce que tu vois d'un coup d'œil</p>
-    <h2>Les 3 chiffres qui comptent pendant un farm</h2>
-    <div class="stats">
-      <div class="stat"><b>342</b><span>Depuis le dernier GO</span><p>Le compteur qui monte à chaque bête ramassée et repart de 0 quand le Great One tombe.</p></div>
-      <div class="stat"><b class="g">812</b><span>Kills pour le dernier GO</span><p>Combien il t'a fallu pour ton dernier Great One. Le chiffre à montrer.</p></div>
-      <div class="stat"><b class="f">1 154</b><span>Total du farm</span><p>Tous tes kills depuis le lancement du farm, avec les 6 grades : sans médaille, bronze, argent, or, diamant, Great One.</p></div>
+    <p class="eyebrow">Nouveau dans la version 2.1</p>
+    <h2>Plus propre, plus rapide, prête pour le live</h2>
+    <div class="news">
+      <article class="nw big"><span class="ic">🏆</span><div><h3>Great One reconnu tout seul</h3><p>Dès que tu ramasses un Great One, le compteur « depuis le dernier GO » repart de 0, le Great One est ajouté, « Dernier GO tombé en » se met à jour et « GREAT ONE ! » clignote sur la barre et sur ton live. Pas reconnu ? Un clic : « Mon dernier kill était un Great One ».</p></div></article>
+      <article class="nw"><span class="ic">📌</span><h3>Mini menu au bord de l'écran</h3><p>Ton logo reste collé au bord. Un clic et le mini menu sort : +1, annuler, Great One, changer de farm. La grande fenêtre se range toute seule.</p></article>
+      <article class="nw"><span class="ic">🔴</span><h3>La barre sur ton live</h3><p>Un lien à coller dans TikTok LIVE Studio ou OBS. Les chiffres se mettent à jour pendant que tu joues, fond transparent possible.</p></article>
+      <article class="nw"><span class="ic">🏁</span><h3>Tableau Stream compétitif</h3><p>En bas au centre : la bête, kills du farm, dernier GO, total et tes 6 grades, avec des textes bien nets.</p></article>
+      <article class="nw"><span class="ic">🎨</span><h3>Couleurs TikTok, Twitch, YouTube</h3><p>3 nouvelles couleurs en plus d'Automne, Forêt, Glace et Sang. Boutons arrondis en relief, barre de titre sombre.</p></article>
+      <article class="nw"><span class="ic">🖥</span><h3>Le bon écran</h3><p>2 écrans ? Choisis celui de la barre et du mini menu (⚙ › Affichage › Écran), ou glisse le logo sur l'autre écran.</p></article>
+      <article class="nw"><span class="ic">🦌</span><h3>Menus rangés</h3><p>⚙ en 4 parties, et le même menu clair au clic droit sur la barre, la carte ou le logo.</p></article>
     </div>
   </div>
 </section>
 
-<section id="affichages" style="background:var(--bg2);border-block:1px solid var(--line)">
+<section id="mini" style="background:var(--bg2);border-block:1px solid var(--line)">
+  <div class="wrap split">
+    <div>
+      <div class="mini-demo" aria-label="Illustration du mini menu et du logo">
+        <div><img class="tab" src="img/logo_mini.png" alt="Logo au bord de l'écran"><p class="demo-cap">réduit</p></div>
+        <div class="mini" aria-hidden="true">
+          <div class="hd"><img src="img/logo_mini.png" alt="">KILLFARM<span>⚙ ›</span></div>
+          <div class="who"><i></i><div><b>Daim</b><small>Te Awaroa</small></div></div>
+          <div class="nums"><div><small>FARM</small><b style="color:var(--acc)">16</b></div><div><small>DERNIER GO</small><b style="color:var(--gold)">1 325</b></div><div><small>TOTAL</small><b>2 934</b></div></div>
+          <div class="btns"><span class="p">+1 KILL</span><div class="row"><span>Annuler</span><span>Great One</span></div><div class="row"><span>Changer de farm ▾</span><span>Nouveau farm</span></div></div>
+          <div class="ft"><span>Affichage ▾</span><span>Lien du live</span><span>Grande fenêtre</span></div>
+        </div>
+      </div>
+      <p class="demo-cap">Illustration du mini menu ouvert</p>
+    </div>
+    <div>
+      <p class="eyebrow">Mini menu</p>
+      <h2>Tout sous la main, sans quitter la partie</h2>
+      <ol class="steps">
+        <li><div><b>Ton logo au bord de l'écran</b><span>À droite ou à gauche, à la hauteur que tu veux : glisse-le, il se colle au bord.</span></div></li>
+        <li><div><b>Un clic : le mini menu sort</b><span>Ton farm, ses 3 chiffres et ses grades. Gros bouton « +1 KILL », annuler, Great One, changer de farm.</span></div></li>
+        <li><div><b>La flèche › le range</b><span>Il redevient un logo. « Grande fenêtre » rouvre le compteur complet.</span></div></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<section id="live">
+  <div class="wrap live">
+    <div>
+      <p class="eyebrow">Pour streamer</p>
+      <h2>Ta barre en direct sur ton live</h2>
+      <p class="lead" style="margin-top:12px">KillFarm met ta barre sur une page qui ne marche que sur ton PC. Tu la colles dans ton logiciel de live, et elle bouge à chaque bête ramassée.</p>
+      <ol class="steps">
+        <li><div><b>Dans KillFarm : « Lien du live »</b><span>Dans le mini menu ou dans ⚙ › Barre Stream & live. L'adresse est copiée toute seule :</span><span class="url">http://127.0.0.1.nip.io:8777/ <button type="button" data-copy="http://127.0.0.1.nip.io:8777/">Copier</button></span></div></li>
+        <li><div><b>TikTok LIVE Studio</b><span>Ajouter une source › <b>Lien</b> › colle l'adresse › Résolution personnalisée <b>1120 x 124</b>.</span></div></li>
+        <li><div><b>OBS</b><span>Sources › + › <b>Navigateur</b> › colle l'adresse › largeur 1120, hauteur 124.</span></div></li>
+        <li><div><b>Fond transparent</b><span>Ajoute <b>?fond=0</b> à la fin de l'adresse. Garde KillFarm ouvert pendant le live.</span></div></li>
+      </ol>
+    </div>
+    <img src="img/live.jpg" alt="Boîte « Barre pour ton live » de KillFarm : l'adresse à copier et les étapes pour TikTok LIVE Studio et OBS">
+  </div>
+</section>
+
+<section style="background:var(--bg2);border-block:1px solid var(--line)">
   <div class="wrap">
-    <p class="eyebrow">3 affichages · touche F7 pour passer de l'un à l'autre</p>
-    <h2>Un affichage pour jouer, filmer ou streamer</h2>
-    <div class="modes">
-      <article class="mode">
-        <figure><img src="img/fenetre.jpg" alt="Affichage Fenêtre"></figure>
-        <div class="txt"><span class="key">FENÊTRE</span><h3>Le compteur complet</h3><p>Tous les chiffres, les grades et les boutons pour corriger : −1, +1, annuler le dernier kill.</p></div>
-      </article>
-      <article class="mode">
-        <figure><img src="img/carte.jpg" alt="Affichage carte TikTok"></figure>
-        <div class="txt"><span class="key">CARTE TIKTOK</span><h3>Prête pour tes vidéos</h3><p>Une carte verticale à glisser où tu veux sur l'écran, en 3 tailles. À capturer dans OBS ou à filmer avec ta partie.</p></div>
-      </article>
-      <article class="mode">
-        <figure class="wide"><img src="img/barre_detail.jpg" alt="Affichage barre Stream : bulle de la bête, compteurs et grades"></figure>
-        <div class="txt"><span class="key">BARRE STREAM</span><h3>Le long de l'écran</h3><p>En bas, en haut ou sous la barre du jeu, avec la transparence que tu veux. La souris passe à travers : tu joues sans cliquer dessus.</p></div>
-      </article>
+    <p class="eyebrow">Ce que tu vois d'un coup d'œil</p>
+    <h2>Les 3 chiffres qui comptent pendant un farm</h2>
+    <div class="stats">
+      <div class="stat"><b>16</b><span>Kills du farm</span><p>Depuis le dernier Great One : monte à chaque bête ramassée, repart de 0 quand le Great One tombe.</p></div>
+      <div class="stat"><b class="g">1 325</b><span>Dernier GO</span><p>Combien de kills il t'a fallu pour ton dernier Great One. Le chiffre à montrer.</p></div>
+      <div class="stat"><b class="f">2 934</b><span>Total du farm</span><p>Tous tes kills du farm, avec les 6 grades : sans médaille, bronze, argent, or, diamant, Great One.</p></div>
     </div>
   </div>
 </section>
 
 <section id="touches">
   <div class="wrap">
-    <p class="eyebrow">Touches et menus</p>
-    <h2>Tout se règle sans quitter la partie</h2>
-    <p class="lead" style="margin-top:12px">Les 3 touches marchent même quand tu es dans le jeu. Le reste se fait avec 2 menus et un clic droit.</p>
+    <p class="eyebrow">Affichages, touches et menus</p>
+    <h2>Pour jouer, filmer ou streamer</h2>
     <div class="keys">
-      <div class="key"><kbd>F7</kbd><div><b>Changer d'affichage</b><span>Fenêtre → carte TikTok → barre Stream.</span></div></div>
+      <div class="key"><kbd>F7</kbd><div><b>Changer d'affichage</b><span>Fenêtre → carte TikTok → tableau Stream.</span></div></div>
       <div class="key"><kbd>F8</kbd><div><b>Cacher / montrer</b><span>Pour un écran propre le temps d'une capture.</span></div></div>
-      <div class="key"><kbd style="font-size:2.2rem;line-height:1">²</kbd><div><b>Bloquer la barre Stream</b><span>Bloquée : la souris passe à travers. Débloquée : clic droit = menu. (La touche sous Échap : ` sur un clavier anglais.)</span></div></div>
+      <div class="key"><kbd style="font-size:2.2rem;line-height:1">²</kbd><div><b>Bloquer le tableau</b><span>Bloqué : la souris passe à travers. Débloqué : clic droit = menu. (` sur un clavier anglais.)</span></div></div>
     </div>
     <div class="menus">
       <article class="menucard">
-        <span class="where">Fenêtre</span>
-        <p><b>☰ Mes farms</b> : passer d'un farm à l'autre et le modifier. <b>⚙</b> : tous les réglages (couleur, taille de la carte, position et transparence de la barre, tutoriel, aide, Discord).</p>
-        <ul class="fakemenu" aria-label="Menu Mes farms">
-          <li class="on">Élan · Taïga-Medved <small>(1 154 kills)</small></li>
-          <li>Chevreuil · Cuatro Colinas <small>(486 kills)</small></li>
-          <li class="sep"></li>
-          <li>▶ Lancer un nouveau farm…</li>
-          <li>🏆 Mon dernier kill était un Great One…</li>
-          <li>✎ Modifier les chiffres du farm…</li>
-          <li>✕ Supprimer ce farm…</li>
-        </ul>
-        <span class="menucap">Le menu ☰ Mes farms</span>
-        <p><b>Clic droit sur un badge de grade</b> : +1 / −1 dans ce grade, pour corriger.</p>
-      </article>
-      <article class="menucard">
         <span class="where">Carte TikTok</span>
-        <p><b>Glisse-la</b> à la souris où tu veux sur l'écran : elle reste à sa place la fois suivante. <b>Clic droit</b> dessus pour tout le reste.</p>
-        <ul class="fakemenu" aria-label="Menu clic droit de la carte TikTok">
-          <li>Affichage Fenêtre</li>
-          <li class="on">● Affichage TikTok</li>
-          <li>Affichage Stream</li>
-          <li class="sep"></li>
-          <li>● Élan · Taïga-Medved</li>
-          <li class="sep"></li>
-          <li>+1 kill</li>
-          <li>↶ Annuler le dernier kill</li>
-          <li>🎨 Couleur</li>
-          <li class="sep"></li>
-          <li>Cacher (F8)</li>
-        </ul>
-        <span class="menucap">Le clic droit sur la carte</span>
-        <p>Taille Petite, Moyenne ou Grande : <b>⚙ › Taille de la carte TikTok</b>.</p>
+        <img src="img/carte.jpg" alt="Carte TikTok" style="max-width:190px;border-radius:10px;margin:4px auto 0">
+        <p>Une carte verticale à <b>glisser</b> où tu veux, en 3 tailles, pour tes vidéos.</p>
       </article>
       <article class="menucard">
-        <span class="where">Barre Stream</span>
-        <p>Appuie sur <b>²</b> pour la débloquer, puis <b>clic droit</b> dessus. Appuie de nouveau sur <b>²</b> pour la rebloquer et jouer sans cliquer dessus.</p>
-        <ul class="fakemenu" aria-label="Menu clic droit de la barre Stream">
-          <li>Affichage Fenêtre</li>
-          <li>Affichage TikTok</li>
-          <li class="on">● Affichage Stream</li>
+        <span class="where">Clic droit (barre, carte, logo)</span>
+        <ul class="fakemenu" aria-label="Menu clic droit">
+          <li><small>Daim · Te Awaroa</small></li>
           <li class="sep"></li>
-          <li>+1 kill</li>
-          <li>↶ Annuler le dernier kill</li>
-          <li>Position de la barre ›</li>
-          <li>Transparence de la barre ›</li>
-          <li>🎨 Couleur</li>
+          <li class="on">+1 kill</li>
+          <li>Annuler le dernier kill</li>
+          <li>Mon dernier kill était un Great One</li>
           <li class="sep"></li>
-          <li>Bloquer la barre (²)</li>
+          <li>Changer de farm ›</li>
+          <li>Affichage ›</li>
+          <li>Barre Stream &amp; live ›</li>
+          <li>Écran ›</li>
+          <li>Couleur ›</li>
         </ul>
-        <span class="menucap">Le clic droit sur la barre débloquée</span>
-        <p>Position : en bas, en haut, ou sous la barre du jeu. Transparence : de pleine à 25 %.</p>
+        <span class="menucap">Le même menu rangé partout</span>
+      </article>
+      <article class="menucard">
+        <span class="where">⚙ Réglages</span>
+        <ul class="fakemenu" aria-label="Menu réglages">
+          <li>Affichage ›</li>
+          <li>Barre Stream &amp; live ›</li>
+          <li>Sauvegarde &amp; fichiers ›</li>
+          <li>Aide &amp; réseaux ›</li>
+          <li class="sep"></li>
+          <li>Quitter KillFarm</li>
+        </ul>
+        <span class="menucap">4 parties, tout est rangé</span>
+        <p><b>Clic droit sur un badge de grade</b> : +1 / −1 dans ce grade, pour corriger.</p>
       </article>
     </div>
   </div>
 </section>
 
-<section>
+<section style="background:var(--bg2);border-block:1px solid var(--line)">
   <div class="wrap split">
     <img src="img/lancer.jpg" alt="Fenêtre Lancer un farm : 19 réserves avec leur logo et les bêtes de Te Awaroa">
     <div>
@@ -350,22 +416,25 @@ kbd{display:inline-grid;place-items:center;min-width:54px;height:54px;padding:0 
       <ol class="steps">
         <li><div><b>Choisis la réserve</b><span>Celle où tu joues est déjà sélectionnée.</span></div></li>
         <li><div><b>Choisis la bête</b><span>Avec son image, ou tape son nom dans « Chercher ».</span></div></li>
-        <li><div><b>Joue</b><span>Chaque bête de ton farm ramassée est comptée toute seule, avec son grade. Ton dernier kill était un Great One pas reconnu ? Un clic et c'est réglé.</span></div></li>
+        <li><div><b>Joue</b><span>Chaque bête de ton farm ramassée est comptée toute seule, avec son grade. Farm déjà commencé ? Mets tes chiffres au départ.</span></div></li>
       </ol>
     </div>
   </div>
 </section>
 
-<section style="background:var(--bg2);border-block:1px solid var(--line)">
+<section id="couleurs">
   <div class="wrap">
-    <p class="eyebrow">4 couleurs</p>
+    <p class="eyebrow">7 couleurs · ⚙ › Affichage › Couleur</p>
     <h2>Accordée à ton stream</h2>
-    <p class="lead" style="margin-top:12px">La couleur change la fenêtre, la carte TikTok et la barre Stream en même temps.</p>
-    <div class="themes">
-      <figure><img src="img/theme_automne.jpg" alt="Couleur Automne"><figcaption><i style="background:#e8791d"></i>Automne</figcaption></figure>
-      <figure><img src="img/theme_foret.jpg" alt="Couleur Forêt"><figcaption><i style="background:#6cc04a"></i>Forêt</figcaption></figure>
-      <figure><img src="img/theme_glace.jpg" alt="Couleur Glace"><figcaption><i style="background:#4fb3e8"></i>Glace</figcaption></figure>
-      <figure><img src="img/theme_sang.jpg" alt="Couleur Sang"><figcaption><i style="background:#e0392b"></i>Sang</figcaption></figure>
+    <p class="lead" style="margin-top:12px">La couleur change la fenêtre, le mini menu, la carte, le tableau et la barre de ton live en même temps.</p>
+    <div class="themes2">
+      <figure><img src="img/th_tiktok.png" alt="Couleur TikTok"><figcaption><i style="background:#fe2c55"></i>TikTok<em>NOUVEAU</em></figcaption></figure>
+      <figure><img src="img/th_twitch.png" alt="Couleur Twitch"><figcaption><i style="background:#9146ff"></i>Twitch<em>NOUVEAU</em></figcaption></figure>
+      <figure><img src="img/th_youtube.png" alt="Couleur YouTube"><figcaption><i style="background:#ff0033"></i>YouTube<em>NOUVEAU</em></figcaption></figure>
+      <figure><img src="img/barre.png" alt="Couleur Automne"><figcaption><i style="background:#e8791d"></i>Automne</figcaption></figure>
+      <figure><img src="img/th_foret.png" alt="Couleur Forêt"><figcaption><i style="background:#6cc04a"></i>Forêt</figcaption></figure>
+      <figure><img src="img/th_glace.png" alt="Couleur Glace"><figcaption><i style="background:#4fb3e8"></i>Glace</figcaption></figure>
+      <figure><img src="img/th_sang.png" alt="Couleur Sang"><figcaption><i style="background:#e0392b"></i>Sang</figcaption></figure>
     </div>
   </div>
 </section>
@@ -407,27 +476,29 @@ kbd{display:inline-grid;place-items:center;min-width:54px;height:54px;padding:0 
       <div class="box">
         <h3>Installer</h3>
         <ol>
-          <li>Télécharge <b><a href="https://github.com/nicolashajker-cmd/killfarm-lite/releases/latest/download/KillFarm_Lite_v1.6.zip">KillFarm_Lite_v1.6.zip</a></b> (22 Mo).</li>
+          <li>Télécharge <b><a href="https://github.com/nicolashajker-cmd/killfarm-lite/releases/latest/download/KillFarm_Lite_v2.1.zip">KillFarm_Lite_v2.1.zip</a></b> (22 Mo).</li>
           <li>Dézippe le dossier « KillFarm Lite » où tu veux.</li>
           <li>Double-clic sur <b>KillFarm Lite.exe</b>. <b>Ta sauvegarde du jeu est trouvée toute seule</b>, et un petit tutoriel te montre tout. Windows bloque ? <a href="#windows-bloque">Voir juste en dessous</a>.</li>
-          <li>Dans le jeu : Options &gt; Affichage &gt; <b>Fenêtré sans bordure</b>, pour voir la carte et la barre par-dessus.</li>
+          <li>Dans le jeu : Options &gt; Affichage &gt; <b>Fenêtré sans bordure</b>, pour voir le tableau et le mini menu par-dessus.</li>
         </ol>
+        <p class="note"><b>Mise à jour :</b> remplace juste ton ancien « KillFarm Lite.exe » par le nouveau. Tes farms et tes réglages sont gardés (Documents\KillFarm_Lite).</p>
       </div>
       <div class="box">
         <h3>Questions</h3>
         <details open><summary>Ça touche à ma partie ?</summary><p>Non. L'appli lit seulement ta sauvegarde pour voir les bêtes ramassées. Elle n'écrit jamais rien dans le jeu.</p></details>
-        <details open><summary>Je dois trouver ma sauvegarde ?</summary><p><b>Non, l'appli la trouve toute seule</b> (Documents › Avalanche Studios › COTW › Saves). Seulement si tu l'as déplacée : ⚙ › Dossier de sauvegarde du jeu.</p></details>
-        <details><summary>L'appli est en anglais ?</summary><p><b>Oui, français et anglais.</b> Elle prend la langue de ton Windows. Pour changer : ⚙ › Language / Langue.</p></details>
-        <details><summary>Il faut Python ou autre chose ?</summary><p>Non, juste le fichier KillFarm Lite.exe. Tes farms sont gardés dans Documents\KillFarm_Lite, même quand tu mets l'appli à jour.</p></details>
-        <details><summary>Windows bloque l'appli</summary><p>C'est normal pour une petite appli gratuite non signée. Regarde l'encadré <a href="#windows-bloque">« Windows bloque l'appli ? »</a> juste en dessous : 2 cas, 2 solutions.</p></details>
+        <details open><summary>Comment mettre la barre sur mon live ?</summary><p>« Lien du live » dans le mini menu, puis colle l'adresse dans TikTok LIVE Studio (source <b>Lien</b>) ou OBS (source <b>Navigateur</b>), en 1120 x 124. <a href="#live">Les étapes</a>.</p></details>
+        <details><summary>Mon Great One n'est pas compté ?</summary><p>Clic droit (ou mini menu) › <b>Mon dernier kill était un Great One</b> : le compteur repart de 0. Préviens-nous sur le Discord, ça aide à améliorer la détection.</p></details>
+        <details><summary>Je dois trouver ma sauvegarde ?</summary><p><b>Non, l'appli la trouve toute seule</b> (Documents › Avalanche Studios › COTW › Saves). Seulement si tu l'as déplacée : ⚙ › Sauvegarde &amp; fichiers.</p></details>
+        <details><summary>J'ai 2 écrans</summary><p>⚙ › Affichage › Écran : choisis celui du tableau, de la carte et du mini menu. Tu peux aussi glisser le logo sur l'autre écran.</p></details>
+        <details><summary>Il faut Python ou autre chose ?</summary><p>Non, juste le fichier KillFarm Lite.exe.</p></details>
         <details><summary>Une bête n'est pas reconnue ?</summary><p>L'appli te demande laquelle c'était, la compte et s'en souvient pour les suivantes.</p></details>
       </div>
     </div>
     <div class="en-box" id="english" lang="en">
       <h3>🇬🇧 English speakers</h3>
-      <p><b>KillFarm Lite is fully in English.</b> It counts every animal you harvest on your Great One farm, with its grade, and shows it in a window, a TikTok card or a see-through Stream bar.</p>
-      <p><b>Your game save is found automatically</b>: unzip, double-click <b>KillFarm Lite.exe</b>, play. The app only reads your save and never changes the game. English instructions in <b>README.txt</b>.</p>
-      <a class="btn main" href="https://github.com/nicolashajker-cmd/killfarm-lite/releases/latest/download/KillFarm_Lite_v1.6.zip">Download for PC (free)</a>
+      <p><b>KillFarm Lite is fully in English.</b> It counts every animal you harvest on your Great One farm, with its grade, and resets the counter by itself when your Great One drops.</p>
+      <p>New in 2.1: a <b>mini menu</b> docked on the screen edge, a <b>live bar for TikTok LIVE Studio and OBS</b> (Link / Browser source, 1120 x 124), TikTok, Twitch and YouTube colors. Your game save is found automatically. English instructions in <b>README.txt</b>.</p>
+      <a class="btn main" href="https://github.com/nicolashajker-cmd/killfarm-lite/releases/latest/download/KillFarm_Lite_v2.1.zip">Download for PC (free)</a>
     </div>
     <div class="blocked" id="windows-bloque">
       <h3>⚠ Windows bloque l'appli ? C'est normal, voici quoi faire</h3>
@@ -447,7 +518,7 @@ kbd{display:inline-grid;place-items:center;min-width:54px;height:54px;padding:0 
           <span class="msg">« Contrôle intelligent des applications a bloqué un fichier potentiellement dangereux »</span>
           <ol>
             <li>Supprime le dossier « KillFarm Lite » déjà dézippé.</li>
-            <li>Clic droit sur <b>KillFarm_Lite_v1.6.zip</b> &gt; <b>Propriétés</b>.</li>
+            <li>Clic droit sur <b>KillFarm_Lite_v2.1.zip</b> &gt; <b>Propriétés</b>.</li>
             <li>En bas, coche <b>Débloquer</b>, puis <b>OK</b>.</li>
             <li>Dézippe à nouveau et lance <b>KillFarm Lite.exe</b>.</li>
           </ol>
@@ -463,7 +534,7 @@ kbd{display:inline-grid;place-items:center;min-width:54px;height:54px;padding:0 
     <h2>Le prochain Great One, tu sauras exactement ce qu'il t'a coûté.</h2>
     <p class="lead">Mises à jour, aide et idées : tout se passe sur le Discord.</p>
     <div class="ctas">
-      <a class="btn main" href="https://github.com/nicolashajker-cmd/killfarm-lite/releases/latest/download/KillFarm_Lite_v1.6.zip">Télécharger pour PC</a>
+      <a class="btn main" href="https://github.com/nicolashajker-cmd/killfarm-lite/releases/latest/download/KillFarm_Lite_v2.1.zip">Télécharger pour PC</a>
       <a class="btn ghost" href="https://github.com/nicolashajker-cmd/killfarm-mobile/releases/latest/download/KillFarm.apk" target="_blank" rel="noopener">Appli Android</a>
       <a class="btn ghost" href="https://discord.gg/vmB7kEreuW" target="_blank" rel="noopener">Rejoindre le Discord</a>
     </div>
@@ -472,15 +543,14 @@ kbd{display:inline-grid;place-items:center;min-width:54px;height:54px;padding:0 
 
 <footer>
   <div class="wrap">
-    <span>KillFarm Lite 1.6 · KillFarm Mobile 1.2 · by MrØza. · Discord : <button class="copy" id="cp" type="button">discord.gg/vmB7kEreuW</button></span>
+    <span>KillFarm Lite 2.1 · KillFarm Mobile 1.2 · by MrØza. · Discord : <button class="copy" id="cp" type="button">discord.gg/vmB7kEreuW</button></span>
     <span>Projet de fan gratuit, sans lien avec Expansive Worlds.</span>
   </div>
 </footer>
 <script>
-document.getElementById('cp').addEventListener('click',function(){
-  var b=this,t='https://discord.gg/vmB7kEreuW';
-  try{navigator.clipboard.writeText(t).then(function(){b.textContent='Lien copié ✓';setTimeout(function(){b.textContent='discord.gg/vmB7kEreuW'},1600)},function(){})}catch(e){}
-});
+function cpy(btn,text,label){try{navigator.clipboard.writeText(text).then(function(){var o=btn.textContent;btn.textContent=label||'Copié ✓';setTimeout(function(){btn.textContent=o},1600)},function(){})}catch(e){}}
+document.getElementById('cp').addEventListener('click',function(){cpy(this,'https://discord.gg/vmB7kEreuW','Lien copié ✓')});
+document.querySelectorAll('[data-copy]').forEach(function(b){b.addEventListener('click',function(){cpy(b,b.dataset.copy)})});
 </script>
 
 </body>
