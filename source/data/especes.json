@@ -1,0 +1,4289 @@
+[
+ {
+  "en": "Ring-Necked Pheasant",
+  "reserves": {
+   "Hirschfelden Hunting Reserve": {
+    "classe": 1,
+    "niveau_max": 3,
+    "fabled": true,
+    "diamant": 20.29
+   },
+   "Cuatro Colinas Game Reserve": {
+    "classe": 1,
+    "niveau_max": 3,
+    "fabled": true,
+    "diamant": 20.3
+   },
+   "Rancho del Arroyo": {
+    "classe": 1,
+    "niveau_max": 3,
+    "fabled": true,
+    "diamant": 20.3
+   },
+   "New England Mountains": {
+    "classe": 1,
+    "niveau_max": 3,
+    "fabled": true,
+    "diamant": 20.3
+   },
+   "Salzwiesen Park": {
+    "classe": 1,
+    "niveau_max": 3,
+    "fabled": true,
+    "diamant": 20.3,
+    "source_niveau": "utilisateur (08/10/2026)"
+   },
+   "Askiy Ridge Hunting Preserve": {
+    "classe": 1,
+    "niveau_max": 3,
+    "fabled": true,
+    "diamant": 20.3
+   },
+   "Tòrr nan Sithean": {
+    "classe": 1,
+    "niveau_max": 3,
+    "fabled": true,
+    "diamant": 20.3,
+    "source_niveau": "utilisateur (08/10/2026)"
+   }
+  },
+  "fr": "Faisan de Colchide",
+  "pdf_2023": {
+   "argent": 9.1,
+   "or_": 15.5,
+   "diamant": 20.3,
+   "diamant_max": 21.9,
+   "poids_max_kg": 3.0
+  },
+  "classe": 1,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 1,
+  "diamant_site": 20.3,
+  "slug_site": "pheasant",
+  "info_pdf": {
+   "type": "Combiné",
+   "niveaux": "1-3",
+   "niveau_great_one": 10,
+   "poids_max": "3 kg / 3,75 kg",
+   "nom_pdf": "Faisande Colchide"
+  },
+  "niveau_great_one": 10
+ },
+ {
+  "en": "Canada Goose",
+  "reserves": {
+   "Hirschfelden Hunting Reserve": {
+    "classe": 1,
+    "niveau_max": 5,
+    "fabled": false,
+    "diamant": 8.59
+   },
+   "Yukon Valley": {
+    "classe": 1,
+    "niveau_max": 5,
+    "fabled": false,
+    "diamant": 8.59
+   },
+   "Revontuli Coast": {
+    "classe": 1,
+    "niveau_max": 5,
+    "fabled": false,
+    "diamant": 8.59
+   },
+   "Askiy Ridge Hunting Preserve": {
+    "classe": 1,
+    "niveau_max": 5,
+    "fabled": false,
+    "diamant": 8.59
+   }
+  },
+  "fr": "Bernache du Canada",
+  "pdf_2023": {
+   "argent": 4.4,
+   "or_": 6.8,
+   "diamant": 8.5,
+   "diamant_max": 9.2,
+   "poids_max_kg": 9.2
+  },
+  "classe": 1,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 1,
+  "diamant_site": 8.5,
+  "slug_site": "canadagoose",
+  "info_pdf": {
+   "type": "Poids",
+   "niveaux": "1-5",
+   "niveau_great_one": null,
+   "poids_max": "9,2 kg",
+   "nom_pdf": "Bernache du Canada"
+  }
+ },
+ {
+  "en": "European Rabbit",
+  "reserves": {
+   "Hirschfelden Hunting Reserve": {
+    "classe": 1,
+    "niveau_max": 3,
+    "fabled": false,
+    "diamant": 2.42
+   },
+   "Te Awaroa National Park": {
+    "classe": 1,
+    "niveau_max": 3,
+    "fabled": false,
+    "diamant": 2.42
+   },
+   "Salzwiesen Park": {
+    "classe": 1,
+    "niveau_max": 3,
+    "fabled": false,
+    "diamant": 2.42,
+    "source_niveau": "utilisateur (08/10/2026)"
+   }
+  },
+  "fr": "Lapin de Garenne",
+  "pdf_2023": {
+   "argent": 1.0,
+   "or_": 1.9,
+   "diamant": 2.4,
+   "diamant_max": 2.6,
+   "poids_max_kg": 2.6
+  },
+  "classe": 1,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 1,
+  "diamant_site": 2.4,
+  "slug_site": "europeanrabbit",
+  "info_pdf": {
+   "type": "Poids",
+   "niveaux": "1-3",
+   "niveau_great_one": null,
+   "poids_max": "2,6 kg",
+   "nom_pdf": "Lapin de Garenne"
+  }
+ },
+ {
+  "en": "Red Fox",
+  "reserves": {
+   "Hirschfelden Hunting Reserve": {
+    "classe": 2,
+    "niveau_max": 9,
+    "fabled": true,
+    "diamant": 14.05
+   },
+   "Yukon Valley": {
+    "classe": 2,
+    "niveau_max": 9,
+    "fabled": true,
+    "diamant": 14.05
+   },
+   "New England Mountains": {
+    "classe": 2,
+    "niveau_max": 9,
+    "fabled": true,
+    "diamant": 14.05
+   },
+   "Emerald Coast": {
+    "classe": 2,
+    "niveau_max": 9,
+    "fabled": true,
+    "diamant": 14.05
+   },
+   "Salzwiesen Park": {
+    "classe": 2,
+    "niveau_max": 9,
+    "fabled": true,
+    "diamant": 14.05,
+    "source_niveau": "utilisateur (08/10/2026)"
+   },
+   "Tòrr nan Sithean": {
+    "classe": 2,
+    "niveau_max": 9,
+    "fabled": true,
+    "diamant": 14.05,
+    "source_niveau": "utilisateur (08/10/2026)"
+   }
+  },
+  "fr": "Renard roux",
+  "pdf_2023": {
+   "argent": 4.6,
+   "or_": 10.0,
+   "diamant": 14.1,
+   "diamant_max": 15.0,
+   "poids_max_kg": 15.4
+  },
+  "classe": 2,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 2,
+  "diamant_site": 14.05,
+  "slug_site": "redfox",
+  "info_pdf": {
+   "type": "Poids",
+   "niveaux": "1-9",
+   "niveau_great_one": 10,
+   "poids_max": "15,4 kg / 19 kg",
+   "nom_pdf": "Renard Roux"
+  },
+  "niveau_great_one": 10
+ },
+ {
+  "en": "Roe Deer",
+  "reserves": {
+   "Hirschfelden Hunting Reserve": {
+    "classe": 3,
+    "niveau_max": 3,
+    "fabled": true,
+    "diamant": 81.8
+   },
+   "Cuatro Colinas Game Reserve": {
+    "classe": 3,
+    "niveau_max": 3,
+    "fabled": true,
+    "diamant": 81.8
+   },
+   "Tòrr nan Sithean": {
+    "classe": 3,
+    "niveau_max": 3,
+    "fabled": true,
+    "diamant": 81.8,
+    "source_niveau": "utilisateur (08/10/2026)"
+   }
+  },
+  "fr": "Chevreuil",
+  "pdf_2023": {
+   "argent": 41.0,
+   "or_": 64.3,
+   "diamant": 81.8,
+   "diamant_max": 95.0,
+   "poids_max_kg": 35.0
+  },
+  "classe": 3,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 3,
+  "diamant_site": 81.8,
+  "slug_site": "roedeer",
+  "info_pdf": {
+   "type": "Ramure",
+   "niveaux": "1-3",
+   "niveau_great_one": null,
+   "poids_max": "35 kg",
+   "nom_pdf": "Chevreuil"
+  },
+  "niveau_great_one": 10
+ },
+ {
+  "en": "Fallow Deer",
+  "reserves": {
+   "Hirschfelden Hunting Reserve": {
+    "classe": 4,
+    "niveau_max": 5,
+    "fabled": true,
+    "diamant": 249.99
+   },
+   "Te Awaroa National Park": {
+    "classe": 4,
+    "niveau_max": 5,
+    "fabled": true,
+    "diamant": 249.99
+   },
+   "Emerald Coast": {
+    "classe": 4,
+    "niveau_max": 5,
+    "fabled": true,
+    "diamant": 249.99
+   },
+   "Tòrr nan Sithean": {
+    "classe": 4,
+    "niveau_max": 5,
+    "fabled": true,
+    "diamant": 249.99,
+    "source_niveau": "utilisateur (08/10/2026)"
+   }
+  },
+  "fr": "Daim",
+  "pdf_2023": {
+   "argent": 67.9,
+   "or_": 172.9,
+   "diamant": 251.7,
+   "diamant_max": 275.0,
+   "poids_max_kg": 100.0
+  },
+  "classe": 4,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 4,
+  "diamant_site": 249.99,
+  "slug_site": "fallowdeer",
+  "info_pdf": {
+   "type": "Ramure",
+   "niveaux": "1-5",
+   "niveau_great_one": 10,
+   "poids_max": "100 kg / 140 kg",
+   "nom_pdf": "Daim"
+  },
+  "niveau_great_one": 10
+ },
+ {
+  "en": "Wild Boar",
+  "reserves": {
+   "Hirschfelden Hunting Reserve": {
+    "classe": 4,
+    "niveau_max": 5,
+    "fabled": true,
+    "diamant": 144.25
+   },
+   "Medved-Taiga National Park": {
+    "classe": 4,
+    "niveau_max": 5,
+    "fabled": true,
+    "diamant": 144.25
+   },
+   "Cuatro Colinas Game Reserve": {
+    "classe": 4,
+    "niveau_max": 5,
+    "fabled": true,
+    "diamant": 144.25
+   },
+   "Tòrr nan Sithean": {
+    "classe": 4,
+    "niveau_max": 5,
+    "fabled": true,
+    "diamant": 144.25,
+    "source_niveau": "utilisateur (08/10/2026)"
+   }
+  },
+  "fr": "Sanglier",
+  "pdf_2023": {
+   "argent": 37.5,
+   "or_": 98.5,
+   "diamant": 144.2,
+   "diamant_max": 160.0,
+   "poids_max_kg": 240.0
+  },
+  "classe": 4,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 5,
+  "diamant_site": 144.2,
+  "slug_site": "wildboar",
+  "info_pdf": {
+   "type": "Défenses",
+   "niveaux": "1-5",
+   "niveau_great_one": 10,
+   "poids_max": "240 kg / 261 kg",
+   "nom_pdf": "Sanglier"
+  },
+  "niveau_great_one": 10
+ },
+ {
+  "en": "Red Deer",
+  "reserves": {
+   "Hirschfelden Hunting Reserve": {
+    "classe": 6,
+    "niveau_max": 9,
+    "fabled": true,
+    "diamant": 251.07
+   },
+   "Parque Fernando": {
+    "classe": 6,
+    "niveau_max": 9,
+    "fabled": true,
+    "diamant": 251.07
+   },
+   "Cuatro Colinas Game Reserve": {
+    "classe": 6,
+    "niveau_max": 9,
+    "fabled": true,
+    "diamant": 251.07
+   },
+   "Te Awaroa National Park": {
+    "classe": 6,
+    "niveau_max": 9,
+    "fabled": true,
+    "diamant": 251.07
+   },
+   "Emerald Coast": {
+    "classe": 6,
+    "niveau_max": 9,
+    "fabled": true,
+    "diamant": 251.07
+   },
+   "Tòrr nan Sithean": {
+    "classe": 6,
+    "niveau_max": 9,
+    "fabled": true,
+    "diamant": 251.07,
+    "source_niveau": "utilisateur (08/10/2026)"
+   }
+  },
+  "fr": "Cerf élaphe",
+  "pdf_2023": {
+   "argent": 90.5,
+   "or_": 182.2,
+   "diamant": 251.0,
+   "diamant_max": 270.0,
+   "poids_max_kg": 240.0
+  },
+  "classe": 6,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 6,
+  "diamant_site": 251.07,
+  "slug_site": "reddeer",
+  "info_pdf": {
+   "type": "Ramure",
+   "niveaux": "1-9",
+   "niveau_great_one": 10,
+   "poids_max": "240 kg / 260 kg",
+   "nom_pdf": "Cerf Elaphe"
+  },
+  "niveau_great_one": 10
+ },
+ {
+  "en": "European Bison",
+  "reserves": {
+   "Hirschfelden Hunting Reserve": {
+    "classe": 9,
+    "niveau_max": 5,
+    "fabled": false,
+    "diamant": 127.62
+   }
+  },
+  "fr": "Bison d'Europe",
+  "pdf_2023": {
+   "argent": 63.2,
+   "or_": 181.6,
+   "diamant": 270.4,
+   "diamant_max": 300.0,
+   "poids_max_kg": 920.0
+  },
+  "classe": 9,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 9,
+  "diamant_site": 127.62,
+  "slug_site": "europeanbison",
+  "info_pdf": {
+   "type": "Cornes",
+   "niveaux": "1-5",
+   "niveau_great_one": null,
+   "poids_max": "920 kg",
+   "nom_pdf": "Bison d'Europe"
+  }
+ },
+ {
+  "en": "Merriam Turkey",
+  "reserves": {
+   "Layton Lake District": {
+    "classe": 1,
+    "niveau_max": 3,
+    "fabled": false,
+    "diamant": 4.62
+   },
+   "Silver Ridge Peaks": {
+    "classe": 1,
+    "niveau_max": 3,
+    "fabled": false,
+    "diamant": 4.62
+   },
+   "Te Awaroa National Park": {
+    "classe": 1,
+    "niveau_max": 3,
+    "fabled": false,
+    "diamant": 4.62
+   }
+  },
+  "fr": "Dindon de Merriam",
+  "pdf_2023": {
+   "argent": 3.3,
+   "or_": 4.0,
+   "diamant": 4.6,
+   "diamant_max": 4.8,
+   "poids_max_kg": 11.0
+  },
+  "classe": 1,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 1,
+  "diamant_site": 4.6,
+  "slug_site": "merriamturkey",
+  "info_pdf": {
+   "type": "Combiné",
+   "niveaux": "1-3",
+   "niveau_great_one": null,
+   "poids_max": "11 kg",
+   "nom_pdf": "Dindon Merriam"
+  },
+  "alias": [
+   "Turkey"
+  ]
+ },
+ {
+  "en": "White-Tailed Jackrabbit",
+  "reserves": {
+   "Layton Lake District": {
+    "classe": 1,
+    "niveau_max": 3,
+    "fabled": false,
+    "diamant": 6.33
+   }
+  },
+  "fr": "Lièvre de Townsend",
+  "pdf_2023": {
+   "argent": 2.8,
+   "or_": 4.8,
+   "diamant": 6.3,
+   "diamant_max": 6.8,
+   "poids_max_kg": 6.8
+  },
+  "classe": 1,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 1,
+  "diamant_site": 6.3,
+  "slug_site": "whitetailedjackrabbit",
+  "info_pdf": {
+   "type": "Poids",
+   "niveaux": "1-3",
+   "niveau_great_one": null,
+   "poids_max": "6,8 kg",
+   "nom_pdf": "Lièvre de Townsend"
+  }
+ },
+ {
+  "en": "Mallard",
+  "reserves": {
+   "Layton Lake District": {
+    "classe": 1,
+    "niveau_max": 3,
+    "fabled": false,
+    "diamant": 19.61
+   },
+   "Te Awaroa National Park": {
+    "classe": 1,
+    "niveau_max": 3,
+    "fabled": false,
+    "diamant": 19.61
+   },
+   "Revontuli Coast": {
+    "classe": 1,
+    "niveau_max": 3,
+    "fabled": false,
+    "diamant": 19.61
+   },
+   "New England Mountains": {
+    "classe": 1,
+    "niveau_max": 3,
+    "fabled": false,
+    "diamant": 19.61
+   },
+   "Salzwiesen Park": {
+    "classe": 1,
+    "niveau_max": 3,
+    "fabled": false,
+    "diamant": 19.61,
+    "source_niveau": "utilisateur (08/10/2026)"
+   },
+   "Askiy Ridge Hunting Preserve": {
+    "classe": 1,
+    "niveau_max": 3,
+    "fabled": false,
+    "diamant": 19.61
+   }
+  },
+  "fr": "Canard colvert",
+  "pdf_2023": {
+   "argent": 9.9,
+   "or_": 14.4,
+   "diamant": 19.6,
+   "diamant_max": 21.0,
+   "poids_max_kg": 2.1
+  },
+  "classe": 1,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 1,
+  "diamant_site": 19.6,
+  "slug_site": "mallard",
+  "info_pdf": {
+   "type": "Poids",
+   "niveaux": "1-3",
+   "niveau_great_one": null,
+   "poids_max": "2,1 kg",
+   "nom_pdf": "Colvert"
+  }
+ },
+ {
+  "en": "Coyote",
+  "reserves": {
+   "Layton Lake District": {
+    "classe": 2,
+    "niveau_max": 9,
+    "fabled": false,
+    "diamant": 56.87
+   },
+   "Rancho del Arroyo": {
+    "classe": 2,
+    "niveau_max": 9,
+    "fabled": false,
+    "diamant": 56.87
+   },
+   "New England Mountains": {
+    "classe": 2,
+    "niveau_max": 9,
+    "fabled": false,
+    "diamant": 56.87
+   }
+  },
+  "fr": "Coyote",
+  "pdf_2023": {
+   "argent": 38.3,
+   "or_": 48.9,
+   "diamant": 56.8,
+   "diamant_max": 60.0,
+   "poids_max_kg": 27.0
+  },
+  "classe": 2,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 2,
+  "diamant_site": 56.8,
+  "slug_site": "coyote",
+  "info_pdf": {
+   "type": "Poids",
+   "niveaux": "1-9",
+   "niveau_great_one": null,
+   "poids_max": "27 kg",
+   "nom_pdf": "Coyote"
+  }
+ },
+ {
+  "en": "Blacktail Deer",
+  "reserves": {
+   "Layton Lake District": {
+    "classe": 4,
+    "niveau_max": 5,
+    "fabled": false,
+    "diamant": 177.58
+   }
+  },
+  "fr": "Cerf à queue noire",
+  "pdf_2023": {
+   "argent": 76.9,
+   "or_": 134.4,
+   "diamant": 177.5,
+   "diamant_max": 230.0,
+   "poids_max_kg": 95.0
+  },
+  "classe": 4,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 4,
+  "diamant_site": 177.5,
+  "slug_site": "blacktaildeer",
+  "info_pdf": {
+   "type": "Ramure",
+   "niveaux": "1-5",
+   "niveau_great_one": null,
+   "poids_max": "95 kg",
+   "nom_pdf": "Cerf à Queue Noire"
+  }
+ },
+ {
+  "en": "Whitetail Deer",
+  "reserves": {
+   "Layton Lake District": {
+    "classe": 4,
+    "niveau_max": 3,
+    "fabled": true,
+    "diamant": 255.09
+   },
+   "Rancho del Arroyo": {
+    "classe": 4,
+    "niveau_max": 3,
+    "fabled": true,
+    "diamant": 255.09
+   },
+   "Mississippi Acres Preserve": {
+    "classe": 4,
+    "niveau_max": 3,
+    "fabled": true,
+    "diamant": 255.09
+   },
+   "Revontuli Coast": {
+    "classe": 4,
+    "niveau_max": 3,
+    "fabled": true,
+    "diamant": 255.09
+   },
+   "New England Mountains": {
+    "classe": 4,
+    "niveau_max": 3,
+    "fabled": true,
+    "diamant": 255.09
+   },
+   "Askiy Ridge Hunting Preserve": {
+    "classe": 4,
+    "niveau_max": 3,
+    "fabled": true,
+    "diamant": 255.09
+   },
+   "Intisuyu": {
+    "classe": 4,
+    "niveau_max": 3,
+    "fabled": true,
+    "diamant": 255.09,
+    "source_niveau": "utilisateur (08/10/2026)"
+   }
+  },
+  "fr": "Cerf de Virginie",
+  "pdf_2023": {
+   "argent": 112.0,
+   "or_": 193.7,
+   "diamant": 255.0,
+   "diamant_max": 275.5,
+   "poids_max_kg": 100.0
+  },
+  "classe": 4,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 4,
+  "diamant_site": 255.0,
+  "slug_site": "whitetaildeer",
+  "info_pdf": {
+   "type": "Ramure",
+   "niveaux": "1-3",
+   "niveau_great_one": 10,
+   "poids_max": "100 kg / 110 kg",
+   "nom_pdf": "Cerf de Virginie"
+  },
+  "niveau_great_one": 10
+ },
+ {
+  "en": "Black Bear",
+  "reserves": {
+   "Layton Lake District": {
+    "classe": 7,
+    "niveau_max": 9,
+    "fabled": true,
+    "diamant": 22.8
+   },
+   "Silver Ridge Peaks": {
+    "classe": 7,
+    "niveau_max": 9,
+    "fabled": true,
+    "diamant": 22.8
+   },
+   "Mississippi Acres Preserve": {
+    "classe": 7,
+    "niveau_max": 9,
+    "fabled": true,
+    "diamant": 22.8
+   },
+   "New England Mountains": {
+    "classe": 7,
+    "niveau_max": 9,
+    "fabled": true,
+    "diamant": 22.8
+   },
+   "Askiy Ridge Hunting Preserve": {
+    "classe": 7,
+    "niveau_max": 9,
+    "fabled": true,
+    "diamant": 22.8
+   }
+  },
+  "fr": "Ours noir",
+  "pdf_2023": {
+   "argent": 14.4,
+   "or_": 19.2,
+   "diamant": 22.8,
+   "diamant_max": 24.0,
+   "poids_max_kg": 290.0
+  },
+  "classe": 7,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 7,
+  "diamant_site": 22.8,
+  "slug_site": "blackbear",
+  "info_pdf": {
+   "type": "Crâne",
+   "niveaux": "1-9",
+   "niveau_great_one": 10,
+   "poids_max": "290 kg /409 kg",
+   "nom_pdf": "Ours Noir"
+  },
+  "niveau_great_one": 10
+ },
+ {
+  "en": "Moose",
+  "reserves": {
+   "Layton Lake District": {
+    "classe": 8,
+    "niveau_max": 5,
+    "fabled": true,
+    "diamant": 274.99
+   },
+   "Medved-Taiga National Park": {
+    "classe": 8,
+    "niveau_max": 5,
+    "fabled": true,
+    "diamant": 274.99
+   },
+   "Yukon Valley": {
+    "classe": 8,
+    "niveau_max": 5,
+    "fabled": true,
+    "diamant": 274.99
+   },
+   "Revontuli Coast": {
+    "classe": 8,
+    "niveau_max": 5,
+    "fabled": true,
+    "diamant": 274.99
+   },
+   "New England Mountains": {
+    "classe": 8,
+    "niveau_max": 5,
+    "fabled": true,
+    "diamant": 274.99
+   },
+   "Askiy Ridge Hunting Preserve": {
+    "classe": 8,
+    "niveau_max": 5,
+    "fabled": true,
+    "diamant": 274.99
+   }
+  },
+  "fr": "Élan",
+  "pdf_2023": {
+   "argent": 86.2,
+   "or_": 194.0,
+   "diamant": 274.9,
+   "diamant_max": 320.0,
+   "poids_max_kg": 620.0
+  },
+  "classe": 8,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 8,
+  "diamant_site": 274.9,
+  "slug_site": "moose",
+  "info_pdf": {
+   "type": "Ramure",
+   "niveaux": "1-5",
+   "niveau_great_one": 10,
+   "poids_max": "620 kg / 700 kg",
+   "nom_pdf": "Elan"
+  },
+  "niveau_great_one": 10
+ },
+ {
+  "en": "Roosevelt Elk",
+  "reserves": {
+   "Layton Lake District": {
+    "classe": 7,
+    "niveau_max": 5,
+    "fabled": false,
+    "diamant": 380.84
+   }
+  },
+  "fr": "Wapiti de Roosevelt",
+  "pdf_2023": {
+   "argent": 128.7,
+   "or_": 272.7,
+   "diamant": 380.8,
+   "diamant_max": 420.0,
+   "poids_max_kg": 500.0
+  },
+  "classe": 7,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 7,
+  "diamant_site": 380.8,
+  "slug_site": "rooseveltelk",
+  "info_pdf": {
+   "type": "Ramure",
+   "niveaux": "1-5",
+   "niveau_great_one": null,
+   "poids_max": "500 kg",
+   "nom_pdf": "Wapiti de Roosevelt"
+  }
+ },
+ {
+  "en": "Western Capercaillie",
+  "reserves": {
+   "Medved-Taiga National Park": {
+    "classe": 1,
+    "niveau_max": 3,
+    "fabled": false,
+    "diamant": 4.64
+   },
+   "Revontuli Coast": {
+    "classe": 1,
+    "niveau_max": 3,
+    "fabled": false,
+    "diamant": 4.64
+   },
+   "Tòrr nan Sithean": {
+    "classe": 1,
+    "niveau_max": 3,
+    "fabled": false,
+    "diamant": 4.64,
+    "source_niveau": "utilisateur (08/10/2026)"
+   }
+  },
+  "fr": "Grand tétras",
+  "pdf_2023": {
+   "argent": 2.2,
+   "or_": 3.6,
+   "diamant": 4.64,
+   "diamant_max": 5.0,
+   "poids_max_kg": 5.0
+  },
+  "classe": 1,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 1,
+  "diamant_site": 4.64,
+  "slug_site": "westerncapercaillie",
+  "info_pdf": {
+   "type": "Combiné",
+   "niveaux": "1-3",
+   "niveau_great_one": null,
+   "poids_max": "5 kg",
+   "nom_pdf": "Grand Tétras"
+  }
+ },
+ {
+  "en": "Siberian Musk Deer",
+  "reserves": {
+   "Medved-Taiga National Park": {
+    "classe": 2,
+    "niveau_max": 3,
+    "fabled": false,
+    "diamant": 249.0
+   }
+  },
+  "fr": "Cerf porte-musc",
+  "pdf_2023": {
+   "argent": 60.0,
+   "or_": 168.0,
+   "diamant": 249.0,
+   "diamant_max": 276.0,
+   "poids_max_kg": 17.0
+  },
+  "classe": 2,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 2,
+  "diamant_site": 249.0,
+  "slug_site": "siberianmuskdeer",
+  "info_pdf": {
+   "type": "Bois",
+   "niveaux": "1-3",
+   "niveau_great_one": null,
+   "poids_max": "17 kg",
+   "nom_pdf": "Porte-Musc"
+  }
+ },
+ {
+  "en": "Eurasian Lynx",
+  "reserves": {
+   "Medved-Taiga National Park": {
+    "classe": 3,
+    "niveau_max": 9,
+    "fabled": false,
+    "diamant": 27.68
+   },
+   "Revontuli Coast": {
+    "classe": 3,
+    "niveau_max": 9,
+    "fabled": false,
+    "diamant": 27.68,
+    "alertes": [
+     "classe '33' dans la source, corrigée en 3"
+    ]
+   }
+  },
+  "fr": "Lynx d'Eurasie",
+  "pdf_2023": {
+   "argent": 18.5,
+   "or_": 23.7,
+   "diamant": 27.6,
+   "diamant_max": 29.0,
+   "poids_max_kg": 45.0
+  },
+  "classe": 3,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 3,
+  "diamant_site": 27.6,
+  "slug_site": "eurasianlynx",
+  "info_pdf": {
+   "type": "Crâne",
+   "niveaux": "1-9",
+   "niveau_great_one": null,
+   "poids_max": "45 kg",
+   "nom_pdf": "Lynx d'Eurasie"
+  }
+ },
+ {
+  "en": "Grey Wolf",
+  "reserves": {
+   "Medved-Taiga National Park": {
+    "classe": 5,
+    "niveau_max": 9,
+    "fabled": true,
+    "diamant": 39.0
+   },
+   "Yukon Valley": {
+    "classe": 5,
+    "niveau_max": 9,
+    "fabled": true,
+    "diamant": 39.0
+   },
+   "Askiy Ridge Hunting Preserve": {
+    "classe": 6,
+    "niveau_max": 9,
+    "fabled": true,
+    "diamant": 39.0
+   }
+  },
+  "fr": "Loup gris",
+  "pdf_2023": {
+   "argent": 32.0,
+   "or_": 36.0,
+   "diamant": 39.0,
+   "diamant_max": 40.0,
+   "poids_max_kg": 80.0
+  },
+  "classe": 5,
+  "classe_varie_selon_reserve": true,
+  "classe_site": 6,
+  "diamant_site": 39.0,
+  "slug_site": "graywolf",
+  "info_pdf": {
+   "type": "Crâne",
+   "niveaux": "1-9",
+   "niveau_great_one": 10,
+   "poids_max": "80 kg / 90 kg",
+   "nom_pdf": "Loup Gris"
+  },
+  "niveau_great_one": 10
+ },
+ {
+  "en": "Reindeer",
+  "reserves": {
+   "Medved-Taiga National Park": {
+    "classe": 6,
+    "niveau_max": 5,
+    "fabled": false,
+    "diamant": 430.23
+   }
+  },
+  "fr": "Renne",
+  "pdf_2023": {
+   "argent": 134.4,
+   "or_": 311.2,
+   "diamant": 430.2,
+   "diamant_max": 470.0,
+   "poids_max_kg": 182.0
+  },
+  "classe": 6,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 6,
+  "diamant_site": 430.2,
+  "slug_site": "reindeer",
+  "info_pdf": {
+   "type": "Bois",
+   "niveaux": "1-5",
+   "niveau_great_one": null,
+   "poids_max": "182 kg",
+   "nom_pdf": "Renne d'Europe"
+  }
+ },
+ {
+  "en": "Brown Bear",
+  "reserves": {
+   "Medved-Taiga National Park": {
+    "classe": 7,
+    "niveau_max": 9,
+    "fabled": false,
+    "diamant": 27.7
+   },
+   "Revontuli Coast": {
+    "classe": 7,
+    "niveau_max": 9,
+    "fabled": false,
+    "diamant": 27.7
+   }
+  },
+  "fr": "Ours brun",
+  "pdf_2023": {
+   "argent": 18.6,
+   "or_": 23.8,
+   "diamant": 27.7,
+   "diamant_max": 30.0,
+   "poids_max_kg": 482.0
+  },
+  "classe": 7,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 7,
+  "diamant_site": 27.7,
+  "slug_site": "brownbear",
+  "info_pdf": {
+   "type": "Crâne",
+   "niveaux": "1-9",
+   "niveau_great_one": null,
+   "poids_max": "482 kg",
+   "nom_pdf": "Ours Brun"
+  }
+ },
+ {
+  "en": "Eurasian Wigeon",
+  "reserves": {
+   "Vurhonga Savanna": {
+    "classe": 1,
+    "niveau_max": 3,
+    "fabled": false,
+    "diamant": 905.0
+   },
+   "Revontuli Coast": {
+    "classe": 1,
+    "niveau_max": 3,
+    "fabled": false,
+    "diamant": 905.0
+   },
+   "Salzwiesen Park": {
+    "classe": 1,
+    "niveau_max": 3,
+    "fabled": false,
+    "diamant": 905.0,
+    "source_niveau": "utilisateur (08/10/2026)"
+   },
+   "Tòrr nan Sithean": {
+    "classe": 1,
+    "niveau_max": 3,
+    "fabled": false,
+    "diamant": 905.0
+   }
+  },
+  "fr": "Canard siffleur",
+  "pdf_2023": {
+   "argent": 590.0,
+   "or_": 770.0,
+   "diamant": 905.0,
+   "diamant_max": 950.0,
+   "poids_max_kg": 0.95
+  },
+  "classe": 1,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 1,
+  "diamant_site": 905.0,
+  "slug_site": "eurasianwigeon",
+  "info_pdf": {
+   "type": "Poids",
+   "niveaux": "1-3",
+   "niveau_great_one": null,
+   "poids_max": "920 g",
+   "nom_pdf": "Canard Siffleur"
+  }
+ },
+ {
+  "en": "Scrub Hare",
+  "reserves": {
+   "Vurhonga Savanna": {
+    "classe": 1,
+    "niveau_max": 3,
+    "fabled": false,
+    "diamant": 5.37
+   }
+  },
+  "fr": "Lièvre des buissons",
+  "pdf_2023": {
+   "argent": 2.3,
+   "or_": 4.0,
+   "diamant": 5.3,
+   "diamant_max": 5.8,
+   "poids_max_kg": 5.8
+  },
+  "classe": 1,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 1,
+  "diamant_site": 5.3,
+  "slug_site": "scrubhare",
+  "info_pdf": {
+   "type": "Poids",
+   "niveaux": "1-3",
+   "niveau_great_one": null,
+   "poids_max": "5,8 kg",
+   "nom_pdf": "Lièvre des Buissons"
+  }
+ },
+ {
+  "en": "Side-Striped Jackal",
+  "reserves": {
+   "Vurhonga Savanna": {
+    "classe": 2,
+    "niveau_max": 9,
+    "fabled": false,
+    "diamant": 29.1
+   }
+  },
+  "fr": "Chacal à flancs rayés",
+  "pdf_2023": {
+   "argent": 16.8,
+   "or_": 23.8,
+   "diamant": 29.1,
+   "diamant_max": 31.0,
+   "poids_max_kg": 14.0
+  },
+  "classe": 2,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 2,
+  "diamant_site": 29.1,
+  "slug_site": "side-stripedjackal",
+  "info_pdf": {
+   "type": "Poids",
+   "niveaux": "1-9",
+   "niveau_great_one": null,
+   "poids_max": "14 kg",
+   "nom_pdf": "Chacal à Flancs Rayés"
+  }
+ },
+ {
+  "en": "Springbok",
+  "reserves": {
+   "Vurhonga Savanna": {
+    "classe": 3,
+    "niveau_max": 5,
+    "fabled": false,
+    "diamant": 78.55
+   }
+  },
+  "fr": "Springbok",
+  "pdf_2023": {
+   "argent": 69.4,
+   "or_": 93.0,
+   "diamant": 110.7,
+   "diamant_max": 116.6,
+   "poids_max_kg": 42.0
+  },
+  "classe": 3,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 3,
+  "diamant_site": 78.55,
+  "slug_site": "springbok",
+  "info_pdf": {
+   "type": "Bois",
+   "niveaux": "1-5",
+   "niveau_great_one": null,
+   "poids_max": "42 kg",
+   "nom_pdf": "Springbok"
+  }
+ },
+ {
+  "en": "Lesser Kudu",
+  "reserves": {
+   "Vurhonga Savanna": {
+    "classe": 4,
+    "niveau_max": 5,
+    "fabled": false,
+    "diamant": 151.64
+   }
+  },
+  "fr": "Petit koudou",
+  "pdf_2023": {
+   "argent": 107.8,
+   "or_": 132.8,
+   "diamant": 151.6,
+   "diamant_max": null,
+   "poids_max_kg": 105.0
+  },
+  "classe": 4,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 4,
+  "diamant_site": 151.6,
+  "slug_site": "lesserkudu",
+  "info_pdf": {
+   "type": "Bois",
+   "niveaux": "1-5",
+   "niveau_great_one": null,
+   "poids_max": "105 kg",
+   "nom_pdf": "Petit Koudou"
+  }
+ },
+ {
+  "en": "Warthog",
+  "reserves": {
+   "Vurhonga Savanna": {
+    "classe": 4,
+    "niveau_max": 5,
+    "fabled": false,
+    "diamant": 58.18
+   }
+  },
+  "fr": "Phacochère",
+  "pdf_2023": {
+   "argent": 24.6,
+   "or_": 43.8,
+   "diamant": 58.2,
+   "diamant_max": 63.0,
+   "poids_max_kg": 150.0
+  },
+  "classe": 4,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 4,
+  "diamant_site": 58.1,
+  "slug_site": "warthog",
+  "info_pdf": {
+   "type": "Défenses",
+   "niveaux": "1-5",
+   "niveau_great_one": null,
+   "poids_max": "150 kg",
+   "nom_pdf": "Phacochère"
+  }
+ },
+ {
+  "en": "Wildebeest",
+  "reserves": {
+   "Vurhonga Savanna": {
+    "classe": 6,
+    "niveau_max": 5,
+    "fabled": false,
+    "diamant": 37.69
+   }
+  },
+  "fr": "Gnou bleu",
+  "pdf_2023": {
+   "argent": 21.6,
+   "or_": 30.8,
+   "diamant": 37.6,
+   "diamant_max": 40.0,
+   "poids_max_kg": 290.0
+  },
+  "classe": 6,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 6,
+  "diamant_site": 37.6,
+  "slug_site": "bluewildebeest",
+  "info_pdf": {
+   "type": "Cornes",
+   "niveaux": "1-5",
+   "niveau_great_one": null,
+   "poids_max": "290 kg",
+   "nom_pdf": "Gnou bleu"
+  }
+ },
+ {
+  "en": "Gemsbok",
+  "reserves": {
+   "Vurhonga Savanna": {
+    "classe": 8,
+    "niveau_max": 5,
+    "fabled": false,
+    "diamant": 337.59
+   }
+  },
+  "fr": "Gemsbok",
+  "pdf_2023": {
+   "argent": 194.8,
+   "or_": 276.4,
+   "diamant": 337.5,
+   "diamant_max": 358.0,
+   "poids_max_kg": 240.0
+  },
+  "classe": 8,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 6,
+  "diamant_site": 337.5,
+  "slug_site": "gemsbok",
+  "info_pdf": {
+   "type": "Cornes",
+   "niveaux": "1-5",
+   "niveau_great_one": null,
+   "poids_max": "240 kg",
+   "nom_pdf": "Gemsbok"
+  }
+ },
+ {
+  "en": "Lion",
+  "reserves": {
+   "Vurhonga Savanna": {
+    "classe": 9,
+    "niveau_max": 9,
+    "fabled": false,
+    "diamant": 48.5
+   }
+  },
+  "fr": "Lion",
+  "pdf_2023": {
+   "argent": 38.0,
+   "or_": 44.0,
+   "diamant": 48.5,
+   "diamant_max": 50.0,
+   "poids_max_kg": 270.0
+  },
+  "classe": 9,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 9,
+  "diamant_site": 48.5,
+  "slug_site": "lion",
+  "info_pdf": {
+   "type": "Crâne",
+   "niveaux": "1-9",
+   "niveau_great_one": null,
+   "poids_max": "270 kg",
+   "nom_pdf": "Lion"
+  }
+ },
+ {
+  "en": "Cape Buffalo",
+  "reserves": {
+   "Vurhonga Savanna": {
+    "classe": 9,
+    "niveau_max": 9,
+    "fabled": false,
+    "diamant": 151.35
+   }
+  },
+  "fr": "Buffle du Cap",
+  "pdf_2023": {
+   "argent": 73.3,
+   "or_": 117.9,
+   "diamant": 151.4,
+   "diamant_max": 162.5,
+   "poids_max_kg": 950.0
+  },
+  "classe": 9,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 9,
+  "diamant_site": 151.3,
+  "slug_site": "capebuffalo",
+  "info_pdf": {
+   "type": "Cornes",
+   "niveaux": "1-9",
+   "niveau_great_one": null,
+   "poids_max": "950 kg",
+   "nom_pdf": "Buffle du Cap"
+  }
+ },
+ {
+  "en": "Cinnamon Teal",
+  "reserves": {
+   "Parque Fernando": {
+    "classe": 1,
+    "niveau_max": 3,
+    "fabled": false,
+    "diamant": 4.6
+   },
+   "Intisuyu": {
+    "classe": 1,
+    "niveau_max": 3,
+    "fabled": false,
+    "diamant": 4.6,
+    "source_niveau": "utilisateur (08/10/2026)"
+   }
+  },
+  "fr": "Sarcelle cannelle",
+  "pdf_2023": {
+   "argent": 3.3,
+   "or_": 4.0,
+   "diamant": 4.6,
+   "diamant_max": 4.8,
+   "poids_max_kg": 0.48
+  },
+  "classe": 1,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 1,
+  "diamant_site": 4.6,
+  "slug_site": "cinnamonteal",
+  "info_pdf": {
+   "type": "Poids",
+   "niveaux": "1-3",
+   "niveau_great_one": null,
+   "poids_max": "482 g",
+   "nom_pdf": "Sarcelle Cannelle"
+  }
+ },
+ {
+  "en": "Axis Deer",
+  "reserves": {
+   "Parque Fernando": {
+    "classe": 3,
+    "niveau_max": 5,
+    "fabled": false,
+    "diamant": 217.29
+   },
+   "Emerald Coast": {
+    "classe": 3,
+    "niveau_max": 5,
+    "fabled": false,
+    "diamant": 217.29
+   }
+  },
+  "fr": "Cerf axis",
+  "pdf_2023": {
+   "argent": 72.8,
+   "or_": 155.3,
+   "diamant": 217.2,
+   "diamant_max": 250.0,
+   "poids_max_kg": 75.0
+  },
+  "classe": 3,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 3,
+  "diamant_site": 217.29,
+  "slug_site": "axisdeer",
+  "info_pdf": {
+   "type": "Bois",
+   "niveaux": "1-5",
+   "niveau_great_one": null,
+   "poids_max": "75 kg",
+   "nom_pdf": "Cerf Axis"
+  }
+ },
+ {
+  "en": "Blackbuck",
+  "reserves": {
+   "Parque Fernando": {
+    "classe": 3,
+    "niveau_max": 5,
+    "fabled": false,
+    "diamant": 132.26
+   },
+   "Sundarpatan": {
+    "classe": 3,
+    "niveau_max": 5,
+    "fabled": false,
+    "diamant": 132.2
+   }
+  },
+  "fr": "Antilope cervicapre",
+  "pdf_2023": {
+   "argent": 71.8,
+   "or_": 106.3,
+   "diamant": 132.2,
+   "diamant_max": 140.0,
+   "poids_max_kg": 51.0
+  },
+  "classe": 3,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 3,
+  "diamant_site": 132.2,
+  "slug_site": "blackbuck",
+  "info_pdf": {
+   "type": "Cornes",
+   "niveaux": "1-5",
+   "niveau_great_one": null,
+   "poids_max": "51 kg",
+   "nom_pdf": "Antilope Cervicapre"
+  }
+ },
+ {
+  "en": "Collared Peccary",
+  "reserves": {
+   "Parque Fernando": {
+    "classe": 3,
+    "niveau_max": 5,
+    "fabled": false,
+    "diamant": 144.25
+   },
+   "Rancho del Arroyo": {
+    "classe": 3,
+    "niveau_max": 5,
+    "fabled": false,
+    "diamant": 144.25
+   },
+   "Intisuyu": {
+    "classe": 3,
+    "niveau_max": 5,
+    "fabled": false,
+    "diamant": 144.25,
+    "niveau_max_avant": 4,
+    "source_niveau": "utilisateur (08/10/2026)"
+   }
+  },
+  "fr": "Pécari à collier",
+  "pdf_2023": {
+   "argent": 37.5,
+   "or_": 98.5,
+   "diamant": 144.2,
+   "diamant_max": 160.0,
+   "poids_max_kg": 31.0
+  },
+  "classe": 3,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 3,
+  "diamant_site": 144.2,
+  "slug_site": "peccary",
+  "info_pdf": {
+   "type": "Défenses",
+   "niveaux": "1-5",
+   "niveau_great_one": null,
+   "poids_max": "31 kg",
+   "nom_pdf": "Pécari à Collier"
+  }
+ },
+ {
+  "en": "Puma",
+  "reserves": {
+   "Parque Fernando": {
+    "classe": 6,
+    "niveau_max": 9,
+    "fabled": false,
+    "diamant": 39.0
+   },
+   "Intisuyu": {
+    "classe": 5,
+    "niveau_max": 9,
+    "fabled": false,
+    "diamant": 39.0,
+    "source_niveau": "utilisateur (08/10/2026)"
+   },
+   "Silver Ridge Peaks": {
+    "classe": 5,
+    "niveau_max": 9,
+    "fabled": false,
+    "diamant": 39.0
+   }
+  },
+  "fr": "Puma",
+  "pdf_2023": {
+   "argent": 32.0,
+   "or_": 36.0,
+   "diamant": 39.0,
+   "diamant_max": 40.0,
+   "poids_max_kg": 105.0
+  },
+  "classe": 6,
+  "classe_varie_selon_reserve": true,
+  "classe_site": 5,
+  "diamant_site": 39.0,
+  "slug_site": "puma",
+  "info_pdf": {
+   "type": "Crâne",
+   "niveaux": "1-9",
+   "niveau_great_one": null,
+   "poids_max": "105,kg",
+   "nom_pdf": "Puma"
+  },
+  "alias": [
+   "Mountain Lion"
+  ]
+ },
+ {
+  "en": "Mule Deer",
+  "reserves": {
+   "Parque Fernando": {
+    "classe": 6,
+    "niveau_max": 5,
+    "fabled": true,
+    "diamant": 312.17
+   },
+   "Silver Ridge Peaks": {
+    "classe": 6,
+    "niveau_max": 5,
+    "fabled": true,
+    "diamant": 312.17
+   },
+   "Rancho del Arroyo": {
+    "classe": 6,
+    "niveau_max": 5,
+    "fabled": true,
+    "diamant": 312.17
+   },
+   "Askiy Ridge Hunting Preserve": {
+    "classe": 5,
+    "niveau_max": 5,
+    "fabled": true,
+    "diamant": 312.17
+   }
+  },
+  "fr": "Cerf hémione",
+  "pdf_2023": {
+   "argent": 98.3,
+   "or_": 220.5,
+   "diamant": 312.1,
+   "diamant_max": 340.0,
+   "poids_max_kg": 210.0
+  },
+  "classe": 6,
+  "classe_varie_selon_reserve": true,
+  "classe_site": 5,
+  "diamant_site": 312.1,
+  "slug_site": "muledeer",
+  "info_pdf": {
+   "type": "Bois",
+   "niveaux": "1-9",
+   "niveau_great_one": 10,
+   "poids_max": "210 kg / 230 kg",
+   "nom_pdf": "Cerf Hémione"
+  },
+  "niveau_great_one": 10
+ },
+ {
+  "en": "Water Buffalo",
+  "reserves": {
+   "Parque Fernando": {
+    "classe": 9,
+    "niveau_max": 9,
+    "fabled": false,
+    "diamant": 167.54
+   },
+   "Sundarpatan": {
+    "classe": 9,
+    "niveau_max": 9,
+    "fabled": false,
+    "diamant": 167.54
+   }
+  },
+  "fr": "Buffle des marais",
+  "pdf_2023": {
+   "argent": 84.2,
+   "or_": 131.8,
+   "diamant": 167.5,
+   "diamant_max": 180.0,
+   "poids_max_kg": 1250.0
+  },
+  "classe": 9,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 9,
+  "diamant_site": 167.5,
+  "slug_site": "waterbuffalo",
+  "info_pdf": {
+   "type": "Cornes",
+   "niveaux": "1-9",
+   "niveau_great_one": null,
+   "poids_max": "1250 kg",
+   "nom_pdf": "Buffle des Marais"
+  }
+ },
+ {
+  "en": "Harlequin Duck",
+  "reserves": {
+   "Yukon Valley": {
+    "classe": 1,
+    "niveau_max": 3,
+    "fabled": false,
+    "diamant": 7.2
+   }
+  },
+  "fr": "Canard arlequin",
+  "pdf_2023": {
+   "argent": 5.3,
+   "or_": 6.4,
+   "diamant": 7.2,
+   "diamant_max": 7.5,
+   "poids_max_kg": 0.75
+  },
+  "classe": 1,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 1,
+  "diamant_site": 7.2,
+  "slug_site": "harlequinduck",
+  "info_pdf": {
+   "type": "Poids",
+   "niveaux": "1-3",
+   "niveau_great_one": null,
+   "poids_max": "750 g",
+   "nom_pdf": "Canard Arlequin"
+  }
+ },
+ {
+  "en": "Caribou",
+  "reserves": {
+   "Yukon Valley": {
+    "classe": 6,
+    "niveau_max": 5,
+    "fabled": false,
+    "diamant": 430.23
+   }
+  },
+  "fr": "Caribou",
+  "pdf_2023": {
+   "argent": 152.5,
+   "or_": 311.2,
+   "diamant": 430.2,
+   "diamant_max": 470.0,
+   "poids_max_kg": 190.0
+  },
+  "classe": 6,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 6,
+  "diamant_site": 430.2,
+  "slug_site": "caribou",
+  "info_pdf": {
+   "type": "Bois",
+   "niveaux": "1-5",
+   "niveau_great_one": null,
+   "poids_max": "190 kg",
+   "nom_pdf": "Caribou de Grant"
+  }
+ },
+ {
+  "en": "Grizzly Bear",
+  "reserves": {
+   "Yukon Valley": {
+    "classe": 7,
+    "niveau_max": 9,
+    "fabled": false,
+    "diamant": 66.94
+   }
+  },
+  "fr": "Grizzly",
+  "pdf_2023": {
+   "argent": 52.6,
+   "or_": 60.8,
+   "diamant": 66.9,
+   "diamant_max": 70.0,
+   "poids_max_kg": 680.0
+  },
+  "classe": 7,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 8,
+  "diamant_site": 66.9,
+  "slug_site": "grizzlybear",
+  "info_pdf": {
+   "type": "Crâne",
+   "niveaux": "1-9",
+   "niveau_great_one": null,
+   "poids_max": "680 kg",
+   "nom_pdf": "Grizzly"
+  }
+ },
+ {
+  "en": "Plains Bison",
+  "reserves": {
+   "Yukon Valley": {
+    "classe": 9,
+    "niveau_max": 5,
+    "fabled": false,
+    "diamant": 183.5
+   },
+   "Silver Ridge Peaks": {
+    "classe": 9,
+    "niveau_max": 5,
+    "fabled": false,
+    "diamant": 183.5
+   }
+  },
+  "fr": "Bison des plaines",
+  "pdf_2023": {
+   "argent": 50.7,
+   "or_": 148.1,
+   "diamant": 221.1,
+   "diamant_max": 245.5,
+   "poids_max_kg": 1200.0
+  },
+  "classe": 9,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 9,
+  "diamant_site": 183.5,
+  "slug_site": "plainsbison",
+  "info_pdf": {
+   "type": "Cornes",
+   "niveaux": "1-5",
+   "niveau_great_one": null,
+   "poids_max": "1200 kg",
+   "nom_pdf": "Bison des Plaines"
+  }
+ },
+ {
+  "en": "European Hare",
+  "reserves": {
+   "Cuatro Colinas Game Reserve": {
+    "classe": 1,
+    "niveau_max": 3,
+    "fabled": false,
+    "diamant": 6.5
+   }
+  },
+  "fr": "Lièvre d'Europe",
+  "pdf_2023": {
+   "argent": 3.0,
+   "or_": 5.0,
+   "diamant": 6.5,
+   "diamant_max": 7.0,
+   "poids_max_kg": 7.0
+  },
+  "classe": 1,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 1,
+  "diamant_site": 6.5,
+  "slug_site": "europeanhare",
+  "info_pdf": {
+   "type": "Poids",
+   "niveaux": "1-3",
+   "niveau_great_one": null,
+   "poids_max": "7 kg",
+   "nom_pdf": "Lièvre d'Europe"
+  }
+ },
+ {
+  "en": "Iberian Mouflon",
+  "reserves": {
+   "Cuatro Colinas Game Reserve": {
+    "classe": 4,
+    "niveau_max": 5,
+    "fabled": false,
+    "diamant": 179.56
+   }
+  },
+  "fr": "Mouflon ibérique",
+  "pdf_2023": {
+   "argent": 97.0,
+   "or_": 144.1,
+   "diamant": 179.5,
+   "diamant_max": 190.0,
+   "poids_max_kg": 60.0
+  },
+  "classe": 4,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 4,
+  "diamant_site": 179.5,
+  "slug_site": "iberianmouflon",
+  "info_pdf": {
+   "type": "Cornes",
+   "niveaux": "1-5",
+   "niveau_great_one": null,
+   "poids_max": "60 kg",
+   "nom_pdf": "Mouflon Ibérique"
+  }
+ },
+ {
+  "en": "Beceite Ibex",
+  "reserves": {
+   "Cuatro Colinas Game Reserve": {
+    "classe": 4,
+    "niveau_max": 5,
+    "fabled": false,
+    "diamant": 191.63
+   }
+  },
+  "fr": "Bouquetin de Beceite",
+  "pdf_2023": {
+   "argent": 78.0,
+   "or_": 142.9,
+   "diamant": 191.6,
+   "diamant_max": 201.0,
+   "poids_max_kg": 110.0
+  },
+  "classe": 4,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 4,
+  "diamant_site": 191.63,
+  "slug_site": "beceiteibex",
+  "info_pdf": {
+   "type": "Cornes",
+   "niveaux": "1-5",
+   "niveau_great_one": null,
+   "poids_max": "110 kg",
+   "nom_pdf": "Bouquetin Ibérique Beceite"
+  }
+ },
+ {
+  "en": "Gredos Ibex",
+  "reserves": {
+   "Cuatro Colinas Game Reserve": {
+    "classe": 4,
+    "niveau_max": 5,
+    "fabled": false,
+    "diamant": 100.17
+   }
+  },
+  "fr": "Bouquetin de Gredos",
+  "pdf_2023": {
+   "argent": 54.3,
+   "or_": 80.5,
+   "diamant": 100.1,
+   "diamant_max": 110.0,
+   "poids_max_kg": 102.0
+  },
+  "classe": 4,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 4,
+  "diamant_site": 100.1,
+  "slug_site": "gredosibex",
+  "info_pdf": {
+   "type": "Cornes",
+   "niveaux": "1-5",
+   "niveau_great_one": null,
+   "poids_max": "102 kg",
+   "nom_pdf": "Bouquetin Ibérique Gredos"
+  }
+ },
+ {
+  "en": "Ronda Ibex",
+  "reserves": {
+   "Cuatro Colinas Game Reserve": {
+    "classe": 4,
+    "niveau_max": 5,
+    "fabled": false,
+    "diamant": 107.98
+   }
+  },
+  "fr": "Bouquetin de Ronda",
+  "pdf_2023": {
+   "argent": 69.2,
+   "or_": 91.4,
+   "diamant": 107.9,
+   "diamant_max": 110.0,
+   "poids_max_kg": 70.0
+  },
+  "classe": 4,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 4,
+  "diamant_site": 107.9,
+  "slug_site": "rondaibex",
+  "info_pdf": {
+   "type": "Cornes",
+   "niveaux": "1-5",
+   "niveau_great_one": null,
+   "poids_max": "70 kg",
+   "nom_pdf": "Bouquetin Ibérique Ronda"
+  }
+ },
+ {
+  "en": "Southeastern Spanish Ibex",
+  "reserves": {
+   "Cuatro Colinas Game Reserve": {
+    "classe": 4,
+    "niveau_max": 5,
+    "fabled": false,
+    "diamant": 89.68
+   }
+  },
+  "fr": "Bouquetin espagnol du Sud-Est",
+  "pdf_2023": {
+   "argent": 49.7,
+   "or_": 72.5,
+   "diamant": 89.6,
+   "diamant_max": 95.0,
+   "poids_max_kg": 87.5
+  },
+  "classe": 4,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 4,
+  "diamant_site": 89.6,
+  "slug_site": "southeasternibex",
+  "info_pdf": {
+   "type": "Cornes",
+   "niveaux": "1-5",
+   "niveau_great_one": null,
+   "poids_max": "90 kg",
+   "nom_pdf": "Bouquetin Ibérique du sud-est"
+  }
+ },
+ {
+  "en": "Iberian Wolf",
+  "reserves": {
+   "Cuatro Colinas Game Reserve": {
+    "classe": 5,
+    "niveau_max": 9,
+    "fabled": false,
+    "diamant": 39.0
+   }
+  },
+  "fr": "Loup ibérique",
+  "pdf_2023": {
+   "argent": 32.0,
+   "or_": 36.0,
+   "diamant": 39.0,
+   "diamant_max": 40.0,
+   "poids_max_kg": 50.0
+  },
+  "classe": 5,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 6,
+  "diamant_site": 39.0,
+  "slug_site": "iberianwolf",
+  "info_pdf": {
+   "type": "Crâne",
+   "niveaux": "1-9",
+   "niveau_great_one": null,
+   "poids_max": "50 kg",
+   "nom_pdf": "Loup Ibérique"
+  }
+ },
+ {
+  "en": "Bighorn Sheep",
+  "reserves": {
+   "Silver Ridge Peaks": {
+    "classe": 4,
+    "niveau_max": 5,
+    "fabled": false,
+    "diamant": 196.64
+   },
+   "Rancho del Arroyo": {
+    "classe": 4,
+    "niveau_max": 5,
+    "fabled": false,
+    "diamant": 196.64
+   },
+   "Askiy Ridge Hunting Preserve": {
+    "classe": 5,
+    "niveau_max": 5,
+    "fabled": false,
+    "diamant": 196.64
+   }
+  },
+  "fr": "Mouflon canadien",
+  "pdf_2023": {
+   "argent": 90.3,
+   "or_": 132.7,
+   "diamant": 164.6,
+   "diamant_max": 180.0,
+   "poids_max_kg": 160.0
+  },
+  "classe": 4,
+  "classe_varie_selon_reserve": true,
+  "classe_site": 5,
+  "diamant_site": 196.93,
+  "slug_site": "bighornsheep",
+  "info_pdf": {
+   "type": "Cornes",
+   "niveaux": "1-5",
+   "niveau_great_one": null,
+   "poids_max": "143 kg",
+   "nom_pdf": "Mouflon des Montagnes Rocheuses"
+  }
+ },
+ {
+  "en": "Mountain Goat",
+  "reserves": {
+   "Silver Ridge Peaks": {
+    "classe": 4,
+    "niveau_max": 5,
+    "fabled": false,
+    "diamant": 107.67
+   },
+   "Askiy Ridge Hunting Preserve": {
+    "classe": 4,
+    "niveau_max": 5,
+    "fabled": false,
+    "diamant": 107.67
+   }
+  },
+  "fr": "Chèvre des Rocheuses",
+  "pdf_2023": {
+   "argent": 52.7,
+   "or_": 84.1,
+   "diamant": 107.6,
+   "diamant_max": 115.0,
+   "poids_max_kg": 145.0
+  },
+  "classe": 4,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 4,
+  "diamant_site": 107.6,
+  "slug_site": "mountaingoat",
+  "info_pdf": {
+   "type": "Cornes",
+   "niveaux": "1-5",
+   "niveau_great_one": null,
+   "poids_max": "145 kg",
+   "nom_pdf": "Chèvre des Rocheuses"
+  }
+ },
+ {
+  "en": "Pronghorn",
+  "reserves": {
+   "Silver Ridge Peaks": {
+    "classe": 3,
+    "niveau_max": 5,
+    "fabled": false,
+    "diamant": 108.0
+   },
+   "Rancho del Arroyo": {
+    "classe": 4,
+    "niveau_max": 5,
+    "fabled": false,
+    "diamant": 98.02
+   },
+   "Askiy Ridge Hunting Preserve": {
+    "classe": 3,
+    "niveau_max": 5,
+    "fabled": false,
+    "diamant": 108.0
+   }
+  },
+  "fr": "Antilope d'Amérique",
+  "pdf_2023": {
+   "argent": 46.0,
+   "or_": 75.7,
+   "diamant": 98.0,
+   "diamant_max": 105.0,
+   "poids_max_kg": 65.0
+  },
+  "classe": 3,
+  "classe_varie_selon_reserve": true,
+  "classe_site": 3,
+  "diamant_site": 108.0,
+  "slug_site": "pronghorn",
+  "info_pdf": {
+   "type": "Cornes",
+   "niveaux": "1-5",
+   "niveau_great_one": null,
+   "poids_max": "65 kg",
+   "nom_pdf": "Antilope d'Amérique"
+  }
+ },
+ {
+  "en": "Rocky Mountain Elk",
+  "reserves": {
+   "Silver Ridge Peaks": {
+    "classe": 8,
+    "niveau_max": 5,
+    "fabled": false,
+    "diamant": 481.41
+   }
+  },
+  "fr": "Wapiti des Rocheuses",
+  "pdf_2023": {
+   "argent": 177.8,
+   "or_": 351.3,
+   "diamant": 481.4,
+   "diamant_max": 520.0,
+   "poids_max_kg": 480.0
+  },
+  "classe": 8,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 7,
+  "diamant_site": 481.4,
+  "slug_site": "rockymountainelk",
+  "info_pdf": {
+   "type": "Ramure",
+   "niveaux": "1-5",
+   "niveau_great_one": null,
+   "poids_max": "480 kg",
+   "nom_pdf": "Wapiti des Rocheuses"
+  }
+ },
+ {
+  "en": "Chamois",
+  "reserves": {
+   "Te Awaroa National Park": {
+    "classe": 2,
+    "niveau_max": 5,
+    "fabled": false,
+    "diamant": 58.0
+   }
+  },
+  "fr": "Chamois",
+  "pdf_2023": {
+   "argent": 30.8,
+   "or_": 46.3,
+   "diamant": 58.0,
+   "diamant_max": 65.0,
+   "poids_max_kg": 65.0
+  },
+  "classe": 2,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 3,
+  "diamant_site": 58.0,
+  "slug_site": "chamois",
+  "info_pdf": {
+   "type": "Cornes",
+   "niveaux": "2-5",
+   "niveau_great_one": null,
+   "poids_max": "65 kg",
+   "nom_pdf": "Chamois"
+  }
+ },
+ {
+  "en": "Feral Goat",
+  "reserves": {
+   "Te Awaroa National Park": {
+    "classe": 3,
+    "niveau_max": 5,
+    "fabled": false,
+    "diamant": 208.71
+   },
+   "Emerald Coast": {
+    "classe": 3,
+    "niveau_max": 5,
+    "fabled": false,
+    "diamant": 208.7
+   },
+   "Tòrr nan Sithean": {
+    "classe": 3,
+    "niveau_max": 5,
+    "fabled": false,
+    "diamant": 208.71,
+    "source_niveau": "utilisateur (08/10/2026)"
+   }
+  },
+  "fr": "Chèvre marronne",
+  "pdf_2023": {
+   "argent": 89.4,
+   "or_": 157.6,
+   "diamant": 208.7,
+   "diamant_max": 225.0,
+   "poids_max_kg": 50.0
+  },
+  "classe": 3,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 3,
+  "diamant_site": 208.7,
+  "slug_site": "feralgoat",
+  "info_pdf": {
+   "type": "Cornes",
+   "niveaux": "1-5",
+   "niveau_great_one": null,
+   "poids_max": "50 kg",
+   "nom_pdf": "Chèvre Marronne"
+  },
+  "alias_fr": [
+   "Chèvre sauvage"
+  ]
+ },
+ {
+  "en": "Feral Pig",
+  "reserves": {
+   "Te Awaroa National Park": {
+    "classe": 4,
+    "niveau_max": 5,
+    "fabled": false,
+    "diamant": 144.25
+   },
+   "Emerald Coast": {
+    "classe": 4,
+    "niveau_max": 5,
+    "fabled": false,
+    "diamant": 144.25
+   },
+   "Mississippi Acres Preserve": {
+    "classe": 4,
+    "niveau_max": 5,
+    "fabled": false,
+    "diamant": 144.25
+   }
+  },
+  "classe": 4,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 5,
+  "diamant_site": 144.2,
+  "slug_site": "feralpig",
+  "alias": [
+   "Wild Hog"
+  ],
+  "fr": "Porc sauvage"
+ },
+ {
+  "en": "Sika Deer",
+  "reserves": {
+   "Te Awaroa National Park": {
+    "classe": 4,
+    "niveau_max": 5,
+    "fabled": false,
+    "diamant": 198.74
+   },
+   "Tòrr nan Sithean": {
+    "classe": 4,
+    "niveau_max": 5,
+    "fabled": false,
+    "diamant": 198.74,
+    "source_niveau": "utilisateur (08/10/2026)"
+   }
+  },
+  "fr": "Cerf sika",
+  "pdf_2023": {
+   "argent": 53.2,
+   "or_": 136.4,
+   "diamant": 198.7,
+   "diamant_max": 220.0,
+   "poids_max_kg": 75.0
+  },
+  "classe": 4,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 4,
+  "diamant_site": 198.7,
+  "slug_site": "sikadeer",
+  "info_pdf": {
+   "type": "Ramune",
+   "niveaux": "1-5",
+   "niveau_great_one": null,
+   "poids_max": "75 kg",
+   "nom_pdf": "Cerf Sika"
+  }
+ },
+ {
+  "en": "Antelope Jackrabbit",
+  "reserves": {
+   "Rancho del Arroyo": {
+    "classe": 1,
+    "niveau_max": 3,
+    "fabled": false,
+    "diamant": 6.33
+   }
+  },
+  "fr": "Lièvre antilope",
+  "pdf_2023": {
+   "argent": 2.8,
+   "or_": 4.8,
+   "diamant": 6.3,
+   "diamant_max": 6.8,
+   "poids_max_kg": 4.7
+  },
+  "classe": 1,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 1,
+  "diamant_site": 6.33,
+  "slug_site": "antelopejackrabbit",
+  "info_pdf": {
+   "type": "Poids",
+   "niveaux": "1-3",
+   "niveau_great_one": null,
+   "poids_max": "4,7 kg",
+   "nom_pdf": "Lièvre Antilope"
+  }
+ },
+ {
+  "en": "Rio Grande Turkey",
+  "reserves": {
+   "Rancho del Arroyo": {
+    "classe": 1,
+    "niveau_max": 3,
+    "fabled": false,
+    "diamant": 4.62
+   }
+  },
+  "fr": "Dindon du Rio Grande",
+  "pdf_2023": {
+   "argent": 3.3,
+   "or_": 4.0,
+   "diamant": 4.6,
+   "diamant_max": 4.8,
+   "poids_max_kg": 11.0
+  },
+  "classe": 1,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 1,
+  "diamant_site": 4.6,
+  "slug_site": "riograndeturkey",
+  "info_pdf": {
+   "type": "Combiné",
+   "niveaux": "1-3",
+   "niveau_great_one": null,
+   "poids_max": "11 kg",
+   "nom_pdf": "Dindon Du Rio Grande"
+  }
+ },
+ {
+  "en": "Mexican Bobcat",
+  "reserves": {
+   "Rancho del Arroyo": {
+    "classe": 3,
+    "niveau_max": 9,
+    "fabled": false,
+    "diamant": 27.68
+   }
+  },
+  "classe": 3,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 2,
+  "diamant_site": 27.6,
+  "slug_site": "mexicanbobcat",
+  "info_pdf": {
+   "type": "Crâne",
+   "niveaux": "1-9",
+   "niveau_great_one": null,
+   "poids_max": "18 kg",
+   "nom_pdf": "Lynx Roux Mexicain"
+  },
+  "fr": "Lynx roux mexicain"
+ },
+ {
+  "en": "Green-Winged Teal",
+  "reserves": {
+   "Mississippi Acres Preserve": {
+    "classe": 1,
+    "niveau_max": 3,
+    "fabled": false,
+    "diamant": 480.0
+   },
+   "New England Mountains": {
+    "classe": 1,
+    "niveau_max": 3,
+    "fabled": false,
+    "diamant": 480.0
+   }
+  },
+  "fr": "Sarcelle à ailes vertes",
+  "pdf_2023": {
+   "argent": 340.0,
+   "or_": 420.0,
+   "diamant": 480.0,
+   "diamant_max": 500.0,
+   "poids_max_kg": 3.3
+  },
+  "classe": 1,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 1,
+  "diamant_site": 480.0,
+  "slug_site": "greenwingedteal",
+  "info_pdf": {
+   "type": "Poids",
+   "niveaux": "1-3",
+   "niveau_great_one": null,
+   "poids_max": "500 g",
+   "nom_pdf": "Sarcelle à ailes vertes"
+  }
+ },
+ {
+  "en": "Bobwhite Quail",
+  "reserves": {
+   "Mississippi Acres Preserve": {
+    "classe": 1,
+    "niveau_max": 3,
+    "fabled": false,
+    "diamant": 238.0
+   },
+   "New England Mountains": {
+    "classe": 1,
+    "niveau_max": 3,
+    "fabled": false,
+    "diamant": 238.0
+   }
+  },
+  "fr": "Colin de Virginie",
+  "pdf_2023": {
+   "argent": 159.0,
+   "or_": 217.0,
+   "diamant": 260.5,
+   "diamant_max": 290.0,
+   "poids_max_kg": 0.25
+  },
+  "classe": 1,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 1,
+  "diamant_site": 238.0,
+  "slug_site": "bobwhitequail",
+  "info_pdf": {
+   "type": "Combiné",
+   "niveaux": "1-3",
+   "niveau_great_one": null,
+   "poids_max": "250 g",
+   "nom_pdf": "Colin de virginie"
+  }
+ },
+ {
+  "en": "Eastern Cottontail Rabbit",
+  "reserves": {
+   "Mississippi Acres Preserve": {
+    "classe": 1,
+    "niveau_max": 3,
+    "fabled": false,
+    "diamant": 1.97
+   },
+   "New England Mountains": {
+    "classe": 1,
+    "niveau_max": 3,
+    "fabled": false,
+    "diamant": 1.97
+   }
+  },
+  "fr": "Lapin d'Amérique",
+  "pdf_2023": {
+   "argent": 1.0,
+   "or_": 1.5,
+   "diamant": 1.9,
+   "diamant_max": 2.1,
+   "poids_max_kg": 2.1
+  },
+  "classe": 1,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 1,
+  "diamant_site": 1.9,
+  "slug_site": "easterncottontailrabbit",
+  "info_pdf": {
+   "type": "Poids",
+   "niveaux": "1-3",
+   "niveau_great_one": null,
+   "poids_max": "2,1 kg",
+   "nom_pdf": "Lapin d'amérique"
+  }
+ },
+ {
+  "en": "Eastern Wild Turkey",
+  "reserves": {
+   "Mississippi Acres Preserve": {
+    "classe": 1,
+    "niveau_max": 3,
+    "fabled": false,
+    "diamant": 4.62
+   },
+   "New England Mountains": {
+    "classe": 1,
+    "niveau_max": 3,
+    "fabled": false,
+    "diamant": 4.62
+   }
+  },
+  "fr": "Dindon sauvage de l'Est",
+  "pdf_2023": {
+   "argent": 3.3,
+   "or_": 4.0,
+   "diamant": 4.6,
+   "diamant_max": 4.8,
+   "poids_max_kg": 11.0
+  },
+  "classe": 1,
+  "classe_varie_selon_reserve": false,
+  "info_pdf": {
+   "type": "Combiné",
+   "niveaux": "1-3",
+   "niveau_great_one": null,
+   "poids_max": "11 kg",
+   "nom_pdf": "Dindon sauvage de l'est"
+  }
+ },
+ {
+  "en": "Common Raccoon",
+  "reserves": {
+   "Mississippi Acres Preserve": {
+    "classe": 2,
+    "niveau_max": 5,
+    "fabled": false,
+    "diamant": 12.0
+   },
+   "New England Mountains": {
+    "classe": 2,
+    "niveau_max": 5,
+    "fabled": false,
+    "diamant": 12.0
+   },
+   "Salzwiesen Park": {
+    "classe": 2,
+    "niveau_max": 9,
+    "fabled": false,
+    "diamant": 12.0,
+    "niveau_max_avant": 5,
+    "source_niveau": "utilisateur (08/10/2026)"
+   }
+  },
+  "fr": "Raton laveur commun",
+  "pdf_2023": {
+   "argent": 5.0,
+   "or_": 9.0,
+   "diamant": 12.0,
+   "diamant_max": 13.0,
+   "poids_max_kg": 13.0
+  },
+  "classe": 2,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 2,
+  "diamant_site": 12.0,
+  "slug_site": "commonraccoon",
+  "info_pdf": {
+   "type": "Poids",
+   "niveaux": "1-5",
+   "niveau_great_one": null,
+   "poids_max": "13 kg",
+   "nom_pdf": "Raton Laveur Commun"
+  },
+  "alias_fr": [
+   "Raton laveur"
+  ]
+ },
+ {
+  "en": "Grey Fox",
+  "reserves": {
+   "Mississippi Acres Preserve": {
+    "classe": 2,
+    "niveau_max": 9,
+    "fabled": false,
+    "diamant": 6.43
+   },
+   "New England Mountains": {
+    "classe": 2,
+    "niveau_max": 9,
+    "fabled": false,
+    "diamant": 6.43
+   }
+  },
+  "fr": "Renard gris",
+  "pdf_2023": {
+   "argent": 3.8,
+   "or_": 5.3,
+   "diamant": 6.4,
+   "diamant_max": 6.8,
+   "poids_max_kg": 6.8
+  },
+  "classe": 2,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 2,
+  "diamant_site": 6.4,
+  "slug_site": "grayfox",
+  "info_pdf": {
+   "type": "Poids",
+   "niveaux": "1-9",
+   "niveau_great_one": null,
+   "poids_max": "6,8 kg",
+   "nom_pdf": "Renard Gris"
+  }
+ },
+ {
+  "en": "American Alligator",
+  "reserves": {
+   "Mississippi Acres Preserve": {
+    "classe": 6,
+    "niveau_max": 9,
+    "fabled": false,
+    "diamant": 492.0
+   }
+  },
+  "fr": "Alligator d'Amérique",
+  "pdf_2023": {
+   "argent": 226.0,
+   "or_": 378.0,
+   "diamant": 492.0,
+   "diamant_max": 530.0,
+   "poids_max_kg": 506.0
+  },
+  "classe": 6,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 7,
+  "diamant_site": 492.0,
+  "slug_site": "americanalligator",
+  "info_pdf": {
+   "type": "Longueur",
+   "niveaux": "2-9",
+   "niveau_great_one": null,
+   "poids_max": "530 kg",
+   "nom_pdf": "Alligator d'Amérique"
+  }
+ },
+ {
+  "en": "Hazel Grouse",
+  "reserves": {
+   "Revontuli Coast": {
+    "classe": 1,
+    "niveau_max": 3,
+    "fabled": false,
+    "diamant": 435.0
+   }
+  },
+  "fr": "Gélinotte des bois",
+  "pdf_2023": {
+   "argent": 330.0,
+   "or_": 390.0,
+   "diamant": 435.0,
+   "diamant_max": 450.0,
+   "poids_max_kg": 0.45
+  },
+  "classe": 1,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 1,
+  "diamant_site": 435.0,
+  "slug_site": "hazelgrouse",
+  "info_pdf": {
+   "type": "Poids",
+   "niveaux": "1-3",
+   "niveau_great_one": null,
+   "poids_max": "450 g",
+   "nom_pdf": "Gélinotte des Bois"
+  }
+ },
+ {
+  "en": "Black Grouse",
+  "reserves": {
+   "Revontuli Coast": {
+    "classe": 1,
+    "niveau_max": 3,
+    "fabled": false,
+    "diamant": 120.0
+   },
+   "Salzwiesen Park": {
+    "classe": 1,
+    "niveau_max": 3,
+    "fabled": false,
+    "diamant": 120.0,
+    "source_niveau": "utilisateur (08/10/2026)"
+   },
+   "Tòrr nan Sithean": {
+    "classe": 1,
+    "niveau_max": 3,
+    "fabled": false,
+    "diamant": 120.0,
+    "source_niveau": "utilisateur (08/10/2026)"
+   }
+  },
+  "fr": "Tétras lyre",
+  "pdf_2023": {
+   "argent": 85.0,
+   "or_": 105.0,
+   "diamant": 120.0,
+   "diamant_max": 125.0,
+   "poids_max_kg": 1.25
+  },
+  "classe": 1,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 1,
+  "diamant_site": 120.0,
+  "slug_site": "blackgrouse",
+  "info_pdf": {
+   "type": "Combiné",
+   "niveaux": "1-3",
+   "niveau_great_one": null,
+   "poids_max": "1250 g",
+   "nom_pdf": "Tétras Lyre"
+  }
+ },
+ {
+  "en": "Willow Ptarmigan",
+  "reserves": {
+   "Revontuli Coast": {
+    "classe": 1,
+    "niveau_max": 3,
+    "fabled": false,
+    "diamant": 772.0
+   }
+  },
+  "fr": "Lagopède des saules",
+  "pdf_2023": {
+   "argent": 506.0,
+   "or_": 658.0,
+   "diamant": 772.0,
+   "diamant_max": 810.0,
+   "poids_max_kg": 0.81
+  },
+  "classe": 1,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 1,
+  "diamant_site": 772.0,
+  "slug_site": "willowptarmigan",
+  "info_pdf": {
+   "type": "Poids",
+   "niveaux": "1-3",
+   "niveau_great_one": null,
+   "poids_max": "800 g",
+   "nom_pdf": "Lagopède des Saules"
+  }
+ },
+ {
+  "en": "Rock Ptarmigan",
+  "reserves": {
+   "Revontuli Coast": {
+    "classe": 1,
+    "niveau_max": 3,
+    "fabled": false,
+    "diamant": 709.0
+   }
+  },
+  "fr": "Lagopède alpin",
+  "pdf_2023": {
+   "argent": 492.0,
+   "or_": 616.0,
+   "diamant": 709.0,
+   "diamant_max": 750.0,
+   "poids_max_kg": 0.75
+  },
+  "classe": 1,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 1,
+  "diamant_site": 709.0,
+  "slug_site": "rockptarmigan",
+  "info_pdf": {
+   "type": "Poids",
+   "niveaux": "1-3",
+   "niveau_great_one": null,
+   "poids_max": "750 g",
+   "nom_pdf": "Lagopède Alpin"
+  }
+ },
+ {
+  "en": "Eurasian Teal",
+  "reserves": {
+   "Revontuli Coast": {
+    "classe": 1,
+    "niveau_max": 3,
+    "fabled": false,
+    "diamant": 354.0
+   },
+   "Salzwiesen Park": {
+    "classe": 1,
+    "niveau_max": 3,
+    "fabled": false,
+    "diamant": 354.0,
+    "source_niveau": "utilisateur (08/10/2026)"
+   }
+  },
+  "fr": "Sarcelle d'hiver",
+  "pdf_2023": {
+   "argent": 312.0,
+   "or_": 336.0,
+   "diamant": 354.0,
+   "diamant_max": 360.0,
+   "poids_max_kg": 0.4
+  },
+  "classe": 1,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 1,
+  "diamant_site": 354.0,
+  "slug_site": "eurasianteal",
+  "info_pdf": {
+   "type": "Poids",
+   "niveaux": "1-3",
+   "niveau_great_one": null,
+   "poids_max": "400 g",
+   "nom_pdf": "Sarcelle d'hiver"
+  }
+ },
+ {
+  "en": "Tufted Duck",
+  "reserves": {
+   "Revontuli Coast": {
+    "classe": 1,
+    "niveau_max": 3,
+    "fabled": false,
+    "diamant": 963.0
+   },
+   "Salzwiesen Park": {
+    "classe": 1,
+    "niveau_max": 3,
+    "fabled": false,
+    "diamant": 963.0,
+    "source_niveau": "utilisateur (08/10/2026)"
+   }
+  },
+  "fr": "Fuligule morillon",
+  "pdf_2023": {
+   "argent": 704.0,
+   "or_": 852.0,
+   "diamant": 963.0,
+   "diamant_max": null,
+   "poids_max_kg": 1.0
+  },
+  "classe": 1,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 1,
+  "diamant_site": 963.0,
+  "slug_site": "tuftedduck",
+  "info_pdf": {
+   "type": "Poids",
+   "niveaux": "1-3",
+   "niveau_great_one": null,
+   "poids_max": "1000 g",
+   "nom_pdf": "Fuligule Morillon"
+  }
+ },
+ {
+  "en": "Greylag Goose",
+  "reserves": {
+   "Revontuli Coast": {
+    "classe": 1,
+    "niveau_max": 5,
+    "fabled": false,
+    "diamant": 3.85
+   },
+   "Sundarpatan": {
+    "classe": 1,
+    "niveau_max": 5,
+    "fabled": false,
+    "diamant": 3.85
+   },
+   "Salzwiesen Park": {
+    "classe": 1,
+    "niveau_max": 3,
+    "fabled": false,
+    "diamant": 3.85,
+    "niveau_max_avant": 5,
+    "source_niveau": "utilisateur (08/10/2026)"
+   }
+  },
+  "fr": "Oie cendrée",
+  "pdf_2023": {
+   "argent": 2.8,
+   "or_": 3.4,
+   "diamant": 3.85,
+   "diamant_max": 4.0,
+   "poids_max_kg": 4.0
+  },
+  "classe": 1,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 1,
+  "diamant_site": 3.85,
+  "slug_site": "greylaggoose",
+  "info_pdf": {
+   "type": "Poids",
+   "niveaux": "1-5",
+   "niveau_great_one": null,
+   "poids_max": "4 kg",
+   "nom_pdf": "Oie cendrée"
+  }
+ },
+ {
+  "en": "Tundra Bean Goose",
+  "reserves": {
+   "Revontuli Coast": {
+    "classe": 1,
+    "niveau_max": 5,
+    "fabled": false,
+    "diamant": 3.16
+   },
+   "Salzwiesen Park": {
+    "classe": 1,
+    "niveau_max": 3,
+    "fabled": false,
+    "diamant": 3.16,
+    "niveau_max_avant": 5,
+    "source_niveau": "utilisateur (08/10/2026)"
+   }
+  },
+  "fr": "Oie de la toundra",
+  "pdf_2023": {
+   "argent": 2.18,
+   "or_": 2.74,
+   "diamant": 3.16,
+   "diamant_max": 3.5,
+   "poids_max_kg": 3.5
+  },
+  "classe": 1,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 1,
+  "diamant_site": 3.16,
+  "slug_site": "tundrabeangoose",
+  "info_pdf": {
+   "type": "Poids",
+   "niveaux": "1-5",
+   "niveau_great_one": null,
+   "poids_max": "3,5 kg",
+   "nom_pdf": "Oie de la Toundra"
+  },
+  "alias_fr": [
+   "Oie des moissons"
+  ]
+ },
+ {
+  "en": "Goldeneye",
+  "reserves": {
+   "Revontuli Coast": {
+    "classe": 1,
+    "niveau_max": 3,
+    "fabled": false,
+    "diamant": 1230.0
+   },
+   "New England Mountains": {
+    "classe": 1,
+    "niveau_max": 3,
+    "fabled": false,
+    "diamant": 1230.0
+   },
+   "Salzwiesen Park": {
+    "classe": 1,
+    "niveau_max": 3,
+    "fabled": false,
+    "diamant": 1230.0,
+    "source_niveau": "utilisateur (08/10/2026)"
+   }
+  },
+  "fr": "Garrot à œil d'or",
+  "pdf_2023": {
+   "argent": 500.0,
+   "or_": 900.0,
+   "diamant": 1200.0,
+   "diamant_max": 1300.0,
+   "poids_max_kg": 1.3
+  },
+  "classe": 1,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 1,
+  "diamant_site": 1230.0,
+  "slug_site": "goldeneye",
+  "info_pdf": {
+   "type": "Poids",
+   "niveaux": "1-3",
+   "niveau_great_one": null,
+   "poids_max": "1300 g",
+   "nom_pdf": "Garrot à Oeil d'Or"
+  }
+ },
+ {
+  "en": "Mountain Hare",
+  "reserves": {
+   "Revontuli Coast": {
+    "classe": 1,
+    "niveau_max": 3,
+    "fabled": false,
+    "diamant": 5.6
+   },
+   "Tòrr nan Sithean": {
+    "classe": 1,
+    "niveau_max": 3,
+    "fabled": false,
+    "diamant": 5.6,
+    "source_niveau": "utilisateur (08/10/2026)"
+   }
+  },
+  "fr": "Lièvre variable",
+  "pdf_2023": {
+   "argent": 2.8,
+   "or_": 4.4,
+   "diamant": 5.6,
+   "diamant_max": 6.0,
+   "poids_max_kg": 6.0
+  },
+  "classe": 1,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 1,
+  "diamant_site": 5.6,
+  "slug_site": "mountainhare",
+  "info_pdf": {
+   "type": "Poids",
+   "niveaux": "1-3",
+   "niveau_great_one": null,
+   "poids_max": "6 kg",
+   "nom_pdf": "Lièvre Variable"
+  }
+ },
+ {
+  "en": "Raccoon Dog",
+  "reserves": {
+   "Revontuli Coast": {
+    "classe": 2,
+    "niveau_max": 9,
+    "fabled": false,
+    "diamant": 9.29
+   },
+   "Salzwiesen Park": {
+    "classe": 2,
+    "niveau_max": 9,
+    "fabled": false,
+    "diamant": 9.29,
+    "source_niveau": "utilisateur (08/10/2026)"
+   }
+  },
+  "fr": "Chien viverrin",
+  "pdf_2023": {
+   "argent": 4.4,
+   "or_": 7.2,
+   "diamant": 9.29,
+   "diamant_max": 10.0,
+   "poids_max_kg": 10.0
+  },
+  "classe": 2,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 2,
+  "diamant_site": 9.29,
+  "slug_site": "raccoondog",
+  "info_pdf": {
+   "type": "Poids",
+   "niveaux": "1-9",
+   "niveau_great_one": null,
+   "poids_max": "10 kg",
+   "nom_pdf": "Chien Viverrin"
+  }
+ },
+ {
+  "en": "Bobcat",
+  "reserves": {
+   "New England Mountains": {
+    "classe": 3,
+    "niveau_max": 9,
+    "fabled": false,
+    "diamant": 27.68
+   }
+  },
+  "fr": "Lynx roux",
+  "pdf_2023": {
+   "argent": 18.5,
+   "or_": 23.7,
+   "diamant": 27.6,
+   "diamant_max": 29.0,
+   "poids_max_kg": 45.0
+  },
+  "classe": 3,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 2,
+  "diamant_site": 27.6,
+  "slug_site": "bobcat",
+  "info_pdf": {
+   "type": "Crâne",
+   "niveaux": "1-9",
+   "niveau_great_one": null,
+   "poids_max": "18 kg",
+   "nom_pdf": "Lynx Roux"
+  }
+ },
+ {
+  "en": "Magpie Goose",
+  "reserves": {
+   "Emerald Coast": {
+    "classe": 1,
+    "niveau_max": 5,
+    "fabled": false,
+    "diamant": 3.85
+   }
+  },
+  "fr": "Canaroie semipalmée",
+  "pdf_2023": {
+   "argent": 2.8,
+   "or_": 3.4,
+   "diamant": 3.85,
+   "diamant_max": 4.0,
+   "poids_max_kg": 4.0
+  },
+  "classe": 1,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 1,
+  "diamant_site": 3.02,
+  "slug_site": "magpiegoose",
+  "info_pdf": {
+   "type": "Combiné",
+   "niveaux": "1-5",
+   "niveau_great_one": null,
+   "poids_max": "3 kg",
+   "nom_pdf": "Canaroie Semipalmée"
+  }
+ },
+ {
+  "en": "Stubble Quail",
+  "reserves": {
+   "Emerald Coast": {
+    "classe": 1,
+    "niveau_max": 3,
+    "fabled": false,
+    "diamant": 238.0
+   }
+  },
+  "fr": "Caille des chaumes",
+  "pdf_2023": {
+   "argent": 154.0,
+   "or_": 202.0,
+   "diamant": 238.0,
+   "diamant_max": 250.0,
+   "poids_max_kg": 3.5
+  },
+  "classe": 1,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 1,
+  "diamant_site": 126.0,
+  "slug_site": "stubblequail",
+  "info_pdf": {
+   "type": "Poids",
+   "niveaux": "1-3",
+   "niveau_great_one": null,
+   "poids_max": "130 g",
+   "nom_pdf": "Caille des Chaumes"
+  }
+ },
+ {
+  "en": "Hog Deer",
+  "reserves": {
+   "Emerald Coast": {
+    "classe": 3,
+    "niveau_max": 5,
+    "fabled": false,
+    "diamant": 108.68
+   }
+  },
+  "fr": "Cerf cochon",
+  "pdf_2023": {
+   "argent": 49.45,
+   "or_": 83.3,
+   "diamant": 108.68,
+   "diamant_max": 120.0,
+   "poids_max_kg": 50.0
+  },
+  "classe": 3,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 3,
+  "diamant_site": 108.68,
+  "slug_site": "hogdeer",
+  "info_pdf": {
+   "type": "Bois",
+   "niveaux": "1-5",
+   "niveau_great_one": null,
+   "poids_max": "50 kg",
+   "nom_pdf": "Cerf Cochon"
+  }
+ },
+ {
+  "en": "Eastern Grey Kangaroo",
+  "reserves": {
+   "Emerald Coast": {
+    "classe": 4,
+    "niveau_max": 9,
+    "fabled": false,
+    "diamant": 492.0
+   }
+  },
+  "fr": "Kangourou géant",
+  "pdf_2023": {
+   "argent": 226.0,
+   "or_": 378.0,
+   "diamant": 492.0,
+   "diamant_max": 530.0,
+   "poids_max_kg": 66.0
+  },
+  "classe": 4,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 4,
+  "diamant_site": 492.0,
+  "slug_site": "easterngraykangaroo",
+  "info_pdf": {
+   "type": "Longueur",
+   "niveaux": "1-9",
+   "niveau_great_one": null,
+   "poids_max": "66 kg",
+   "nom_pdf": "Kougourou Géant"
+  }
+ },
+ {
+  "en": "Javen Rusa",
+  "reserves": {
+   "Emerald Coast": {
+    "classe": 6,
+    "niveau_max": 5,
+    "fabled": false,
+    "diamant": 148.78
+   }
+  },
+  "fr": "Cerf rusa",
+  "pdf_2023": {
+   "argent": 64.62,
+   "or_": 112.71,
+   "diamant": 148.78,
+   "diamant_max": 160.0,
+   "poids_max_kg": 172.0
+  },
+  "classe": 6,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 5,
+  "diamant_site": 148.78,
+  "slug_site": "javanrusa",
+  "info_pdf": {
+   "type": "Bois",
+   "niveaux": "1-5",
+   "niveau_great_one": null,
+   "poids_max": "172 kg",
+   "nom_pdf": "Cerf Rusa"
+  }
+ },
+ {
+  "en": "Sambar Deer",
+  "reserves": {
+   "Emerald Coast": {
+    "classe": 6,
+    "niveau_max": 5,
+    "fabled": false,
+    "diamant": 166.43
+   }
+  },
+  "fr": "Sambar",
+  "pdf_2023": {
+   "argent": 67.92,
+   "or_": 124.21,
+   "diamant": 166.42,
+   "diamant_max": 180.0,
+   "poids_max_kg": 300.0
+  },
+  "classe": 6,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 7,
+  "diamant_site": 166.43,
+  "slug_site": "sambar",
+  "info_pdf": {
+   "type": "Bois",
+   "niveaux": "1-5",
+   "niveau_great_one": null,
+   "poids_max": "300 kg",
+   "nom_pdf": "Sambar"
+  }
+ },
+ {
+  "en": "Saltwater Crocodile",
+  "reserves": {
+   "Emerald Coast": {
+    "classe": 7,
+    "niveau_max": 9,
+    "fabled": false,
+    "diamant": 1015.0
+   }
+  },
+  "fr": "Crocodile marin",
+  "pdf_2023": {
+   "argent": 420.0,
+   "or_": 760.0,
+   "diamant": 1015.0,
+   "diamant_max": 1100.0,
+   "poids_max_kg": 1100.0
+  },
+  "classe": 7,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 8,
+  "diamant_site": 1015.0,
+  "slug_site": "saltwatercrocodile",
+  "info_pdf": {
+   "type": "Longueur",
+   "niveaux": "1-9",
+   "niveau_great_one": null,
+   "poids_max": "1100 kg",
+   "nom_pdf": "Crododile Marin"
+  }
+ },
+ {
+  "en": "Banteng",
+  "reserves": {
+   "Emerald Coast": {
+    "classe": 9,
+    "niveau_max": 5,
+    "fabled": false,
+    "diamant": 137.0
+   }
+  },
+  "fr": "Banteng",
+  "pdf_2023": {
+   "argent": 71.77,
+   "or_": 109.05,
+   "diamant": 137.0,
+   "diamant_max": 150.0,
+   "poids_max_kg": 800.0
+  },
+  "classe": 9,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 9,
+  "diamant_site": 137.0,
+  "slug_site": "banteng",
+  "info_pdf": {
+   "type": "Cornes",
+   "niveaux": "1-5",
+   "niveau_great_one": null,
+   "poids_max": "800 kg",
+   "nom_pdf": "Banteng"
+  }
+ },
+ {
+  "en": "Woolly Hare",
+  "reserves": {
+   "Sundarpatan": {
+    "classe": 1,
+    "niveau_max": 3,
+    "fabled": false,
+    "diamant": 3.28
+   }
+  },
+  "classe": 1,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 1,
+  "diamant_site": 3.28,
+  "slug_site": "woollyhare",
+  "info_pdf": {
+   "type": "Poids",
+   "niveaux": "1-3",
+   "niveau_great_one": null,
+   "poids_max": "3 kg",
+   "nom_pdf": "Lièvre Laineux"
+  },
+  "fr": "Lièvre laineux"
+ },
+ {
+  "en": "Northern Red Muntjac",
+  "reserves": {
+   "Sundarpatan": {
+    "classe": 2,
+    "niveau_max": 5,
+    "fabled": false,
+    "diamant": 35.24
+   }
+  },
+  "classe": 2,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 2,
+  "diamant_site": 35.24,
+  "slug_site": "redmuntjac",
+  "info_pdf": {
+   "type": "Bois",
+   "niveaux": "1-5",
+   "niveau_great_one": null,
+   "poids_max": "28 kg",
+   "nom_pdf": "Muntjac Indien"
+  },
+  "fr": "Muntjac indien"
+ },
+ {
+  "en": "Tibetan Fox",
+  "reserves": {
+   "Sundarpatan": {
+    "classe": 2,
+    "niveau_max": 9,
+    "fabled": false,
+    "diamant": 6.37
+   }
+  },
+  "classe": 2,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 2,
+  "diamant_site": 6.37,
+  "slug_site": "tibetanfox",
+  "info_pdf": {
+   "type": "Poids",
+   "niveaux": "1-9",
+   "niveau_great_one": null,
+   "poids_max": "6 kg",
+   "nom_pdf": "Renard du Tibet"
+  },
+  "fr": "Renard du Tibet"
+ },
+ {
+  "en": "Blue Sheep",
+  "reserves": {
+   "Sundarpatan": {
+    "classe": 4,
+    "niveau_max": 5,
+    "fabled": false,
+    "diamant": 154.08
+   }
+  },
+  "classe": 4,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 4,
+  "diamant_site": 154.08,
+  "slug_site": "bluesheep",
+  "info_pdf": {
+   "type": "Cornes",
+   "niveaux": "1-5",
+   "niveau_great_one": null,
+   "poids_max": "75 kg",
+   "nom_pdf": "Grand Bharal"
+  },
+  "fr": "Grand bharal"
+ },
+ {
+  "en": "Snow Leopard",
+  "reserves": {
+   "Sundarpatan": {
+    "classe": 4,
+    "niveau_max": 9,
+    "fabled": false,
+    "diamant": 29.0
+   }
+  },
+  "classe": 4,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 4,
+  "diamant_site": 29.0,
+  "slug_site": "snowleopard",
+  "info_pdf": {
+   "type": "Crâne",
+   "niveaux": "1-9",
+   "niveau_great_one": null,
+   "poids_max": "75 kg",
+   "nom_pdf": "Panthère des Neiges"
+  },
+  "fr": "Panthère des neiges"
+ },
+ {
+  "en": "Tahr",
+  "reserves": {
+   "Sundarpatan": {
+    "classe": 4,
+    "niveau_max": 5,
+    "fabled": true,
+    "diamant": 101.87
+   },
+   "Te Awaroa National Park": {
+    "classe": 4,
+    "niveau_max": 5
+   }
+  },
+  "classe": 4,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 4,
+  "diamant_site": 101.87,
+  "slug_site": "tahr",
+  "info_pdf": {
+   "type": "Cornes",
+   "niveaux": "1-5",
+   "niveau_great_one": 10,
+   "poids_max": "140 kg / 180 kg",
+   "nom_pdf": "Jharal"
+  },
+  "niveau_great_one": 10,
+  "fr": "Tahr (Jharal)"
+ },
+ {
+  "en": "Barasingha",
+  "reserves": {
+   "Sundarpatan": {
+    "classe": 6,
+    "niveau_max": 5,
+    "fabled": false,
+    "diamant": 226.05
+   }
+  },
+  "classe": 6,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 6,
+  "diamant_site": 226.05,
+  "slug_site": "barasingha",
+  "info_pdf": {
+   "type": "Bois",
+   "niveaux": "1-5",
+   "niveau_great_one": null,
+   "poids_max": "280 kg",
+   "nom_pdf": "Barasinga"
+  },
+  "fr": "Barasinga"
+ },
+ {
+  "en": "Nilgai",
+  "reserves": {
+   "Sundarpatan": {
+    "classe": 6,
+    "niveau_max": 5,
+    "fabled": false,
+    "diamant": 94.89
+   }
+  },
+  "classe": 6,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 6,
+  "diamant_site": 94.89,
+  "slug_site": "nilgai",
+  "info_pdf": {
+   "type": "Cornes",
+   "niveaux": "1-5",
+   "niveau_great_one": null,
+   "poids_max": "308 kg",
+   "nom_pdf": "Antilope Nilgaut"
+  },
+  "fr": "Antilope nilgaut"
+ },
+ {
+  "en": "Bengal Tiger",
+  "reserves": {
+   "Sundarpatan": {
+    "classe": 9,
+    "niveau_max": 9,
+    "fabled": false,
+    "diamant": 57.0
+   }
+  },
+  "classe": 9,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 9,
+  "diamant_site": 57.0,
+  "slug_site": "bengaltiger",
+  "info_pdf": {
+   "type": "Crâne",
+   "niveaux": "1-9",
+   "niveau_great_one": null,
+   "poids_max": "324 kg",
+   "nom_pdf": "Tigre du Bengale"
+  },
+  "fr": "Tigre du Bengale"
+ },
+ {
+  "en": "Wild Yak",
+  "reserves": {
+   "Sundarpatan": {
+    "classe": 9,
+    "niveau_max": 9,
+    "fabled": false,
+    "diamant": 273.23
+   }
+  },
+  "classe": 9,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 9,
+  "diamant_site": 273.23,
+  "slug_site": "wildyak",
+  "info_pdf": {
+   "type": "Cornes",
+   "niveaux": "1-9",
+   "niveau_great_one": null,
+   "poids_max": "1200 kg",
+   "nom_pdf": "Yac Sauvage"
+  },
+  "fr": "Yak sauvage"
+ },
+ {
+  "en": "Ferruginous Duck",
+  "reserves": {
+   "Salzwiesen Park": {
+    "classe": 1,
+    "niveau_max": 3,
+    "fabled": false,
+    "diamant": 1050.0,
+    "source_niveau": "utilisateur (08/10/2026)"
+   }
+  },
+  "classe": 1,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 1,
+  "diamant_site": 1050.0,
+  "slug_site": "ferruginousduck",
+  "info_pdf": {
+   "type": "Poids",
+   "niveaux": "1-3",
+   "niveau_great_one": null,
+   "poids_max": "1,1 kg",
+   "nom_pdf": "Fuligule Nyroca"
+  },
+  "fr": "Fuligule nyroca"
+ },
+ {
+  "en": "Gadwall",
+  "reserves": {
+   "Salzwiesen Park": {
+    "classe": 1,
+    "niveau_max": 3,
+    "fabled": false,
+    "diamant": 1050.0,
+    "source_niveau": "utilisateur (08/10/2026)"
+   }
+  },
+  "classe": 1,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 1,
+  "diamant_site": 1050.0,
+  "slug_site": "gadwall",
+  "info_pdf": {
+   "type": "Poids",
+   "niveaux": "1-3",
+   "niveau_great_one": null,
+   "poids_max": "1,1 kg",
+   "nom_pdf": "Canard Chipeau"
+  },
+  "fr": "Canard chipeau"
+ },
+ {
+  "en": "Dusky Grouse",
+  "reserves": {
+   "Askiy Ridge Hunting Preserve": {
+    "classe": 1,
+    "niveau_max": 3,
+    "fabled": false,
+    "diamant": 151.0
+   }
+  },
+  "classe": 1,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 1,
+  "diamant_site": 151.0,
+  "slug_site": "duskygrouse",
+  "info_pdf": {
+   "type": "Poids",
+   "niveaux": "1-3",
+   "niveau_great_one": null,
+   "poids_max": "1,6 kg",
+   "nom_pdf": "Tétras Sombre"
+  },
+  "fr": "Tétras sombre"
+ },
+ {
+  "en": "Northern Pintail",
+  "reserves": {
+   "Askiy Ridge Hunting Preserve": {
+    "classe": 1,
+    "niveau_max": 3,
+    "fabled": false,
+    "diamant": 1040.0
+   }
+  },
+  "classe": 1,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 1,
+  "diamant_site": 1040.0,
+  "slug_site": "northernpintail",
+  "info_pdf": {
+   "type": "Poids",
+   "niveaux": "1-3",
+   "niveau_great_one": null,
+   "poids_max": "1,1 kg",
+   "nom_pdf": "Canard Pilet"
+  },
+  "fr": "Canard pilet"
+ },
+ {
+  "en": "Snow Goose",
+  "reserves": {
+   "Askiy Ridge Hunting Preserve": {
+    "classe": 1,
+    "niveau_max": 5,
+    "fabled": false,
+    "diamant": 3.85
+   }
+  },
+  "classe": 1,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 1,
+  "diamant_site": 3.85,
+  "slug_site": "snowgoose",
+  "info_pdf": {
+   "type": "Poids",
+   "niveaux": "1-5",
+   "niveau_great_one": null,
+   "poids_max": "4 kg",
+   "nom_pdf": "Oie des Neiges"
+  },
+  "fr": "Oie des neiges"
+ },
+ {
+  "en": "Wood Duck",
+  "reserves": {
+   "Askiy Ridge Hunting Preserve": {
+    "classe": 1,
+    "niveau_max": 3,
+    "fabled": false,
+    "diamant": 670.0
+   }
+  },
+  "classe": 1,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 1,
+  "diamant_site": 670.0,
+  "slug_site": "woodduck",
+  "info_pdf": {
+   "type": "Poids",
+   "niveaux": "1-3",
+   "niveau_great_one": null,
+   "poids_max": "700 g",
+   "nom_pdf": "Canard Branchu"
+  },
+  "fr": "Canard branchu"
+ },
+ {
+  "en": "North American Beaver",
+  "reserves": {
+   "Askiy Ridge Hunting Preserve": {
+    "classe": 2,
+    "niveau_max": 5,
+    "fabled": false,
+    "diamant": 30.4
+   }
+  },
+  "classe": 2,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 2,
+  "diamant_site": 30.4,
+  "slug_site": "beaver",
+  "info_pdf": {
+   "type": "Poids",
+   "niveaux": "1-5",
+   "niveau_great_one": null,
+   "poids_max": "32 kg",
+   "nom_pdf": "Castor du Canada"
+  },
+  "fr": "Castor d'Amérique du Nord"
+ },
+ {
+  "en": "Woodland Caribou",
+  "reserves": {
+   "Askiy Ridge Hunting Preserve": {
+    "classe": 6,
+    "niveau_max": 5,
+    "fabled": false,
+    "diamant": 430.23
+   }
+  },
+  "classe": 6,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 6,
+  "diamant_site": 430.23,
+  "slug_site": "woodlandcaribou",
+  "info_pdf": {
+   "type": "Bois",
+   "niveaux": "1-5",
+   "niveau_great_one": null,
+   "poids_max": "419 kg",
+   "nom_pdf": "Caribou des Bois"
+  },
+  "fr": "Caribou des bois"
+ },
+ {
+  "en": "Monitoban Elk",
+  "reserves": {
+   "Askiy Ridge Hunting Preserve": {
+    "classe": 7,
+    "niveau_max": 5,
+    "fabled": false,
+    "diamant": 457.56
+   }
+  },
+  "classe": 7,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 7,
+  "diamant_site": 457.56,
+  "slug_site": "manitobanelk",
+  "info_pdf": {
+   "type": "Bois",
+   "niveaux": "1-5",
+   "niveau_great_one": null,
+   "poids_max": "450 kg",
+   "nom_pdf": "Wapiti de Manitoba"
+  },
+  "fr": "Wapiti du Manitoba"
+ },
+ {
+  "en": "Wood Bison",
+  "reserves": {
+   "Askiy Ridge Hunting Preserve": {
+    "classe": 9,
+    "niveau_max": 5,
+    "fabled": false,
+    "diamant": 158.0
+   }
+  },
+  "classe": 9,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 9,
+  "diamant_site": 158.0,
+  "slug_site": "woodbison",
+  "info_pdf": {
+   "type": "Cornes",
+   "niveaux": "1-5",
+   "niveau_great_one": null,
+   "poids_max": "1350 kg",
+   "nom_pdf": "Bison des Bois"
+  },
+  "fr": "Bison des bois"
+ },
+ {
+  "en": "Red Grouse",
+  "reserves": {
+   "Tòrr nan Sithean": {
+    "classe": 1,
+    "niveau_max": 3,
+    "fabled": false,
+    "diamant": 72.75,
+    "source_niveau": "utilisateur (08/10/2026)"
+   }
+  },
+  "classe": 1,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 1,
+  "diamant_site": 72.75,
+  "slug_site": "redgrouse",
+  "info_pdf": {
+   "type": "Poids",
+   "niveaux": "1-3",
+   "niveau_great_one": null,
+   "poids_max": "640 g",
+   "nom_pdf": "Lagopède d'Ecosse"
+  },
+  "fr": "Lagopède d'Écosse"
+ },
+ {
+  "en": "Eurasian Woodcock",
+  "reserves": {
+   "Tòrr nan Sithean": {
+    "classe": 1,
+    "niveau_max": 3,
+    "fabled": false,
+    "diamant": 41.3
+   }
+  },
+  "classe": 1,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 1,
+  "diamant_site": 41.03,
+  "slug_site": "eurasianwoodcock",
+  "info_pdf": {
+   "type": "Poids",
+   "niveaux": "1-3",
+   "niveau_great_one": null,
+   "poids_max": "250 g",
+   "nom_pdf": "Bécasse des Bois Eurasienne"
+  },
+  "fr": "Bécasse des bois"
+ },
+ {
+  "en": "American Mink",
+  "reserves": {
+   "Tòrr nan Sithean": {
+    "classe": 1,
+    "niveau_max": 9,
+    "fabled": false,
+    "diamant": 151.0,
+    "niveau_max_avant": 5,
+    "source_niveau": "utilisateur (08/10/2026)"
+   }
+  },
+  "classe": 1,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 1,
+  "diamant_site": 151.0,
+  "slug_site": "americanmink",
+  "info_pdf": {
+   "type": "Poids",
+   "niveaux": "1-5",
+   "niveau_great_one": null,
+   "poids_max": "1,60 kg",
+   "nom_pdf": "Vison d'Amérique"
+  },
+  "fr": "Vison d'Amérique"
+ },
+ {
+  "en": "Eurasian Pine Marten",
+  "reserves": {
+   "Tòrr nan Sithean": {
+    "classe": 1,
+    "niveau_max": 9,
+    "fabled": false,
+    "diamant": 208.0,
+    "niveau_max_avant": 5,
+    "source_niveau": "utilisateur (08/10/2026)"
+   }
+  },
+  "classe": 1,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 1,
+  "diamant_site": 208.0,
+  "slug_site": "eurasianpinemarten",
+  "info_pdf": {
+   "type": "Poids",
+   "niveaux": "1-5",
+   "niveau_great_one": null,
+   "poids_max": "2,20 kg",
+   "nom_pdf": "Martre des Pins Eurasienne"
+  },
+  "fr": "Martre des pins"
+ },
+ {
+  "en": "European Badger",
+  "reserves": {
+   "Tòrr nan Sithean": {
+    "classe": 2,
+    "niveau_max": 9,
+    "fabled": false,
+    "diamant": 16.0,
+    "niveau_max_avant": 5,
+    "source_niveau": "utilisateur (08/10/2026)"
+   }
+  },
+  "classe": 2,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 2,
+  "diamant_site": 16.0,
+  "slug_site": "europeanbadger",
+  "info_pdf": {
+   "type": "Poids",
+   "niveaux": "1-5",
+   "niveau_great_one": null,
+   "poids_max": "12,83 kg",
+   "nom_pdf": "Blaireau Européen"
+  },
+  "fr": "Blaireau européen"
+ },
+ {
+  "en": "Western Mountain Coati",
+  "reserves": {
+   "Intisuyu": {
+    "classe": 1,
+    "niveau_max": 5,
+    "fabled": false,
+    "diamant": null,
+    "alertes": [
+     "seuil diamant absent"
+    ],
+    "niveau_max_avant": null,
+    "source_niveau": "utilisateur (08/10/2026)"
+   }
+  },
+  "classe": 1,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 1,
+  "diamant_site": 1.45,
+  "slug_site": "westernmountaincoati",
+  "fr": "Coati des montagnes"
+ },
+ {
+  "en": "Greater Grison",
+  "reserves": {
+   "Intisuyu": {
+    "classe": 1,
+    "niveau_max": 9,
+    "fabled": false,
+    "diamant": 356.0,
+    "niveau_max_avant": 5,
+    "source_niveau": "utilisateur (08/10/2026)"
+   }
+  },
+  "classe": 1,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 1,
+  "diamant_site": 356.0,
+  "slug_site": "greatergrison",
+  "fr": "Grison"
+ },
+ {
+  "en": "Ocelot",
+  "reserves": {
+   "Intisuyu": {
+    "classe": 2,
+    "niveau_max": 9,
+    "fabled": false,
+    "diamant": 27.68,
+    "niveau_max_avant": null,
+    "source_niveau": "utilisateur (08/10/2026)",
+    "alertes": [
+     "niveau max absent"
+    ]
+   }
+  },
+  "classe": 2,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 2,
+  "diamant_site": 27.68,
+  "slug_site": "ocelot",
+  "fr": "Ocelot"
+ },
+ {
+  "en": "Taruca",
+  "reserves": {
+   "Intisuyu": {
+    "classe": 3,
+    "niveau_max": 5,
+    "fabled": true,
+    "diamant": null,
+    "alertes": [
+     "seuil diamant absent"
+    ],
+    "niveau_max_avant": null,
+    "source_niveau": "utilisateur (08/10/2026)"
+   }
+  },
+  "classe": 3,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 3,
+  "diamant_site": 101.66,
+  "slug_site": "taruca",
+  "fr": "Taruca",
+  "niveau_great_one": 10
+ },
+ {
+  "en": "Vicuna",
+  "reserves": {
+   "Intisuyu": {
+    "classe": 3,
+    "niveau_max": 5,
+    "fabled": false,
+    "diamant": 214.0,
+    "source_niveau": "utilisateur (08/10/2026)"
+   }
+  },
+  "classe": 3,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 3,
+  "diamant_site": 214.0,
+  "slug_site": "vicuna",
+  "fr": "Vigogne"
+ },
+ {
+  "en": "Capybara",
+  "reserves": {
+   "Intisuyu": {
+    "classe": 4,
+    "niveau_max": 5,
+    "fabled": false,
+    "diamant": null,
+    "alertes": [
+     "seuil diamant absent"
+    ],
+    "niveau_max_avant": null,
+    "source_niveau": "utilisateur (08/10/2026)"
+   }
+  },
+  "classe": 4,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 4,
+  "diamant_site": 66.5,
+  "slug_site": "capybara",
+  "fr": "Capybara"
+ },
+ {
+  "en": "South American Tapir",
+  "reserves": {
+   "Intisuyu": {
+    "classe": 6,
+    "niveau_max": 5,
+    "fabled": false,
+    "diamant": 144.0,
+    "niveau_max_avant": 9,
+    "source_niveau": "utilisateur (08/10/2026)"
+   }
+  },
+  "classe": 6,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 6,
+  "diamant_site": 144.0,
+  "slug_site": "southamericantapir",
+  "fr": "Tapir d'Amérique du Sud"
+ },
+ {
+  "en": "Spectacled Bear",
+  "reserves": {
+   "Intisuyu": {
+    "classe": 6,
+    "niveau_max": 9,
+    "fabled": false,
+    "diamant": 26.45,
+    "source_niveau": "utilisateur (08/10/2026)"
+   }
+  },
+  "classe": 6,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 6,
+  "diamant_site": 20.45,
+  "slug_site": "spectacledbear",
+  "fr": "Ours à lunettes"
+ },
+ {
+  "en": "Jaguar",
+  "reserves": {
+   "Intisuyu": {
+    "classe": 6,
+    "niveau_max": 9,
+    "fabled": true,
+    "diamant": 43.75,
+    "niveau_max_avant": null,
+    "source_niveau": "utilisateur (08/10/2026)",
+    "alertes": [
+     "niveau max absent"
+    ]
+   }
+  },
+  "classe": 6,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 6,
+  "diamant_site": 43.75,
+  "slug_site": "jaguar",
+  "fr": "Jaguar",
+  "niveau_great_one": 10
+ },
+ {
+  "en": "Black Caiman",
+  "reserves": {
+   "Intisuyu": {
+    "classe": 7,
+    "niveau_max": 9,
+    "fabled": false,
+    "diamant": 468.0,
+    "source_niveau": "utilisateur (08/10/2026)"
+   }
+  },
+  "classe": 7,
+  "classe_varie_selon_reserve": false,
+  "classe_site": 7,
+  "diamant_site": 468.0,
+  "slug_site": "blackcaiman",
+  "fr": "Caïman noir"
+ },
+ {
+  "en": "Wild Haggis",
+  "fr": "Haggis sauvage",
+  "reserves": {},
+  "classe": 2,
+  "classe_site": 2,
+  "diamant_site": 57.0,
+  "slug_site": "wildhaggis",
+  "pdf_2023": {}
+ },
+ {
+  "en": "Desert Bighorn Sheep",
+  "fr": "Mouflon du désert",
+  "reserves": {},
+  "classe": 5,
+  "classe_site": 5,
+  "diamant_site": 196.93,
+  "slug_site": "desertbighornsheep",
+  "pdf_2023": {},
+  "info_pdf": {
+   "type": "Cornes",
+   "niveaux": "1-5",
+   "niveau_great_one": null,
+   "poids_max": "127 kg",
+   "nom_pdf": "Mouflon du Désert"
+  }
+ }
+]
