@@ -1,11 +1,13 @@
-# KillFarm Lite 2.1
+# KillFarm Lite 2.1.1
 
 **Le compteur de farm de Great One pour theHunter: Call of the Wild (PC).**
 Chaque bête ramassée est comptée toute seule, avec son grade, et le compteur repart de 0 quand ton Great One tombe.
 
 ![Tableau Stream de KillFarm Lite](img/barre.png)
 
-**[⬇ Télécharger KillFarm Lite 2.1 (Windows, gratuit)](https://github.com/nicolashajker-cmd/killfarm-lite/releases/latest/download/KillFarm_Lite_v2.1.zip)** · [Site](https://nicolashajker-cmd.github.io/killfarm-lite/) · [Discord](https://discord.gg/vmB7kEreuW) · [TikTok @mr.ozattv](https://www.tiktok.com/@mr.ozattv) · [Appli Android](https://github.com/nicolashajker-cmd/killfarm-mobile/releases/latest/download/KillFarm.apk)
+<img src="img/fenetre.jpg" width="300" alt="Grande fenêtre"> <img src="img/mini.jpg" width="220" alt="Mini menu"> <img src="img/carte.jpg" width="180" alt="Carte TikTok">
+
+**[⬇ Télécharger KillFarm Lite 2.1.1 (Windows, gratuit)](https://github.com/nicolashajker-cmd/killfarm-lite/releases/latest/download/KillFarm_Lite_v2.1.1.zip)** · [Site](https://nicolashajker-cmd.github.io/killfarm-lite/) · [Discord](https://discord.gg/vmB7kEreuW) · [TikTok @mr.ozattv](https://www.tiktok.com/@mr.ozattv) · [Appli Android](https://github.com/nicolashajker-cmd/killfarm-mobile/releases/latest/download/KillFarm.apk)
 
 ## Nouveau dans la 2.1
 - 🏆 **Great One reconnu tout seul** : le compteur « depuis le dernier GO » repart de 0, « GREAT ONE ! » s'affiche.
@@ -15,9 +17,10 @@ Chaque bête ramassée est comptée toute seule, avec son grade, et le compteur 
 - 🎨 **Couleurs TikTok, Twitch et YouTube** (7 couleurs en tout), boutons arrondis, barre de titre sombre.
 - 🖥 **2 écrans** : choisis celui du tableau et du mini menu.
 - ⚙ **Menus rangés** : réglages en 4 parties, le même menu au clic droit partout.
+- 🎓 **Tutoriel refait** : 10 étapes qui expliquent tout (2.1.1).
 
 ## Installer
-1. Télécharge `KillFarm_Lite_v2.1.zip` et dézippe-le.
+1. Télécharge `KillFarm_Lite_v2.1.1.zip` et dézippe-le.
 2. Double-clic sur **KillFarm Lite.exe** : ta sauvegarde du jeu est trouvée toute seule.
 3. Dans le jeu : Options › Affichage › **Fenêtré sans bordure**.
 
@@ -35,6 +38,6 @@ L'appli lit seulement ta sauvegarde et ne modifie jamais le jeu. La page de la b
 ---
 
 ### 🇬🇧 English
-**KillFarm Lite** counts every animal you harvest on your Great One farm, with its grade, and resets the counter when your Great One drops. New in 2.1: mini menu on the screen edge, a live bar for TikTok LIVE Studio and OBS, TikTok / Twitch / YouTube colors. Fully in English. [Download (free)](https://github.com/nicolashajker-cmd/killfarm-lite/releases/latest/download/KillFarm_Lite_v2.1.zip) · instructions in `README.txt`.
+**KillFarm Lite** counts every animal you harvest on your Great One farm, with its grade, and resets the counter when your Great One drops. New in 2.1: mini menu on the screen edge, a live bar for TikTok LIVE Studio and OBS, TikTok / Twitch / YouTube colors. Fully in English. [Download (free)](https://github.com/nicolashajker-cmd/killfarm-lite/releases/latest/download/KillFarm_Lite_v2.1.1.zip) · instructions in `README.txt`.
 
 *Projet de fan gratuit par MrØza., sans lien avec Expansive Worlds.*
